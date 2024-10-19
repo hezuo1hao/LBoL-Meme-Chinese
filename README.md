@@ -7,7 +7,7 @@
 ## 我想参与编写
 填写这个共享表格就可以了：https://docs.qq.com/sheet/DSW9NbWdtRmxWZ0dU
 ### 一些提示
-{为游戏中的数值}如{Damage}、{Value1}不建议修改
+{为游戏中的数值}如{Damage}、{Value1}不建议修改，当然也可以拿来重复使用
 
 {PlayerName}将自动匹配自机名字
 
