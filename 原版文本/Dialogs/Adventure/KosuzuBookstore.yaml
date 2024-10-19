@@ -1,0 +1,20 @@
+# This file is auto-generated
+
+line:0150d96: 「欢迎来到借书屋铃奈庵，有什么想看的书吗？」
+line:0b70964: 【这本】获得|{0}|
+line:04432b2: 【那本】获得|{0}|
+line:09f57d5: 【底下那本】获得|{0}|
+line:0dccd45: 【离开】无事发生
+line:0a10cd9: 「不用了，我从不看书！」
+line:05c251f: 「不用了，今天应该没时间看书了」
+line:07162cf: 【无效】没有其它书本
+line:0d2b81d: 【归还】失去|{0}|
+line:09d3e76: |-
+  「好嘞。
+  需要付押金 {0} 点<sprite="Point" name="Gold">，或者归还一本其它的书」
+line:096ea9d: 【支付押金】失去 {0} 点<sprite="Point" name="Gold">
+line:08c8fb8: '{0}'
+line:02e54df: 【归还】失去|{0}|
+line:02c51dc: 【归还】失去|{0}|
+line:07f1497: 【归还】失去|{0}|
+line:0b2082b: 「谢谢惠顾，要好好爱惜书本哦」

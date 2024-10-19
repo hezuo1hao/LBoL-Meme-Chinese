@@ -1,0 +1,1000 @@
+# This file contains generated content from config data
+
+LongjingYu:
+  Name: 龙颈之玉
+  Description: 战斗开始时，获得{Mana}。
+  FlavorText: 「耀眼的龙玉」
+
+FoyushiBo:
+  Name: 佛御石之钵
+  Description: 每打出一张防御牌，获得 {Value1} 点随机法力。
+  FlavorText: 「佛体的金刚石」
+
+HuoshuPiyi:
+  Name: 火鼠的皮衣
+  Description: 战斗开始时，获得 {Value1} 点|护盾|和 {Value2} 点|火力|。
+  FlavorText: 「火蜥蜴之盾」
+
+YanZianbei:
+  Name: 燕的子安贝
+  Description: '{PlayerName}的回合开始时，恢复 {Value1} 点生命。'
+  FlavorText: 「无限的生命之泉」
+
+PenglaiYuzhi:
+  Name: 蓬莱玉枝
+  Description: |-
+    {PlayerName}获得的所有法力都转化为|彩色|。
+    多余的法力会保留到下一回合。
+  FlavorText: 「梦色之乡」
+
+SingleJiandao:
+  Name: 巨大的单片剪刀
+  FlavorText: 缠流子剪刀
+
+Shendeng:
+  Name: 前端很长的茶壶
+  FlavorText: 阿拉丁神灯
+
+HolyGrail:
+  Name: 装饰浮夸的金杯
+  FlavorText: 圣杯
+
+SihunYu:
+  Name: 散发邪气的挂坠
+  FlavorText: 四魂之玉
+
+MadokaBow:
+  Name: 迸发光芒的长弓
+  FlavorText: 小圆的弓
+
+QiannianShenqi:
+  Name: 金字塔形状的积木
+  FlavorText: 千年积木
+
+InfinityGems:
+  Name: 镶有宝石的手套
+  FlavorText: 无限手套
+
+SakuraWand:
+  Name: 长翅膀的钥匙
+  FlavorText: 小樱法杖
+
+DragonBall:
+  Name: 印着星星的玻璃球
+  FlavorText: 龙珠
+
+ReimuR:
+  Name: 渴望鲜血的阴阳玉
+  Description: |-
+    提供基础法力{BaseMana}，|灵梦|的专属卡牌会加入牌池。
+    每当一名敌人被击败，{PlayerName}获得 {Value1} 点|火力|，恢复 {Value2} 点生命。
+  FlavorText: 被它砸中应该很痛。
+
+ReimuW:
+  Name: 博丽御币
+  Description: |-
+    提供基础法力{BaseMana}，|灵梦|的专属卡牌会加入牌池。
+    回合结束有剩余法力时，获得 {Value1} 点|护盾|。
+    战斗开始时，获得 {Value2} 点|护盾|。
+  FlavorText: 十分万能的道具，被用于发射弹幕、创造结界、净化诅咒等。
+
+MarisaB:
+  Name: 黑暗魔导书
+  Description: |-
+    提供基础法力{BaseMana}，|魔理沙|的专属卡牌会加入牌池。
+    {PlayerName}的第一回合开始时，将 {Value1} 张|灵异|加入手中。
+  FlavorText: 里面蕴含着十分可怕的 Dark♂ 知识。
+
+MarisaR:
+  Name: 迷你八卦炉
+  Description: |-
+    提供基础法力{BaseMana}，|魔理沙|的专属卡牌会加入牌池。
+    支付{Mana}打出一张攻击牌后，{PlayerName}获得 {Value1} 层|充能|。
+  FlavorText: 上面印着的是伏羲先天八卦。
+
+SakuyaW:
+  Name: 备用的飞刀
+  Description: |-
+    提供基础法力{BaseMana}，|咲夜|的专属卡牌会加入牌池。
+    战斗开始和洗牌时，将 {Value1} 张|飞刀|洗入抽牌堆。
+  FlavorText: 只要备品足够多，就不用把扔出去的飞刀再捡回来了。
+
+SakuyaU:
+  Name: 魔术扑克
+  Description: |-
+    提供基础法力{BaseMana}，|咲夜|的专属卡牌会加入牌池。
+    每场战斗的前 {Value2} 回合，抽牌阶段多抽 {Value1} 张牌。
+  FlavorText: 勤劳女仆，在线发牌。
+
+CirnoU:
+  Name: 冰晶翅膀
+  Description: |-
+    提供基础法力{BaseMana}，|琪露诺|的专属卡牌会加入牌池。
+    {PlayerName}的第一回合开始时，将 {Value1} 张|冰之翼|加入手中。
+  FlavorText: 飞行原理不明。
+
+CirnoG:
+  Name: 茂盛的绿枝
+  Description: |-
+    提供基础法力{BaseMana}，|琪露诺|的专属卡牌会加入牌池。
+    主动打出而召唤一名|同伴|时，将 {Value1} 张|盛夏之花|加入手中。
+  FlavorText: 即使面对困境也会茁壮的生长。
+
+KoishiG:
+  Name: 带刺的蔷薇
+  Description: |-
+    提供基础法力{BaseMana}，|恋|的专属卡牌会加入牌池。
+    {PlayerName}的第一回合开始时，获得 {Value1} 层|灵感迸发|，将 {Value2} 张|灵感|洗入抽牌堆。
+  FlavorText: （设计有可能改动）
+
+KoishiB:
+  Name: 假想的朋友
+  Description: |-
+    提供基础法力{BaseMana}，|恋|的专属卡牌会加入牌池。
+    {PlayerName}进入|热情|时获得 {Value1} 点|格挡|。
+  FlavorText: 好朋友不嫌多。
+
+AliceW:
+  Name: 上海人偶
+  Description: |-
+    提供基础法力{BaseMana}，|爱丽丝|的专属卡牌会加入牌池。
+    战斗开始时，部署一个|e:上海人偶|。
+  FlavorText: （设计有可能改动）
+
+AliceB:
+  Name: 引爆装置
+  Description: |-
+    提供基础法力{BaseMana}，|爱丽丝|的专属卡牌会加入牌池。
+    |撤离||e:蓬莱人偶|时造成双倍伤害。
+  FlavorText: （设计有可能改动）
+
+PiaoliangPanzi:
+  Name: 漂亮的盘子
+  Description: |-
+    提供基础法力{BaseMana}。
+    {PlayerName}的第一回合开始时，随机|升级| {Value1} 张手牌。
+  FlavorText: 使用方法是扔出去摔碎。
+
+DatiangouMaifan:
+  Name: 大天狗的麦饭
+  Description: |-
+    提供基础法力{BaseMana}。
+    战斗结束时，{PlayerName}获得 {Value1} 点<sprite="Point" name="Power">。
+  FlavorText: 味道一般。
+
+ClassicWunvfu:
+  Name: 旧式巫女服
+  Description: |-
+    提供基础法力{BaseMana}。
+    {PlayerName}的回合开始时，每有一张已|升级|的手牌，获得 {Value1} 点|格挡|。
+  FlavorText: 经典款式。
+
+Bingzhilin:
+  Name: 冰之鳞
+  Description: |-
+    提供基础法力{BaseMana}。
+    打出一张能力牌后， {Value1} 张随机的手牌费用|暂时降低|{Mana}。
+  FlavorText: 拿火烤都不会融化。
+
+ShijieSuipian:
+  Name: 世界的碎片
+  Description: |-
+    提供基础法力{BaseMana}。
+    获取时，选择牌库中的至多 {Value1} 张牌，随机变化为一张稀有牌和一张罕见牌。
+  FlavorText: 透过这些碎片，能观察到其他玩家的游戏情况。
+
+TianwenWangyuanjing:
+  Name: 天文望远镜
+  Description: |-
+    提供基础法力{BaseMana}。
+    {PlayerName}的第一回合开始时，将 {Value1} 张|占星|加入手中。
+  FlavorText: 可以仔细观察月亮和北斗七星。
+
+QinaKapian:
+  Name: 齐纳卡片
+  Description: |-
+    提供基础法力{BaseMana}。
+    使用符卡后，{PlayerName}失去 {Value1} 点生命，抽 {Value2} 张牌。
+  FlavorText: |-
+    「猜到上面有什么图案就修得了超能力。」
+    外面世界的传言是这么说的。
+
+PingzhuangLinghun:
+  Name: 瓶装灵魂
+  Description: |-
+    提供基础法力{BaseMana}。
+    敌人被击败时不再掉落<sprite="Point" name="Power">，每一点<sprite="Point" name="Power">改为 {Value1} 点<sprite="Point" name="Gold">。
+  FlavorText: 「希望你不会陷入毁灭性的结局。」
+
+Laiwating:
+  Name: 莱瓦汀
+  Description: |-
+    提供基础法力{BaseMana}。
+    敌人受到的|易伤|，效果提高 {Value1} 个百分点。
+    {PlayerName}受到的|易伤|，效果提高 {Value2} 个百分点。
+  FlavorText: 看起来像是掰弯的时钟指针。
+
+Ganggenier:
+  Name: 冈格尼尔
+  Description: |-
+    提供基础法力{BaseMana}。
+    攻击牌造成的伤害都具有|精准|。
+  FlavorText: 必中之枪。但是在不少作品里，人们总是能避开它。
+
+GuizuJiubei:
+  Name: 鬼族酒杯
+  Description: |-
+    提供基础法力{BaseMana}。
+    {PlayerName}的回合开始时，获得等同于上回合打出攻击牌数量的|暂得火力|。
+  FlavorText: 看起来比较像一个大碗。
+
+AizheHongshi:
+  Name: 艾哲红石
+  Description: |-
+    提供基础法力{BaseMana}。
+    {PlayerName}的第一回合开始时，获得 {Value1} 点|火力|，将 {Value2} 张|折射日光|洗入弃牌堆。
+  FlavorText: 可以用来融化冰之鳞。
+
+HouhuMen:
+  Name: 后户之门
+  Description: |-
+    提供基础法力{BaseMana}。
+    获取时，选择牌库中的 {Value1} 张牌移除。
+  FlavorText: 通向一个随机位置的后门，可以方便地扔垃圾。
+
+HuashanBaiyaosheng:
+  Name: 华扇的百药枡
+  Description: |-
+    提供基础法力{BaseMana}。
+    {PlayerName}的第一回合开始时，获得{Mana}；
+    第二回合开始时，恢复 {Value1} 点生命；
+    第三回合开始时，获得 {Value2} 点|暂得火力|。
+  FlavorText: 经常在其它 RPG 游戏中客串。
+
+FengshouGuolan:
+  Name: 丰收果篮
+  Description: |-
+    提供基础法力{BaseMana}。
+    {PlayerName}的最大生命值提高 {Value1} 点。
+    每当一张卡牌进入牌库，{PlayerName}的最大生命值提高 {Value2} 点。
+  FlavorText: 秋天到了！
+
+Wanbaochui:
+  Name: 万宝槌
+  Description: |-
+    提供基础法力{BaseMana}。
+    每支付一点{Mana}打出基础牌时，该牌的基础效果提高一倍。（支付<sprite="ManaSprite" name="P">无效）
+  FlavorText: 平凡之物获得非凡的力量。
+
+Gongjuxiang:
+  Name: 工具箱
+  Description: |-
+    提供基础法力{BaseMana}。
+    每进行 {Value1} 场战斗，获得一张道具牌。
+  FlavorText: 维修天狗的设备时非常有效。
+
+YueGujiu:
+  Name: 月之古酒
+  Description: |-
+    提供基础法力{BaseMana}。
+    打出一张具有|放逐|的卡牌后，如果支付了任意法力，获得{Mana}。
+  FlavorText: 让永琳动容的故乡陈酿。
+
+Yuerang:
+  Name: 月壤
+  Description: |-
+    提供基础法力{BaseMana}。
+    厄运：|表之月|。
+  FlavorText: 没有任何生命气息的净土。
+
+XianzheShi:
+  Name: 贤者之石
+  Description: |-
+    提供基础法力{BaseMana}。
+    回合结束时不会失去|彩色法力|{Mana}。
+  FlavorText: 虽说贤者之石是炼金术的终极追求，帕秋莉却把它们当弹幕发射。
+
+TaiguGouyu:
+  Name: 太古的勾玉
+  Description: |-
+    提供基础法力{BaseMana}。
+    打出一张卡牌后，如果实际支付的法力总数不少于 {Value1} ，下回合开始时获得{Mana}。
+  FlavorText: 拥有的勾玉越多，最大生命值越高。
+
+KongbaiKapai:
+  Name: 空白卡牌
+  Description: |-
+    提供基础法力{BaseMana}。
+    奖励和售卖的卡牌从所有颜色中随机。卡牌奖励选择数量加 {Value1} 。
+  FlavorText: 让人不禁思考「卡牌究竟是什么样的存在」的危险道具。
+
+HuiyeBaoxiang:
+  Name: 辉夜的宝箱
+  Description: |-
+    {PlayerName}的回合开始时，获得一点随机法力。
+    随机获得 {Value1} 个展品。
+    厄运：|逐客令|。
+  FlavorText: 打开这个宝箱后，里面有三个锦囊。
+
+QipaiYouhua:
+  Name: 气派的油画
+  Description: |-
+    {PlayerName}的回合开始时，获得一点随机法力。
+    获得 {Value1} 点<sprite="Point" name="Gold">，随机|升级| {Value2} 张牌，{PlayerName}的最大生命值提高 {Value3} 点。
+  FlavorText: |-
+    解开画上的谜题，就能继承辉夜的全部遗产。
+    当然得等到她死后。
+
+YizangnuoWuzhi:
+  Name: 伊奘诺物质
+  Description: |-
+    {PlayerName}的回合开始时，获得一点随机法力。
+    击败精英敌人时，额外掉落一件|展品|。
+  FlavorText: 可以用来打造各种神兵利器的神秘原料，产地是虹龙洞。
+
+QicaiLianhua:
+  Name: 七色莲华
+  Description: |-
+    {PlayerName}的回合开始时，获得一点随机法力。
+    每场战斗中，拥有过所有七种颜色的法力时，将一张|e:彩光乱舞|加入手中。
+  ExtraDescription: |-
+    {PlayerName}的回合开始时，获得一点随机法力。
+    每场战斗中，拥有过所有七种颜色的法力时，将一张|e:彩光乱舞|加入手中。
+    已拥有：{ColorRecord}。
+  FlavorText: 中国功夫真的能做到这种事吗。
+
+He3:
+  Name: 氦-3
+  Description: 打出一张卡牌后，如果实际支付的法力总数不少于 {Value1} ，获得{Mana}。
+  FlavorText: 表之月的土特产。
+
+Baota:
+  Name: 毘沙门天的宝塔
+  Description: |-
+    战斗开始时，获得 {Counter} 点{Mana}，获得 {Counter} 点|火力|。
+    可以在隙间小屋升级，最多 {Value1} 次。
+  FlavorText: 它又一次被弄丢了。
+
+XijianSan:
+  Name: 隙间的大洋伞
+  Description: '{PlayerName}的第三回合开始时，获得 {Value1} 点|格挡|，获得{Mana}。'
+  FlavorText: 在本作品中，无法穿过画面边界。
+
+Taozi:
+  Name: 桃子
+  Description: 获取时，{PlayerName}的最大生命值提高 {Value1} 点。
+  FlavorText: 不少人以为这是天子头上的仙桃，但其实它产自月之都。
+
+PenzaiYoutan:
+  Name: 盆栽优昙
+  Description: 多余的法力会保留到下一回合。
+  FlavorText: 其实找不到丢了的蓬莱玉枝也没事。
+
+Yuhangfu:
+  Name: 宇航服
+  Description: 在战斗中，{PlayerName}因为任何原因减少生命时，减少量降低 {Value1} 点。
+  FlavorText: 外面世界几十年前相当流行的服饰。
+
+GanzhuYao:
+  Name: 绀珠之药
+  Description: |-
+    {PlayerName}被杀死时，免除死亡并恢复满生命值，只能生效一次。
+    生效后，最大生命值减少为 {Value1}% ；战斗开始时，{PlayerName}获得 {Value2} 点|火力|。
+    不会丢失。
+  FlavorText: 我死了，也变强了。
+
+Xunlongchi:
+  Name: 寻龙尺
+  Description: 可以在隙间小屋|寻宝|，找到新的展品。
+  FlavorText: 它曾经的主人决定来一场真正的冒险，留下了这对宝物。
+
+BaochuanMoxing:
+  Name: 宝船模型
+  Description: '{PlayerName}每前进一关就可以收集 {Value1} 点<sprite="Point" name="Gold">。'
+  FlavorText: 星莲船的 1:100 模型，由辉夜委托埴安神袿姬制作。
+
+GaodangShoubao:
+  Name: 高档手包
+  Description: 在铃仙的|补给|事件中，可以同时获得两个展品。
+  FlavorText: 外面世界相当有名的包包，不少女孩为了它一掷千金。
+
+WanglingTideng:
+  Name: 亡灵的送行提灯
+  Description: 在战斗中，阻挡{PlayerName}的第一次生命损失。
+  FlavorText: 让持有者变成幽灵形态，提前体验死后的世界。
+
+SunhuaiHufu:
+  Name: 损坏的护符
+  Description: 牌库中每有一张|厄运|，{PlayerName}在战斗开始时获得 {Value1} 点|火力|和|灵力|。
+  ExtraDescription: |-
+    牌库中每有一张|厄运|，{PlayerName}在战斗开始时获得 {Value1} 点|火力|和|灵力|。
+    当前|厄运|： {Counter} 张。
+  FlavorText: 「对不起，你不是准神。」
+
+JimuWanju:
+  Name: 积木玩具
+  Description: 普通敌人多掉落一次卡牌奖励。
+  FlavorText: 培养儿童兴趣爱好的玩具，看起来却很眼熟。
+
+Zuoshan:
+  Name: 左扇
+  Description: 每场战斗中使用第一张牌后，将一张该牌|暂塑|为{Mana}的复制加入手中，这张复制具有|放逐|。
+  FlavorText: 到底是从谁那儿偷来的，八云紫还是幽幽子？
+
+Zijing:
+  Name: 紫镜
+  Description: 获取时，选择 {Value1} 张牌库里的牌，获得其复制。
+  FlavorText: 你的卡片很不错，但是下一秒……它就变成两张了。
+
+HuanxiangxiangYuanqi:
+  Name: 幻想乡缘起
+  Description: '{PlayerName}每打出一张能力牌，恢复 {Value1} 点生命。'
+  FlavorText: 保存完好的抄本。
+
+DiyuChepiao:
+  Name: 地狱的车票
+  Description: '{PlayerName}每次失去生命时，抽 {Value1} 张牌。'
+  FlavorText: 越发动能力就越接近地狱。
+
+ShanliangDengpao:
+  Name: 闪亮的灯泡
+  Description: 可以在隙间小屋|发想|，从 {Value1} 张随机的稀有牌中选择一张加入牌库。
+  FlavorText: 尤里卡！
+
+ZhanshuDaoliqi:
+  Name: 战术导力器
+  Description: 在战斗中，{PlayerName}的技能牌费用降低{Mana}。
+  FlavorText: 上面只有一条长链，很适合用于施法。
+
+Yashemao:
+  Name: 鸭舌帽
+  Description: 抽牌阶段多抽 {Value1} 张牌。
+  FlavorText: 戴上这顶帽子就会文思泉涌，写下催人泪下的故事。
+
+ShanshuoBishou:
+  Name: 闪烁匕首
+  Description: '{PlayerName}的第一回合开始时，选择任意张手牌丢弃，然后抽等量的牌。'
+  FlavorText: 原价 2150 点<sprite="Point" name="Gold">。
+
+Yueshan:
+  Name: 月扇
+  Description: '{PlayerName}回合开始时只失去一半的|格挡|。'
+  FlavorText: 听说它以前被用于进攻。
+
+ZhangchibangQiu:
+  Name: 长翅膀的球
+  Description: 获取时，{PlayerName}获得 {Value1} 点<sprite="Point" name="Gold">。
+  FlavorText: 飞得很快，能卖个好价钱。
+
+YueYuyi:
+  Name: 月之羽衣
+  Description: '{PlayerName}的第一回合开始时，获得 {Value1} 回合|天衣无缝|。'
+  FlavorText: 自从大家开始用传送枪来回地月之后，被改造成了战斗用装备。
+
+FeixiangJian:
+  Name: 绯想剑
+  Description: '{PlayerName}的回合开始时，对所有敌人造成 {Value1} 点伤害。'
+  FlavorText: 在上一款作品里，它是一把霰弹枪。
+
+YuekuangQiang:
+  Name: 月狂枪
+  Description: 每丢弃一张牌，{PlayerName}对一个随机敌人造成 {Value1} 点伤害。
+  FlavorText: 在上一款作品里，它是一把自动步枪。
+
+YichuiPiao:
+  Name: 伊吹瓢
+  Description: |-
+    在{PlayerName}的回合内，如果手牌为空，抽一张牌。
+    {PlayerName}的第一回合开始时，将 {Value1} 张|小酌怡情|加入手中。
+  FlavorText: 能够无限地涌出酒来。
+
+Yaoshi:
+  Name: 要石
+  Description: 在战斗中，{PlayerName}第一次受到伤害时，获得{Mana}。
+  FlavorText: 「再来再来！」
+
+Mengriji:
+  Name: 梦日记
+  Description: 回合开始时，如果上回合没有打出过防御牌，获得{Mana}。
+  FlavorText: 「里面的内容需要在家长陪同下观看。」
+
+Heilianhua:
+  Name: 黑莲花
+  Description: 战斗开始时，获得{Mana}。
+  FlavorText: 给 3 点任意颜色法术力的话，就太厉害了。
+
+Bianhua:
+  Name: 彼岸花
+  Description: 每当一名敌人被击败，获得{Mana}。
+  FlavorText: 秘密警察部队的代号。
+
+Xiangrikui:
+  Name: 向日葵
+  Description: 每 {Value1} 个回合，第 {Value2} 至 {Value3} 回合开始时，获得{Mana}。
+  FlavorText: 我们仍未知道那天摘了这朵花的勇士的名字。
+
+LinghunBaoshi:
+  Name: 灵魂宝石
+  Description: 在隙间小屋充能，使下一次战斗开始时获得{Mana}。
+  FlavorText: 当它变得浑浊时，就要小心了。
+
+ZheyangSan:
+  Name: 遮阳伞
+  Description: '{PlayerName}的第二回合开始时，获得 {Value1} 点|格挡|，获得 {Value2} 点|暂得火力|。'
+  FlavorText: 今天晚上，它的主人用不上它了。
+
+Pingguo:
+  Name: 苹果
+  Description: 获取时，{PlayerName}的最大生命值提高 {Value1} 点。
+  FlavorText: 产地是红魔馆的水果园。
+
+PortalGun:
+  Name: 传送枪
+  Description: 商店会自动补货。所有商品打折 {Value1}% 。
+  FlavorText: 光 x 科技协助你自由往返地月之间。别名：月之羽衣。
+
+BoreMianju:
+  Name: 般若面具
+  Description: 每当{PlayerName}在一回合内打出 {Value1} 张攻击牌，就获得 {Value2} 点|火力|。
+  FlavorText: 读音是「波惹」。
+
+HuliMianju:
+  Name: 狐狸面具
+  Description: 每当{PlayerName}在一回合内打出 {Value1} 张攻击牌，就获得 {Value2} 点|灵力|。
+  FlavorText: 最常见的面具款式。
+
+HuonanMianju:
+  Name: 火男面具
+  Description: 每当{PlayerName}在一回合内打出 {Value1} 张攻击牌，就获得 {Value2} 点|格挡|。
+  FlavorText: 仔细观赏的话，甚至能看到鼻毛。
+
+XiwangMianju:
+  Name: 希望面具
+  Description: 每当{PlayerName}在一回合内打出 {Value1} 张攻击牌，就获得 {Value2} 点<sprite="Point" name="Power">。
+  FlavorText: 被重新寻回的希望。
+
+DiyinLeigu:
+  Name: 低音的雷鼓
+  Description: 在一回合内，打出的卡牌与上一张颜色有交集时，{PlayerName}获得 {Value1} 点|暂得火力|。
+  ExtraDescription: |-
+    在一回合内，打出的卡牌与上一张颜色有交集时，{PlayerName}获得 {Value1} 点|暂得火力|。
+    上一张颜色是{LastColor}。
+  FlavorText: 小朋友路过时，都喜欢敲几下玩。
+
+LoushuiShaozi:
+  Name: 漏水的勺子
+  Description: 每当{PlayerName}在一回合内打出 {Value1} 张技能牌，就抽 {Value2} 张牌。
+  FlavorText: 它没能阻止沉船。
+
+WeifengHuban:
+  Name: 威风的笏板
+  Description: 敌人被击败时，额外掉落 {Value1} 到 {Value2} 点<sprite="Point" name="Power">。
+  FlavorText: 闪闪发亮！甚至能听到音效。
+
+Zixingche:
+  Name: 自行车
+  Description: 每当一张攻击牌被加入牌库时，将其升级。
+  FlavorText: 二八大杠。
+
+Fengrenji:
+  Name: 缝纫机
+  Description: 每当一张防御牌被加入牌库时，将其升级。
+  FlavorText: 脚踩踏板提供动力。
+
+Shoubiao:
+  Name: 手表
+  Description: 每当一张技能牌被加入牌库时，将其升级。
+  FlavorText: 需要旋紧旋钮才能保证准时。
+
+Shouyinji:
+  Name: 收音机
+  Description: 每当一张能力牌被加入牌库时，将其升级。
+  FlavorText: 天狗们似乎已经跳过了广播媒体时代。
+
+SongjingMuyu:
+  Name: 诵经的木鱼
+  Description: 对战首领敌人时，{PlayerName}恢复等同于牌库数量的生命。
+  FlavorText: 用这个对着敌人念经，造成魔法伤害。
+
+ShoushiYubi:
+  Name: 守矢御币
+  Description: 可以在隙间小屋|净身|，移除一张牌库中的牌。
+  FlavorText: 比博丽御币厉害多了！
+
+Saiqianxiang:
+  Name: 赛钱箱
+  Description: |-
+    可以在隙间小屋|募捐|，获得 {Value1} 点<sprite="Point" name="Gold">。
+    放弃卡牌奖励提高 {Value2} 点<sprite="Point" name="Gold">。
+  FlavorText: 里面是灵梦的全部财产。
+
+Shanbibu:
+  Name: 闪避布
+  Description: '{PlayerName}的第二回合开始时，获得 {Value1} 层|闪避|。'
+  FlavorText: 感觉是从姬海棠果的裙子上扯了一块下来。
+
+XiaorenWan:
+  Name: 小人族的碗
+  Description: 放弃卡牌额外奖励 {Value1} 点最大生命值。
+  FlavorText: 别名：针妙丸的船。
+
+Tnt:
+  Name: TNT炸药
+  Description: '{PlayerName}的第 {Value1} 个回合开始时爆炸，对所有敌人造成 {Value2} 点伤害。'
+  FlavorText: 「喂？你家被我炸了。」
+
+Modaoshu:
+  Name: 魔导书
+  Description: 获取时，从 {Value1} 张中立稀有卡牌中，选择至多一张加入牌库。
+  FlavorText: 里面蕴含着十分深奥的魔法知识。
+
+Shaoyao:
+  Name: 芍药
+  Description: 每使用 {Value1} 点{Mana}，恢复 {Value2} 点生命。每场战斗最多触发 {Value3} 次，战斗结束时重置计数。
+  FlavorText: 由永远亭培育、种植并管理的药用植物。
+
+Bingkuai:
+  Name: 冰块
+  Description: 每使用 {Value1} 点{Mana}，获得 {Value2} 点护盾。战斗结束时重置计数。
+  FlavorText: 因为被劝告说太过暴力，琪露诺已经不用冰块冻住青蛙了。
+
+Shiyou:
+  Name: 石油
+  Description: 每使用 {Value1} 点{Mana}，获得 {Value2} 点<sprite="Point" name="Gold">。每场战斗最多触发 {Value3} 次，战斗结束时重置计数。
+  FlavorText: 在外界被誉为液体的黄金，应该很值钱。
+
+JingwanMudan:
+  Name: 京丸牡丹
+  Description: 每使用 {Value1} 点{Mana}，对所有敌人 {Value2} 点伤害。战斗结束时重置计数。
+  FlavorText: 一种赤铁矿，全名叫做「京丸牡丹雀石」。
+
+Shuye:
+  Name: 树叶
+  Description: 每使用 {Value1} 点{Mana}，获得 {Value2} 层|闪避|。战斗结束时重置计数。
+  FlavorText: 常见的阔叶植物叶子，妖怪狸用来骗人的原料。
+
+TangSan:
+  Name: 唐伞
+  Description: '{PlayerName}的第一回合开始时，获得 {Value1} 点|格挡|，随机升级 {Value2} 张手牌。'
+  FlavorText: 多多良小伞的青梅竹马。
+
+Putao:
+  Name: 葡萄
+  Description: 获取时，{PlayerName}的最大生命值提高 {Value1} 点。
+  FlavorText: 由丰收之神秋穰子提供。
+
+TiangouMuji:
+  Name: 天狗的木屐
+  Description: 战斗开始时，{PlayerName}获得 {Value1} 点|火力|。
+  FlavorText: 即使是人类穿上，都能在空中再跳一次，别名「二段跳之靴」。
+
+TiangouRongqiu:
+  Name: 天狗的绒球
+  Description: 战斗开始时，{PlayerName}获得 {Value1} 点|灵力|。
+  FlavorText: 天狗的实力与地位的象征，地位越高者会佩戴越多的绒球。
+
+TiangouShanzi:
+  Name: 天狗的扇子
+  Description: '{PlayerName}的第一回合开始时，获得 {Value1} 层|闪避|。'
+  FlavorText: 能让持有者感到身体轻盈，降低从空中下落的速度。
+
+TiangouXiangji:
+  Name: 天狗的相机
+  Description: 战斗开始时，对所有敌人施加 {Value1} 层|锁定|。
+  FlavorText: 看起来十分精巧。
+
+TiangouShouji:
+  Name: 天狗的手机
+  Description: '{PlayerName}的第一回合开始时，额外抽 {Value1} 张牌。'
+  FlavorText: 拍照功能也很不错。
+
+TiangouYuyi:
+  Name: 鸦天狗的羽翼
+  Description: '{PlayerName}选择下一关时可以无视路线，剩余 {Counter} 次。'
+  FlavorText: 幻想乡里，鸦天狗们之所以跑得比谁都快，仰赖的就是它。
+
+TiangouDunpai:
+  Name: 狼天狗的盾牌
+  Description: 打出防御牌时，{PlayerName}获得 {Value1} 点|暂得火力|，每回合只能生效一次。
+  FlavorText: 仿佛在诉说枫叶的故事。
+
+ShenmiPifeng:
+  Name: 神秘的披风
+  Description: 在{PlayerName}回合结束时，每一张手牌获得 {Value1} 点格挡。
+  FlavorText: 里面写的是卢恩文字。
+
+ChuRenou:
+  Name: 雏人偶
+  Description: 抵挡 {InitialCounter} 次|厄运|，剩余 {Counter} 次。
+  FlavorText: 她会替代你承受那些厄运和不幸。
+
+Chaidao:
+  Name: 柴刀
+  Description: 获取时，随机|升级| {Value1} 张攻击牌。
+  FlavorText: 「嘘だッ！」
+
+Jiaobu:
+  Name: 胶布
+  Description: 获取时，随机|升级| {Value1} 张防御牌。
+  FlavorText: 「仅仅是凭借这两张结界+，我就能防住全部的弹幕。如何呀，诸位？」
+
+ChaojiMogu:
+  Name: 超级蘑菇
+  Description: 获取时，{PlayerName}获得 {Value1} 点<sprite="Point" name="Power">。
+  FlavorText: 你觉得世界变小了一点。
+
+Tuanzi:
+  Name: 团子
+  Description: 战斗结束时，{PlayerName}恢复 {Value1} 点生命，获得 {Value2} 点<sprite="Point" name="Power">。
+  FlavorText: 铃瑚屋特制的甜点，因高热量深受人类村庄的猎人喜爱。
+
+JingzhiChaju:
+  Name: 精致的茶具
+  Description: 在隙间小屋时，|饮茶|额外恢复 {Value1} 点生命。
+  FlavorText: 由红魔馆提供，展现出「精致生活」的氛围。
+
+DiannaoPeijian:
+  Name: 电脑配件
+  Description: 在隙间小屋时，|饮茶|额外恢复 {Value1} 点<sprite="Point" name="Power">。
+  FlavorText: |-
+    提高电脑计算能力的配件。
+    也可以加入茶水里，帮助姐姐大人放松。
+
+HuangyouJiqiren:
+  Name: 黄油机器人
+  Description: 在隙间小屋时，|饮茶|时可以额外从 {Value1} 张卡牌中选择一张加入牌库。
+  FlavorText: |-
+    一台对于自己存在意义感到困惑的机器人。
+    "What is my purpose?"
+
+Bumengwang:
+  Name: 捕梦网
+  Description: 获取时，选择牌库中的 {Value1} 张牌移除，恢复 {Value2} 点生命，获得 {Value3} 点<sprite="Point" name="Power">。
+  FlavorText: 也被称为「吸尘器」，主要用于捕捉鬼魂。
+
+JudaShaozi:
+  Name: 巨大的勺子
+  Description: '{PlayerName}每获得一张|厄运|，最大生命值提高 {Value1} 点。'
+  FlavorText: 它的主人来着不拒，什么都吃得下。
+
+JiangyouPing:
+  Name: 酱油瓶
+  Description: 每次遇见商人时，恢复 {Value1} 点生命，获得 {Value2} 点<sprite="Point" name="Power">。
+  FlavorText: 「我是来打酱油的，咪啪。」
+
+PingfanDao:
+  Name: 平凡的刀
+  Description: |-
+    提高基础牌的攻击伤害。
+    初始费用为{Mana}的提高 {Value1} 点，其余提高 {Value2} 点。
+  FlavorText: 只是另一把幻想乡里的刀。
+
+YinzhiHuaibiao:
+  Name: 银质怀表
+  Description: 每打出 {Value1} 张牌，获得{Mana}，战斗结束时重置计数。
+  FlavorText: |-
+    「这是即使在时停时都会走动的特制怀表」
+    「换句话说，它其实不准呗」
+
+ShiyanQicai:
+  Name: 实验器材
+  Description: 每次洗牌时，获得{Mana}。
+  FlavorText: 「永琳说它们能带来远超幻想乡的力量」
+
+HeijiaoChangpian:
+  Name: 黑胶唱片
+  Description: 每抽到一张状态牌，获得{Mana}。
+  FlavorText: 在外界，它成了一种奢侈爱好的象征。
+
+Duandai:
+  Name: 缎带
+  Description: 对战精英和首领敌人时，每回合开始时获得{Mana}。
+  FlavorText: 「听说解开它就能释放被封印的恶魔之力。根本是无稽之谈，我这不是活得好好的？」
+
+Zhuzi:
+  Name: 竹子
+  Description: 每当{PlayerName}|闪避|伤害时，获得{Mana}。
+  FlavorText: 竹林里随处可见的东西，有什么展出的必要吗？
+
+FaliJingdian:
+  Name: 法力经典
+  Description: 使用符卡后，获得{Mana}。
+  FlavorText: 「命莲寺主持开光过的经卷，十分罕见哦。」
+
+Huiyuanka:
+  Name: 会员卡
+  Description: 所有商品打折 {Value1}% 。
+  FlavorText: 「Vip会员资格！只要消费一次就能回本，还在犹豫什么？」
+
+BoliHufu:
+  Name: 博丽护符
+  Description: 战斗开始时，获得 {Value1} 层|护身符|。
+  FlavorText: 人们相信博丽神社的护符能抵挡负面效果，因为其他作品里也是如此。
+
+Yushenqian:
+  Name: 御神签
+  Description: 卡牌奖励选择数量加 {Value1} 张。
+  FlavorText: 「山上守矢神社那儿求到的签哦。」
+
+Cookie:
+  Name: 好吃的曲奇
+  Description: 获取时，{PlayerName}的最大生命值提高 {Value1} 点，并恢复全部生命。
+  FlavorText: 「今天也是好天气。」
+
+ShoubiaoMazuiqiang:
+  Name: 手表麻醉枪
+  Description: 战斗开始时，对所有敌人施加 {Value1} 回合|虚弱|或|易伤|。
+  FlavorText: 「十分隐蔽，使用时敌人根本无法发现。」
+
+ZhuQingting:
+  Name: 竹蜻蜓
+  Description: '{PlayerName}的每 {Value1} 个回合开始时，获得 {Value2} 层|闪避|。'
+  FlavorText: 让持有者自由飞行，不过在幻想乡里显得很多余。
+
+Pijiu:
+  Name: 啤酒
+  Description: '{PlayerName}的第一回合开始时，获得 {Value1} 点|暂得火力|，将 {Value2} 张|小酌怡情|加入手中。'
+  FlavorText: 人见人爱。
+
+HeiseBijiben:
+  Name: 黑色笔记本
+  Description: 战斗开始时，已知姓名的敌人失去 {Value1} 点生命。
+  FlavorText: 「据说写上姓名就能杀死对方。」
+
+Guangjian:
+  Name: 光剑
+  Description: 每场战斗中{PlayerName}第一次造成攻击伤害时，施加 {Value1} 层|锁定|。
+  FlavorText: 「月之都制造的武器，挥动时发出嗡嗡的声音。」
+
+LuoboMoxing:
+  Name: 萝卜模型
+  Description: 对战精英和首领敌人时，{PlayerName}在战斗开始时获得 {Value1} 点|火力|。
+  FlavorText: 「我觉得山上神社的巫女应该非常喜欢这个。」
+
+Moping:
+  Name: 魔瓶
+  Description: |-
+    战斗结束时，消耗一次使用次数，恢复 {Value1} 点生命与<sprite="Point" name="Power">，可以使用 {Value2} 次。
+    在隙间小屋灌满。
+  FlavorText: 「你还可以把各种神力装入其中，等到时机合适时再使用。」
+
+JingboliJing:
+  Name: 净玻璃之镜
+  Description: '|占卜|时，额外选择 {Value1} 张牌。'
+  FlavorText: 「能从里面看到明天天气怎么样。」
+
+Headphone:
+  Name: 高保真耳机
+  Description: 所有的|每支付|效果多结算一次。
+  FlavorText: 「低频下潜，高频通透。」
+
+ZhinengYinxiang:
+  Name: 智能音箱
+  Description: |-
+    获取时，选择一张牌。
+    它在战斗开始时置于牌堆顶。
+  ExtraDescription: |-
+    获取时，选择一张牌。
+    它在战斗开始时置于牌堆顶。
+    当前：| {HoldedCard} |
+  FlavorText: 「小 x 同学，帮我抽这张牌。」
+
+MaorongWanju:
+  Name: 毛绒玩具
+  Description: 所有|同伴|牌额外获得 {Value1} 点|支援度|。
+  FlavorText: 「没有人能够抗拒摸摸它的诱惑。」
+
+LouguanJian:
+  Name: 楼观剑
+  Description: '{PlayerName}造成攻击伤害后，施加 {Value1} 层|锁定|。'
+  FlavorText: 「砍了！」
+
+WaijieYanjing:
+  Name: 外界的高科技眼镜
+  Description: 战斗结束时，{PlayerName}获得的<sprite="Point" name="Gold">奖励提高 {Value1}% 。
+  FlavorText: 让使用者看到幻想之物的眼镜，因为人气不佳进入了幻想乡。
+
+WaijieYouxiji:
+  Name: 外界的游戏机
+  Description: 战斗结束时，{PlayerName}获得 {Value1} 点<sprite="Point" name="Power">。
+  FlavorText: 恁天堂公司出品的最新掌机，其上的畅销作品总是会被当做「円宇宙」的例子。
+
+WaijieYanshuang:
+  Name: 外界的眼霜
+  Description: 战斗结束时，{PlayerName}恢复 {Value1} 点生命。
+  FlavorText: 上面印着广告标语：「对抗老化，更显年轻。」
+
+JingjieGanzhiyi:
+  Name: 境界感知仪
+  Description: '|p:让持有者清晰地感知到境界的缝隙。|'
+  FlavorText: 「这东西明明没啥用，咋就是个秘宝了？」
+
+Dahuoji:
+  Name: 打火机
+  Description: 每场战斗中{PlayerName}第一次造成攻击伤害时，施加 {Value1} 回合|易伤|。
+  FlavorText: 反复开关盖子发出专属音效，让别人知道自己是不好惹的小混混！
+
+JingesiYushou:
+  Name: 金阁寺的御守
+  Description: 每场战斗中{PlayerName}第一次受到负面状态时，获得 {Value1} 点|护盾|。
+  FlavorText: 这是金阁寺对游客开放前的御守，后来被同样式的门票替代。
+
+JingQiXi:
+  Name: 鲸之气息
+  Description: '{PlayerName}的奇数回合开始时，失去随机一点法力；偶数回合开始时，获得两点该颜色的法力。'
+  ExtraDescription: |-
+    {PlayerName}的奇数回合开始时，失去随机一点法力；偶数回合开始时，获得两点该颜色的法力。
+    下回合获得{ManaGain}。
+  FlavorText: 「鲵吞亭」只对访客开放。
+
+SadinYuebing:
+  Name: 撒丁岛月饼
+  Description: '{PlayerName}的回合开始时，随机升级 {Value1} 张手牌（多色牌优先）。'
+  FlavorText: 骚灵三女士、红美铃小姐等美食评论家对此菜品表达了强烈不满。
+
+IdolTshirt:
+  Name: 偶像 T 恤
+  Description: 战斗开始时，{PlayerName}的最大生命值提高 {Counter} 点，受到 {Counter} 层|锁定|。
+  ExtraDescription: 偶像 T 恤（大号）
+  FlavorText: 穿着这个，你受到了周围人们的侧目，脸皮也变厚了。
+
+Qingshu:
+  Name: 情书
+  Description: 获取时，{PlayerName}的最大生命值提高 {Value1} 点。
+  FlavorText: 「我知道我们的时光有限，但是我仍然希望能够和你度过每一分每一秒。」
+
+Dianshiji:
+  Name: 电视机
+  Description: '{PlayerName}免疫于|虚弱|。'
+  FlavorText: 能显示外界画面的盒子，天狗们很喜欢。
+
+Xiyiji:
+  Name: 洗衣机
+  Description: '{PlayerName}免疫于|易伤|。'
+  FlavorText: 能洗干净衣服的盒子，妖精女仆们很喜欢。
+
+Bingxiang:
+  Name: 冰箱
+  Description: '{PlayerName}免疫于|脆弱|。'
+  FlavorText: 能冷冻食材的盒子，河童们很喜欢。
+
+JuanzengZhengming:
+  Name: 捐赠证明
+  Description: |-
+    {PlayerName}的符卡最大充能次数增加 {Value1}，每回合可以施放多次。
+    获得 {Value2} 点<sprite="Point" name="Power">。
+    不会丢失。
+  FlavorText: 「重新树立符卡规则！」
+
+PulpFiction:
+  Name: 《低俗小说》
+  Description: 每场战斗的前 {Value2} 回合开始时，将 {Value1} 张牌从抽牌堆底移入手中。
+  FlavorText: |-
+    内容十分香艳的小说。
+    阅读时别把自己的道具落在门外面！
+
+FixBook:
+  Name: 《万能修理手册》
+  Description: |-
+    每打出一张道具牌，获得{Mana}。
+    获取时，从 {Value1} 张随机的道具牌中，选择至多一张加入牌库。
+  FlavorText: 帮助用户有效地修理外界道具，尤其是各种消费类电子产品。
+
+TimeBook:
+  Name: 《时间简史》
+  Description: 可以以实际顺序查看抽牌堆。
+  FlavorText: 相当流行的儿童教育读物。
+
+FirstAidBook:
+  Name: 《急救手册》
+  Description: |-
+    移除战斗中所有|厄运|和状态牌的|禁止|，改为|放逐|。
+    这些卡牌的费用与其稀有度相关。
+  FlavorText: 置放在患处很快就会溶解，高烧症状将会缓和。
+
+KongZhanpinhe:
+  Name: 空的展品盒
+  Description: 已经找不到更多的展览品了。
+  FlavorText: 切割工艺精致的玻璃盒子，超出了幻想乡的常识水平。
+
+

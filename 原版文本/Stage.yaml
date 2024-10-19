@@ -1,0 +1,33 @@
+# This file contains generated content from config data
+
+BambooForest:
+  Name: 迷途竹林
+
+XuanwuRavine:
+  Name: 玄武之泽
+
+WindGodLake:
+  Name: 风神之湖
+
+FinalStage:
+  Name: 最终幕
+
+AllStations:
+  Name: 全房间
+
+BattleAdvTest:
+  Name: 战斗冒险测试
+
+SingleRoute:
+  Name: 测试单线1
+
+SingleRouteStage2:
+  Name: 测试单线2
+
+SingleRouteStage3:
+  Name: 测试单线3
+
+BossOnlyStage:
+  Name: Boss测试1
+
+

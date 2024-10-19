@@ -1,0 +1,25 @@
+# This file is auto-generated
+
+line:03aa37a: 「有啥不要的道具我可以回收」
+line:01e38f2: 【交易】卖出|{0}| ，获得 {1} 点<sprite="Point" name="Gold">
+line:0de0aae: 【无效】没有可以卖的道具了
+line:06c2fe7: 【交易】卖出|{0}| ，获得 {1} 点<sprite="Point" name="Gold">
+line:0cc8782: 【无效】没有可以卖的道具了
+line:055489d: '{0}'
+line:02e28b1: '{0}'
+line:053c5be: 【离开】无事发生
+line:09bbfcf: 「那就这个吧，一直感觉它没啥用」
+line:06f5fec: 「确实收到了」
+line:0cfaa58: 「没啥想卖的，这些道具我都很喜欢」
+line:0682da0: 「我看看，没啥能卖的呢」
+line:009994f: 「那么请走好，不送」
+line:0bd086d: |-
+  「哦，这个是……
+  {0}小姐，你带着一个对我来说很有意义的道具」
+line:0bb144b: 「我会用一个对你来说很有作用的道具交换它」
+line:00db216: 【同意交易】交付|{0}|，获得|{1}|
+line:0e58d44: 「太好了」
+line:0e77e0d: （这一个方盒子能有啥用，感觉被骗了）
+line:0431aa2: 【离开】无事发生
+line:0c159c6: 「深受打击！」
+line:0ca56ad: （有这么想要那眼镜吗？）

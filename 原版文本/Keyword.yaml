@@ -1,0 +1,235 @@
+GamerunInitial:
+  Name: 初始卡牌
+  Description: '初始卡牌标记，不会显示给玩家看到。'
+
+#卡牌类型相关
+Basic:
+  Name: 基础
+  Description: '这是一张基础卡牌。'
+
+Ability:
+  Name: 能力
+  Description: |-
+    提供持续性的效果，直到战斗结束。
+    打出后移出战斗。
+
+Misfortune:
+  Name: 厄运
+  Description: '留在牌库中的负面卡牌。'
+
+Unremovable:
+  Name: 无法移除
+  Description: '无法从牌库中移除。'
+
+Tool:
+  Name: 消耗品 X
+  Description: |-
+    耗尽 X 次使用次数后永久移出游戏。
+    不能成为复制效果的对象。
+
+Gadgets:
+  Name: 发明
+  Description: '只能在商人处买到|发明|卡牌。'
+    
+Copy:
+  Name: 复制品
+  Description: '这是一张复制品。'
+
+#游戏基础概念
+Accuracy:
+  Name: 精准
+  Description: '精准的攻击不会被|闪避|。'
+
+Block:
+  Name: 格挡
+  Description: '阻挡伤害，在持有者的下回合开始时重置。'
+
+Shield:
+  Name: 护盾
+  Description: '阻挡伤害，在战斗结束时重置。'
+
+Philosophy:
+  Name: 彩色<sprite="ManaSprite" name="P">
+  Description: '可以视为任何一种颜色的法力。'
+
+HybridCost:
+  Name: 混血费用
+  Description: '两种颜色的法力都可以用于支付这一点|混血费用|。'
+    
+Upgrade:
+  Name: 升级
+  Description: '增强卡牌效果或降低费用。'
+
+Power:
+  Name: 能量<sprite="Point" name="Power">
+  Description: |-
+    用于释放符卡。
+    （画面左上角）
+
+#卡牌固有关键字_自动添加
+Forbidden:
+  Name: 禁止
+  Description: '无法打出。'
+
+Exile:
+  Name: 放逐
+  Description: '打出后进入放逐区。'
+
+Echo:
+  Name: 回响
+  Description: '如果这张卡牌不是复制品，打出后将一张具有|放逐|的复制加入手中，移除|回响|。'
+
+Ethereal:
+  Name: 虚无
+  Description: '回合结束时仍在手中的话，将其|放逐|。'
+
+Initial:
+  Name: 固有
+  Description: '战斗开始时置于牌堆顶。'
+
+Retain:
+  Name: 保留
+  Description: '回合结束时留在手中。'
+
+TempRetain:
+  Name: 暂留
+  Description: |-
+    回合结束时留在手中。
+    下回合或离开手牌后失效。
+
+Replenish:
+  Name: 填充
+  Description: '抽取时，额外抽一张牌。'
+
+Purified:
+  Name: 已净化
+  Description: '移除卡牌费用的有色部分。'
+
+AutoExile:
+  Name: 自动放逐
+  Description: |-
+    手牌即将超过上限时，自动|放逐|。
+    最左侧的|自动放逐|牌优先。
+    不会触发一些可能导致无限循环的效应。
+
+#卡牌固有关键字_不会自动添加
+Debut:
+  Name: 初见
+  Description: '本场战斗第一次打出时，触发额外效果。'
+
+Instinct:
+  Name: 直觉
+  Description: '在手牌的最左或最右时，触发额外效果。'
+
+XCost:
+  Name: 费用 X
+  Description: |-
+    可以支付额外费用打出。
+    （通过左下角法力面板设置）
+
+Synergy:
+  Name: 每支付 Y
+  Description: '总费用每包含 Y ，便结算一次效果。'
+
+#卡牌描述用关键字
+Scry:
+  Name: 占卜 X
+  Description: '依顺序展示抽牌堆顶的 X 张牌，选择其中任意张置入弃牌堆。'
+
+Purify:
+  Name: 纯化 X
+  Description: '将 X 点法力转化为无色法力<sprite="ManaSprite" name="C">，最多的单色优先。'
+
+Expel:
+  Name: 退治
+  Description: '击败非使魔的敌人时，触发额外效果。'
+
+Morph:
+  Name: 重塑
+  Description: '这张卡牌的费用被调整了，持续到本场战斗结束。'
+
+TempMorph:
+  Name: 暂塑
+  Description: '这张卡牌的费用被调整了，直到它离开手牌。'
+
+Overdrive:
+  Name: 超载 X
+  Description: '如果可能，消耗 X 层|充能|触发效果。'
+
+Grow:
+  Name: 成长
+  Description: '卡牌每打出一次，提高一次|成长|效果，直到战斗结束。'
+
+Plentiful:
+  Name: 充盈
+  Description: |-
+    抽取时，获得一定的法力。
+    同一回合内只能触发一次。
+
+Overdraft:
+  Name: 透支 X
+  Description: |-
+    锁定 X 点随机的基础法力，下回合开始时无法获得这些法力。
+    （画面左上角）
+
+CopyHint:
+  Name: 复制品
+  Description: '|复制品|是战斗中复制获得的卡牌，一般无法被再次复制。'
+
+Battlefield:
+  Name: 战场
+  Description: |-
+    |战场|是指手牌、抽牌堆、弃牌堆、|放逐|区的总和。
+    不包括移出战斗的卡牌，比如打出后的|能力|牌。
+    不包括牌库中的牌。
+
+NaturalTurn:
+  Name: 自然回合
+  Description: |-
+    |自然回合|与额外回合相对。
+    战斗中的每一个轮次内，每一名角色都只能进行一个|自然回合|。
+
+FriendCard:
+  Name: 同伴
+  Description: |-
+    完成召唤后，|同伴|能提供多种不同的效果。
+
+Friend:
+  Name: 同伴
+  Description: |-
+    打出以召唤这名|同伴|。
+    <sprite="Passive" name="x">|f:被动技能|每回合都会生效（一般在回合结束时）。
+    可以再次打出以使用<sprite="Active" name="x">|a:主动技能|或<sprite="Ultimate" name="x">|u:终结技|。
+
+FriendSummoned:
+  Name: 同伴（已召唤）
+  Description: |-
+    回合结束时留在手中。
+    <sprite="Passive" name="x">|f:被动技能|每回合都会生效（一般在回合结束时）。
+    打出以使用<sprite="Active" name="x">|a:主动技能|或<sprite="Ultimate" name="x">|u:终结技|。
+    
+Loyalty:
+  Name: 支援度
+  Description: |-
+    用于支付|同伴|的|a:主动技能|和|u:终结技|。
+    归零或使用|u:终结技|后，从战斗中移除|同伴|牌。
+
+Mood:
+  Name: 心境
+  Description: '|心境|是一类特殊的状态，同一时刻只能处于一种|心境|中。'
+
+Deploy:
+  Name: 部署
+  Description: |-
+    将一个人偶置于战场中。
+    数量达到上限时，最旧的人偶会发动|操纵效果|并离开战场。
+
+Magic:
+  Name: 魔力
+  Description: |-
+    达到临界值时，消耗魔力发动人偶的|操纵效果|。
+
+Leave:
+  Name: 撤离
+  Description: |-
+    发动一个人偶的|操纵效果|并使其离开战场。

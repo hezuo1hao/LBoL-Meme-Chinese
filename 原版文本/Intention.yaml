@@ -1,0 +1,104 @@
+AttackIntention:
+  Name: 攻击
+  Description: '{OwnerName}将要|攻击|造成 {Damage} 点伤害。'
+  MultiDamageDescription: '{OwnerName}将要|攻击|造成 {Damage} 点伤害 {Times} 次。'
+  AccurateDescription: '{OwnerName}将要|攻击|造成 {Damage} 点伤害，无法被|闪避|。'
+  AccurateMultiDamageDescription: '{OwnerName}将要|攻击|造成 {Damage} 点伤害 {Times} 次，无法被|闪避|。'
+
+PositiveEffectIntention:
+  Name: 强化
+  Description: '{OwnerName}将要对友军施加|正面效果|。'
+
+NegativeEffectIntention:
+  Name: 削弱
+  Description: '{OwnerName}将要对{PlayerName}施加|负面效果|。'
+
+AddCardIntention:
+  Name: 状态
+  Description: '{OwnerName}将要添加负面效果的|状态卡牌|。'
+
+DefendIntention:
+  Name: 防御
+  Description: '{OwnerName}将要对友军施加|防御效果|。'
+
+GrazeIntention:
+  Name: 闪避
+  Description: '{OwnerName}将要对友军施加|闪避|。'
+
+SpawnIntention:
+  Name: 召唤
+  Description: '{OwnerName}将要|召唤使魔|。'
+
+SleepIntention:
+  Name: 熟睡中
+  Description: '{OwnerName}进入了梦乡，zzz~'
+
+StunIntention:
+  Name: 击晕
+  Description: '{OwnerName}在这个回合无法行动。'
+
+EscapeIntention:
+  Name: 逃跑
+  Description: '{OwnerName}将要|逃跑|。'
+
+ExplodeIntention:
+  Name: 爆炸
+  Description: '{OwnerName}将要|爆炸|，造成 {Damage} 点伤害。'
+
+ExplodeAllyIntention:
+  Name: 引爆
+  Description: '{OwnerName}将要|引爆|血量最低的队友。'
+
+CountDownIntention:
+  Name: 倒计时
+  Description: '{OwnerName}将在 {Counter} 回合后使用|符卡|。'
+
+ChargeIntention:
+  Name: 蓄力中
+  Description: '{OwnerName}正在积蓄力量。'
+
+HealIntention:
+  Name: 治疗
+  Description: '{OwnerName}正准备|治疗|友军，恢复生命值。'
+
+RepairIntention:
+  Name: 维修
+  Description: '{OwnerName}正准备|维修|友军，恢复生命值。'
+
+ClearIntention:
+  Name: 清除
+  Description: '{OwnerName}正准备清除自己身上的所有负面状态。'
+
+HexIntention:
+  Name: 作祟
+  Description: '{OwnerName}正要对战场中随机的数张牌|作祟|，将它们变为无用之物。'
+
+SpellCardIntention:
+  Name: 符卡
+  Description: '{OwnerName}将要使用|符卡|。'
+  DamageDescription: |-
+    {OwnerName}将要使用|符卡|。
+    造成 {Damage} 点伤害。
+  MultiDamageDescription: |-
+    {OwnerName}将要使用|符卡|。
+    造成 {Damage} 点伤害 {Times} 次。
+  AccurateDamageDescription: |-
+    {OwnerName}将要使用|符卡|。
+    造成 {Damage} 点伤害，无法被|闪避|。
+  AccurateMultiDamageDescription: |-
+    {OwnerName}将要使用|符卡|。
+    造成 {Damage} 点伤害 {Times} 次，无法被|闪避|。
+
+KokoroDarkIntention:
+  Name: 暗黑能乐
+  Description: |-
+    暗黑能乐会对{PlayerName}造成 {Damage} 点直接伤害。(来自于 {Count} 点|黑暗情绪|)
+    直接伤害无法被|闪避|。
+
+DoNothingIntention:
+  Name: 不做什么
+  Description: '{OwnerName}的将要什么都不做，混过自己的下一回合。'
+
+UnknownIntention:
+  Name: 不明
+  Description: '{OwnerName}的意图不明。'

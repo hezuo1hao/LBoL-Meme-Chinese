@@ -1,0 +1,1417 @@
+# This file contains generated content from config data
+
+TempFirepower:
+  Name: 暂得火力
+  Description: |-
+    在一回合内，获得 {Level} 点火力。
+    火力提高攻击造成的伤害。
+  Brief: |-
+    在一回合内，获得若干点火力。
+    火力提高攻击造成的伤害。
+
+Firepower:
+  Name: 火力
+  Description: |-
+    获得 {Level} 点火力。
+    火力提高攻击造成的伤害。
+  Brief: |-
+    获得若干点火力。
+    火力提高攻击造成的伤害。
+
+TempFirepowerNegative:
+  Name: 暂失火力
+  Description: |-
+    在一回合内，失去 {Level} 点火力。
+    火力提高攻击造成的伤害。
+  Brief: |-
+    在一回合内，失去若干点火力。
+    火力提高攻击造成的伤害。
+
+FirepowerNegative:
+  Name: 失去火力
+  Description: |-
+    失去 {Level} 点火力。
+    火力提高攻击造成的伤害。
+  Brief: |-
+    失去若干点火力。
+    火力提高攻击造成的伤害。
+
+TempSpirit:
+  Name: 暂得灵力
+  Description: |-
+    在一回合内，获得 {Level} 点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+  Brief: |-
+    在一回合内，获得若干点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+
+Spirit:
+  Name: 灵力
+  Description: |-
+    获得 {Level} 点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+  Brief: |-
+    获得若干点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+
+TempSpiritNegative:
+  Name: 暂失灵力
+  Description: |-
+    在一回合内，失去 {Level} 点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+  Brief: |-
+    在一回合内，失去若干点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+
+SpiritNegative:
+  Name: 失去灵力
+  Description: |-
+    失去 {Level} 点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+  Brief: |-
+    失去若干点灵力。
+    灵力提高使用牌所获得的|格挡|、|护盾|。
+
+TempControl:
+  Name: 暂得操控力
+  Description: |-
+    在一回合内，获得 {Level} 点操控力。
+    操控力提高部分人偶的效果。
+  Brief: |-
+    在一回合内，获得若干点操控力。
+    操控力提高部分人偶的效果。
+
+Control:
+  Name: 操控力
+  Description: |-
+    获得 {Level} 点操控力。
+    操控力提高部分人偶的效果。
+  Brief: |-
+    获得若干点操控力。
+    操控力提高部分人偶的效果。
+
+TempControlNegative:
+  Name: 暂失操控力
+  Description: |-
+    在一回合内，失去 {Level} 点操控力。
+    操控力提高部分人偶的效果。
+  Brief: |-
+    在一回合内，失去若干点操控力。
+    操控力提高部分人偶的效果。
+
+ControlNegative:
+  Name: 失去操控力
+  Description: |-
+    失去 {Level} 点操控力。
+    操控力提高部分人偶的效果。
+  Brief: |-
+    失去若干点操控力。
+    操控力提高部分人偶的效果。
+
+Fragil:
+  Name: 脆弱
+  Description: '{PlayerName}通过打出牌获得|格挡|和|护盾|降低 {Value}%，剩余 {Duration} 回合。'
+  Brief: '{PlayerName}通过打出牌获得|格挡|和|护盾|降低 {Value}% ，持续一定的回合数。'
+
+Weak:
+  Name: 虚弱
+  Description: '{OwnerName}攻击造成的伤害降低 {Value}%，剩余 {Duration} 回合。'
+  Brief: '{OwnerName}攻击造成的伤害降低 {Value}% ，持续一定的回合数。'
+
+Vulnerable:
+  Name: 易伤
+  Description: '{OwnerName}受到攻击的伤害增加 {Value}%，剩余 {Duration} 回合。'
+  Brief: '{OwnerName}受到攻击的伤害增加 {Value}% ，持续一定的回合数。'
+
+LockedOn:
+  Name: 锁定
+  Description: |-
+    {OwnerName}受到的攻击伤害增加 {Level} 点。
+    回合开始时降低 1 层。
+  Brief: |-
+    {OwnerName}受到的攻击伤害增加若干点。
+    回合开始时降低 1 层。
+
+Graze:
+  Name: 闪避
+  Description: |-
+    {OwnerName}受到的攻击伤害降至 0 ，剩余 {Level} 次。
+    受到攻击或回合开始时降低 1 层。
+  Brief: |-
+    {OwnerName}受到的攻击伤害降至 0 。
+    受到攻击或回合开始时降低 1 层。
+
+ExtraTurn:
+  Name: 额外回合
+  Description: '{OwnerName}的回合结束后，进行额外的回合，剩余 {Level} 次。'
+  Brief: '{OwnerName}的回合结束后，进行额外的回合。'
+
+LimitedDamage:
+  Name: 道具的解放者
+  Description: '{OwnerName}每回合只能受到 {Limit} 点伤害，剩余 {Count} 点。'
+  Brief: '{OwnerName}每回合只能受到一定数量的伤害。'
+
+BossAct:
+  Name: 转阶段
+  Description: '{OwnerName}受到 {Count} 点伤害后立刻进行一次行动，不会结束{PlayerName}的回合。'
+  Brief: '{OwnerName}受到若干点伤害后立刻行动，不会结束{PlayerName}的回合。'
+
+Invincible:
+  Name: 天衣无缝
+  Description: '{OwnerName}受到的伤害不会超过 1 ，剩余 {Duration} 回合。'
+  Brief: '{OwnerName}受到的伤害不会超过 1 ，持续一定的回合数。'
+
+InvincibleEternal:
+  Name: 天衣无缝
+  Description: '{OwnerName}受到的伤害不会超过 1 。'
+  Brief: '{OwnerName}受到的伤害不会超过 1 。'
+
+TurnStartDontLoseBlock:
+  Name: 保留格挡
+  Description: '{OwnerName}的回合开始时，不会失去|格挡|，剩余 {Level} 次。'
+  Brief: '{OwnerName}的回合开始时，不会失去|格挡|，持续一定的次数。'
+
+WindGirl:
+  Name: 风神少女
+  Description: '{OwnerName}的回合结束时，将|闪避|补充至 {Level} 层。'
+  Brief: |-
+    获得|风神少女|时，立刻获得等量的|闪避|。
+    {OwnerName}的回合结束时，将|闪避|补充至若干层。
+
+Amulet:
+  Name: 护身符
+  Description: 抵挡 {Level} 次负面效果。
+  Brief: 抵挡若干次负面效果。
+
+AmuletForCard:
+  Name: 庇护
+  Description: 抵挡接下来受到的 {Level} 张状态牌（将它们|放逐|）。
+  Brief: 抵挡接下来受到的若干张状态牌（将它们|放逐|）。
+
+Electric:
+  Name: 带电
+  Description: 受到攻击伤害时，对攻击者造成 {Level} 点伤害。
+  Brief: 受到攻击伤害时，对攻击者造成若干点伤害。
+
+TempElectric:
+  Name: 带电
+  Description: |-
+    受到攻击伤害时，对攻击者造成 {Level} 点伤害。
+    {OwnerName}的下回合开始时移除本效果。
+  Brief: |-
+    受到攻击伤害时，对攻击者造成若干点伤害。
+    {OwnerName}的下回合开始时移除本效果。
+
+Reflect:
+  Name: 反射
+  Description: 受到攻击伤害时，对攻击者造成 {Level} 点伤害，然后移除本效果。
+  Brief: 受到攻击伤害时，对攻击者造成若干点伤害，然后移除本效果。
+
+NextAttackUp:
+  Name: 攻击伤害提高
+  Description: 下一张|攻击牌|的伤害提高 {Level} 点。
+  Brief: 下一张|攻击牌|的伤害提高若干点。
+
+ManaFreezed:
+  Name: 法力冻结
+  Description: 每回合打出的第一张牌费用增加{Mana}。
+  Brief: 每回合打出的第一张牌费用增加若干。
+
+NextTurnLoseHp:
+  Name: 下回合失去生命
+  Description: '{OwnerName}的下个回合开始时，失去 {Level} 点生命。'
+  Brief: '{OwnerName}的下个回合开始时，失去若干点生命。'
+
+NextTurnGainBlock:
+  Name: 下回合获得格挡
+  Description: '{OwnerName}的下个回合开始时，获得 {Level} 点|格挡|。'
+  Brief: '{OwnerName}的下个回合开始时，获得若干点|格挡|。'
+
+NextTurnGainShield:
+  Name: 下回合获得护盾
+  Description: '{OwnerName}的下个回合开始时，获得 {Level} 点|护盾|。'
+  Brief: '{OwnerName}的下个回合开始时，获得若干点|护盾|。'
+
+NextTurnGainGraze:
+  Name: 下回合获得闪避
+  Description: '{OwnerName}的下个回合开始时，获得 {Level} 层|闪避|。'
+  Brief: '{OwnerName}的下个回合开始时，获得若干层|闪避|。'
+
+CantDrawThisTurn:
+  Name: 无法抽牌
+  Description: 这回合内无法再抽牌。
+  Brief: 这回合内无法再抽牌。
+
+TimeIsLimited:
+  Name: 时间有限
+  Description: 卡牌费用增加{Mana}，直到敌人开始行动。
+  Brief: 卡牌费用增加若干，直到敌人开始行动。
+
+GuangxueMicai:
+  Name: 光学迷彩
+  Description: '{OwnerName}受到的攻击伤害降低一半，剩余 {Duration} 回合。'
+  Brief: '{OwnerName}受到的攻击伤害降低一半，持续一定的回合数。'
+
+DroneBlock:
+  Name: 防御矩阵
+  Description: '{OwnerName}回合结束时，获得 {Level} 点|格挡|。'
+  Brief: '{OwnerName}回合结束时，获得若干点|格挡|。'
+
+Drowning:
+  Name: 溺水
+  Description: '{OwnerName}的回合结束时，受到 {Level} 点伤害。'
+  Brief: '{OwnerName}的回合结束时，受到若干点伤害。'
+  ExtraDescription: |-
+    {OwnerName}的回合结束时，受到 {Level} 点伤害。
+    击败溺水少女移除本效果。
+
+Vampire:
+  Name: 吸血鬼
+  Description: '{OwnerName}造成未被阻挡的伤害时，恢复等量的生命。真可怕！'
+  Brief: '{OwnerName}造成未被阻挡的伤害时，恢复等量的生命。真可怕！'
+
+Poison:
+  Name: 中毒
+  Description: '{OwnerName}的回合开始时，失去 {Level} 点生命并降低一层|中毒|。'
+  Brief: '{OwnerName}的回合开始时，失去若干点生命并降低一层|中毒|。'
+
+MaoyuBlock:
+  Name: 毛茸茸
+  Description: '{OwnerName}被攻击后获得 {Level} 点|格挡|。'
+
+Servant:
+  Name: 使魔
+  Description: |-
+    场上只剩使魔敌人时，它们会被立刻消灭。
+    不会触发其死亡效果。
+
+DeathExplodeNotCount:
+  Name: 死亡弹幕
+  Description: |-
+    {OwnerName}被击败时对{PlayerName}造成 {Level} 点攻击伤害。
+    主动引爆时伤害翻倍。
+
+DeathExplodeCount:
+  Name: 死亡弹幕
+  Description: |-
+    {OwnerName}被击败时对{PlayerName}造成 {Level} 点攻击伤害。
+    {Count} 回合后主动引爆，伤害翻倍。
+
+DeathVulnerable:
+  Name: 疾病缠身
+  Description: '{OwnerName}被击败时对{PlayerName}施加 {Level} 回合|易伤|。'
+
+LoveGirlDamageReduce:
+  Name: 留恋尘世
+  Description: '{OwnerName}还有未尽的心愿，她受到的所有伤害降低 {Rate}% 。'
+
+LoveGirlDamageIncrease:
+  Name: 芳心荡漾
+  Description: '{OwnerName}的心愿已经满足了，她受到的所有伤害提高 {Rate}% 。'
+
+PhoneBillSe:
+  Name: 电话费
+  Description: |-
+    {OwnerName}打电话时收取{PlayerName} {Level} 点<sprite="Point" name="Gold">。
+    被击败时掉落 {Count} 点<sprite="Point" name="Gold">。
+
+FoxCharm:
+  Name: 妖狐魅惑
+  Description: |-
+    一回合只能打出 {Limit} 张牌，剩余 {Count} 张。
+    击败妖狐移除本效果。
+
+DeathPoison:
+  Name: 死亡剧毒
+  Description: '{OwnerName}被击败时对{PlayerName}施加 {Level} 层|中毒|。'
+
+AbsorbPower:
+  Name: 红玉之力
+  Description: '{OwnerName}的回合结束时获得 {Level} 点|火力|。'
+
+AbsorbSpirit:
+  Name: 蓝玉之力
+  Description: '{OwnerName}的回合结束时获得 {Level} 点|灵力|。'
+
+Lunatic:
+  Name: 疯狂
+  Description: |-
+    法力光耀影响了大家，{OwnerName}陷入疯狂，行动方式升级。
+    {PlayerName}回合开始后获得{Mana}。
+
+LunaticTorch:
+  Name: 疯狂火炬
+  Description: |-
+    {OwnerName}的火炬闪烁着异常的光芒，敌人直接进入|疯狂|状态。
+    {PlayerName}回合开始后获得{Mana}。
+
+Interview:
+  Name: 取材中
+  Description: '{OwnerName}在事件发生的第一线采访。'
+
+InterviewDone:
+  Name: 取材完毕
+  Description: |-
+    {OwnerName}拼凑出了事件的真相！
+    她会发行《文文。新闻》特别刊。
+
+RinSummon:
+  Name: 怨灵复活
+  Description: |-
+    {OwnerName}下一次能复活 {Level} 个怨灵。
+    每 {Limit} 回合自动恢复一层。
+
+RinAura:
+  Name: 地狱灼热
+  Description: '{OwnerName}召唤出来的怨灵，死亡弹幕伤害提高 {Level} 点。'
+
+Fengyin:
+  Name: 封印
+  Description: '{PlayerName}无法打出攻击牌，剩余 {Duration} 回合。'
+
+FirepowerIsJustice:
+  Name: 火力就是正义！
+  Description: '{OwnerName}的|火力|永远不会低于{PlayerName}。'
+
+PrivateSquare:
+  Name: 银之封锁
+  Description: |-
+    每打出 {Limit} 张卡牌，{OwnerName}就会对{PlayerName}造成 {Level} 点攻击伤害。
+    剩余 {Count} 张。
+  Brief: 每打出若干张卡牌，<color=#B7F0FF>十六夜咲夜</color>就会对{PlayerName}造成若干点攻击伤害。
+
+EnemyDayaojing:
+  Name: 大妖精的支持
+  Description: '{OwnerName}的回合结束时，恢复 {Level} 点生命。'
+
+EnemyLarva:
+  Name: 拉尔瓦的振翅
+  Description: '{PlayerName}对{OwnerName}造成攻击伤害时，受到 {Level} 层|中毒|。'
+
+EnemyLily:
+  Name: 莉莉白的报春
+  Description: '{OwnerName}的所有行动得到强化。'
+
+EnemyMaid:
+  Name: 小霞的清扫
+  Description: '{OwnerName}的回合结束时，对{PlayerName}造成 {Level} 点伤害。'
+
+ShenlingGold:
+  Name: 富贵之赐
+  Description: '{OwnerName}被击败时掉落 {Level} 点<sprite="Point" name="Gold">。'
+
+ShenlingHp:
+  Name: 优雅之赐
+  Description: '{OwnerName}被击败时，{PlayerName}的最大生命值提高 {Level} 点。'
+
+Appliance:
+  Name: 家用电器
+  Description: '{OwnerName}免疫于|虚弱|和|易伤|。'
+
+Emi:
+  Name: 电磁干扰
+  Description: '{OwnerName}无法行动，剩余 {Duration} 回合。'
+
+TurnStartPurify:
+  Name: 消毒完毕
+  Description: |-
+    {PlayerName}的回合开始时，|纯化| {Level} 。
+    回合结束时移除本效果。
+
+RockHard:
+  Name: 硬！
+  Description: '{OwnerName}受到的未被阻挡的攻击伤害，降低 {Level} 点。'
+
+RockHardAura:
+  Name: 要石庇护
+  Description: '{OwnerName}处于要石的庇护之下，受到的未被阻挡攻击的伤害降低 {Level} 点。'
+
+LouguanJianSe:
+  Name: 楼观剑
+  Description: '{OwnerName}进行攻击后，对目标施加 {Level} 层|锁定|。'
+
+KokoroXi:
+  Name: 喜
+  Description: '{OwnerName}行动后召唤一个面灵气。（已经发生）'
+
+KokoroNu:
+  Name: 怒
+  Description: '{OwnerName}行动后所有敌人获得 {Level} 点|火力|。（已经发生）'
+
+KokoroYou:
+  Name: 忧
+  Description: '{OwnerName}行动后对{PlayerName}施加 {Level} 回合|虚弱|。（已经发生）'
+
+KokoroRenzhen:
+  Name: 认真
+  Description: '{OwnerName}行动后清空|黑暗情绪|，每一点对{PlayerName}造成 {Level} 点直接伤害。（已经发生）'
+
+KokoroDarkPower:
+  Name: 黑暗情绪聚集
+  Description: |-
+    {OwnerName}下次符卡攻击时，还会额外对{PlayerName}造成直接伤害。
+    在{PlayerName}受到负面状态时提高。
+
+LongLight:
+  Name: 闪光三脚架
+  Description: '{OwnerName}变得愈发炫光夺目，伤害提高，强化她添加的状态牌。'
+
+LongEscape:
+  Name: 放水
+  Description: '{OwnerName}会在生命值低于 {Level} 时离开战斗。'
+
+FlatPeach:
+  Name: 仙桃
+  Description: '{OwnerName}受到伤害时，恢复 {Level} 点生命。'
+
+EnemyEnergy:
+  Name: 能量
+  Description: '{OwnerName}受到伤害时，获得等量的<sprite="Point" name="Power">，用于释放她的符卡。'
+
+EnemyEnergyNegative:
+  Name: 消耗能量
+  Description: |-
+    {OwnerName}消耗了<sprite="Point" name="Power">。
+    不应该正常游戏流程中显示出来。
+
+YuyukoDeath:
+  Name: 生者必灭
+  Description: |-
+    {OwnerName}的回合结束时，失去 {Level} 点生命。
+    {OwnerName}无法恢复生命。
+
+FastAttack:
+  Name: 唯快不破
+  Description: 每回合使用第一张牌后，{OwnerName}就会对{PlayerName}造成 {Level} 点|攻击|伤害。
+  ExtraDescription: |-
+    每回合使用第一张牌后，{OwnerName}就会对{PlayerName}造成 {Level} 点|攻击|伤害。
+    （已生效过，在{OwnerName}行动后恢复）
+
+PowerByDefense:
+  Name: 无坚不摧
+  Description: 每打出一张防御牌，{OwnerName}获得 {Level} 点|火力|。
+
+PurifyModule:
+  Name: 净化模组
+  Description: '{OwnerName}的攻击命中时，|净化|下回合的法力 {Level} 点。'
+
+LightingModule:
+  Name: 闪光模组
+  Description: '{OwnerName}的攻击命中时，将 {Level} 张|璀璨星光|洗入抽牌堆。'
+
+AccuracyModule:
+  Name: 制导模组
+  Description: '{OwnerName}的攻击都具有|精准|。'
+
+EnemyTuanzi:
+  Name: 好吃的团子
+  Description: '{OwnerName}的回合结束时，恢复 {Level} 点生命。'
+
+LimaoDisguiser:
+  Name: 变身戏法
+  Description: 这个单位是伪装的。
+
+SuwakoHex:
+  Name: 作祟
+  Description: '{PlayerName}的回合开始时，一张随机的手牌被作祟，变为无用之物。'
+  ExtraDescription: |-
+    {PlayerName}的回合开始时，一张随机的手牌被作祟，变为无用之物。
+    （已生效过，在{OwnerName}行动后恢复）
+
+SijiZui:
+  Name: 是非曲直
+  Description: '{PlayerName}的罪孽程度：轻度。'
+  ExtraDescription: '{PlayerName}的罪孽程度：一般。'
+  ExtraDescription2: '{PlayerName}的罪孽程度：深重。'
+
+MirrorImage:
+  Name: 镜像
+  Description: '{OwnerName}的镜中倒影。'
+
+DoremyLevel:
+  Name: 梦境等级
+  Description: 在深层的梦境里，{OwnerName}会发挥更强的实力。
+
+Sleep:
+  Name: 食梦者
+  Description: |-
+    {OwnerName}的回合结束时，将|护盾|补至 {Level} 点。
+    {Count} 回合后或受到伤害时醒来。
+
+DreamMaster:
+  Name: 造梦者
+  Description: '{OwnerName}是梦境的主宰者。'
+
+DreamServant:
+  Name: 梦境居民
+  Description: '{OwnerName}无法被伤害。'
+
+Curiosity:
+  Name: 我很好奇！
+  Description: 每当{PlayerName}打出一张能力牌，{OwnerName}获得 {Level} 点|火力|。
+
+ScarletDestiny:
+  Name: 绯色命运
+  Description: |-
+    在一回合内打出 {Limit} 张牌后，{OwnerName}会强制结束{PlayerName}的回合。
+    剩余 {Count} 张。
+
+JunkoPurify:
+  Name: 纯化光耀
+  Description: 每当{PlayerName}打出一张牌，|纯化| {Level} 。
+
+JunkoLily:
+  Name: 杀意的百合
+  Description: '|纯化光耀|生效时还会使{PlayerName}失去 {Level} 点生命。'
+
+JunkoColor:
+  Name: 溢出的瑕秽
+  Description: '{PlayerName}的污秽程度：轻度。'
+  ExtraDescription: |-
+    {PlayerName}的污秽程度：严重。
+    提高{JunkoName}的火力、「地上秽的纯化」行动强度。
+  ExtraDescription2: |-
+    {PlayerName}的污秽程度：无法忍受。
+    提高{JunkoName}的火力、「地上秽的纯化」行动强度。
+
+SingleJiandaoSe:
+  Name: 巨大的单片剪刀
+  Description: 每当{PlayerName}打出一张牌，受到 {Level} 点伤害。
+
+ShendengSe:
+  Name: 前端很长的茶壶
+  Description: '{OwnerName}的回合结束时，对{PlayerName}施加 {Level} 回合负面状态。从|虚弱|、|脆弱|和|易伤|中随机。'
+
+HolyGrailSe:
+  Name: 装饰浮夸的金杯
+  Description: '{OwnerName}下回合开始时，{PlayerName}失去所有的展品，|秘宝|和|光耀|除外。'
+
+SihunYuSe:
+  Name: 散发邪气的挂坠
+  Description: '{OwnerName}的回合结束时，吸引一些随机的敌人进入战斗。'
+
+MadokaBowSe:
+  Name: 迸发光芒的长弓
+  Description: '{OwnerName}回合结束时，将 {Level} 张随机的状态牌洗入抽牌堆。'
+
+QiannianShenqiSe:
+  Name: 金字塔形状的积木
+  Description: '{PlayerName}每回合只能抽 {Limit} 张牌，剩余 {Count} 张。'
+  ExtraDescription: |-
+    {PlayerName}每回合抽牌超过 {Limit} 张后，每抽一张牌失去 {Level} 点生命。
+    剩余 {Count} 张。
+
+InfinityGemsSe:
+  Name: 镶有宝石的手套
+  Description: '{OwnerName}的回合开始时，随机|放逐|{PlayerName}一半的卡牌，无论它们在哪里。剩余 {Count} 次。'
+
+SakuraWandSe:
+  Name: 长翅膀的钥匙
+  Description: '{OwnerName}攻击次数翻倍。'
+
+DragonBallSe:
+  Name: 印着星星的玻璃球
+  Description: '{OwnerName}下回合开始时，她的愿望得以实现：{PlayerName}将会失败，无法避免。'
+
+JiangshenSe:
+  Name: 降神修行
+  Description: 本场战斗中，所有临时增加的牌将会|升级|。
+  Brief: 本场战斗中，所有临时增加的牌将会|升级|。
+
+BoliDajiejieSe:
+  Name: 博丽大结界
+  Description: 本场战斗中，{OwnerName}的|格挡|均会转化为等量的|护盾|。
+  Brief: 本场战斗中，{OwnerName}的|格挡|均会转化为等量的|护盾|。
+
+FreeFlySe:
+  Name: 自由飞行
+  Description: '{PlayerName}的回合开始时，获得 {Level} 点{Mana}。'
+  Brief: '{PlayerName}的回合开始时，获得 {Level} 点{Mana}。'
+
+DoubleLianhuadieSe:
+  Name: 二色莲花蝶
+  Description: 每当{PlayerName}获得|格挡|或|护盾|时，对随机一名敌人造成 {Level} 点伤害。
+  Brief: 每当{PlayerName}获得|格挡|或|护盾|时，对随机一名敌人造成若干点伤害。
+
+DanceAroundLakeSe:
+  Name: 池边起舞
+  Description: 每|放逐|一张牌，就抽 {Level} 张牌。
+  Brief: 每|放逐|一张牌，就抽若干张牌。
+
+EvilTuiZhiSe:
+  Name: 妖邪退治
+  Description: 下 {Level} 张攻击牌造成双倍伤害。
+  Brief: 下若干张攻击牌造成双倍伤害。
+
+YinyangXueyinSe:
+  Name: 阴阳血印
+  Description: 打出|阴阳玉|后获得 {Level} 点|暂得火力|和|暂得灵力|。
+  Brief: 打出|阴阳玉|后获得若干点|暂得火力|和|暂得灵力|。
+
+BoliPhantomSe:
+  Name: 博丽幻影
+  Description: 每|放逐|一张不是|封魔针|的牌，将 {Level} 张|封魔针|加入手中，它们|暂塑|为{Mana}。
+  Brief: 每|放逐|一张不是|封魔针|的牌，将若干张|封魔针|加入手中，它们|暂塑|为{Mana}。
+
+TaijiLiangyiSe:
+  Name: 太极生两仪
+  Description: '{PlayerName}的回合开始时，如果手中|阴阳玉|不足 {Level} 张，将|阴阳玉|加入手中直到 {Level} 张。'
+  Brief: '{PlayerName}的回合开始时，如果手中|阴阳玉|不足若干张，将|阴阳玉|加入手中直到若干张。'
+
+HuanxiangBlockSe:
+  Name: 幻想防御
+  Description: 每当一张牌被|放逐|时，{PlayerName}获得 {Level} 点|格挡|。
+  Brief: 每当一张牌被|放逐|时，{PlayerName}获得若干点|格挡|。
+
+ReimuFestivalSe:
+  Name: 神樱之舞
+  Description: '{PlayerName}的回合开始时获得 {Level} 点|暂得火力|。'
+  Brief: '{PlayerName}的回合开始时获得若干点|暂得火力|。'
+
+ReimuShrineSe:
+  Name: 博丽庙会
+  Description: '{PlayerName}的回合开始时获得 {Level} 点|暂得灵力|。'
+  Brief: '{PlayerName}的回合开始时获得若干点|暂得灵力|。'
+
+ReverseJiejieSe:
+  Name: 逆转结界
+  Description: 当{PlayerName}失去一个正面效果时，获得 {Level} 点|护盾|。
+  Brief: 当{PlayerName}失去一个正面效果时，获得若干点|护盾|。
+
+ReimuFreeAttackSe:
+  Name: 幻想一重
+  Description: 下 {Level} 张攻击牌费用为{Mana}。
+  Brief: 下若干张攻击牌费用为{Mana}。
+
+MomentPowerSe:
+  Name: 刹那亚空穴
+  Description: 每当{OwnerName}获得|暂得火力|和|暂得灵力|时，其中 {Level} 点转化为|火力|和|灵力|。
+  Brief: 每当{OwnerName}获得|暂得火力|和|暂得灵力|时，其中若干点转化为|火力|和|灵力|。
+
+ReimuSilenceSe:
+  Name: 「梦想封印 寂」
+  Description: |-
+    抽牌阶段外每抽 {Limit} 张牌，对所有敌人造成 {Damage} 点攻击伤害。
+    剩余 {Count} 张。
+  Brief: 抽牌阶段外每抽若干张牌，对所有敌人造成一定的点攻击伤害。
+
+SenluoJiejieSe:
+  Name: 森罗结界
+  Description: 下回合开始时引爆|护盾|。
+  Brief: 下回合开始时引爆|护盾|。
+
+Charging:
+  Name: 充能
+  Description: '{PlayerName}累计 {TriggerLevel} 层|充能|时，进入|爆发|状态。'
+  Brief: '{PlayerName}累计 {TriggerLevel} 层|充能|时，进入|爆发|状态。'
+
+Burst:
+  Name: 爆发
+  Description: |-
+    {PlayerName}进入|爆发|状态时，获得{Mana}。
+    攻击造成 {DamageRate} 倍伤害。
+    回合结束时离开|爆发|状态。
+  Brief: |-
+    {PlayerName}进入|爆发|状态时，获得{Mana}。
+    攻击造成 {DamageRate} 倍伤害。
+    回合结束时离开|爆发|状态。
+
+Concentration:
+  Name: 专注
+  Description: 免费触发卡牌的|超载|效果，剩余 {Level} 次。
+  Brief: 免费触发卡牌的|超载|效果，剩余若干次。
+
+BurstUpgrade:
+  Name: 火力全开
+  Description: 提高|爆发|伤害倍率。
+  Brief: 提高|爆发|伤害倍率。
+
+BurstDrawSe:
+  Name: 速度对决
+  Description: 进入|爆发|时抽 {Level} 张牌。
+  Brief: 进入|爆发|时抽若干张牌。
+
+SolarSystemSe:
+  Name: 太阳系仪
+  Description: '{PlayerName}的回合开始时，获得 {Level} 层|充能|。'
+  Brief: '{PlayerName}的回合开始时，获得若干层|充能|。'
+
+ScryBlockSe:
+  Name: 早有预谋
+  Description: 每次|占卜|时，{PlayerName}获得 {Level} 点|格挡|。
+  Brief: 每次|占卜|时，{PlayerName}获得若干点|格挡|。
+
+LearnAstrologySe:
+  Name: 天文研修
+  Description: '{PlayerName}的回合开始时，如果手中|占星|不足 {Level} 张，将|占星|加入手中直到 {Level} 张。'
+  Brief: '{PlayerName}的回合开始时，如果手中|占星|不足若干张，将|占星|加入手中直到若干张。'
+
+PotionJungleSe:
+  Name: 荧光森林
+  Description: '{PlayerName}的回合结束时，将 {Level} 张|不稳定魔药|洗入弃牌堆。'
+  Brief: '{PlayerName}的回合结束时，将若干张|不稳定魔药|洗入弃牌堆。'
+
+UpgradePotionSe:
+  Name: 精研药水
+  Description: '{PlayerName}的回合结束时，抽牌堆和弃牌堆中的|不稳定魔药|伤害提高 {Level} 点。'
+  Brief: '{PlayerName}的回合结束时，抽牌堆和弃牌堆中的|不稳定魔药|伤害提高若干点。'
+
+PotionBaseDamageSe:
+  Name: 易爆成分
+  Description: '|不稳定魔药|的基础伤害提高 {Level} 点。'
+  Brief: '|不稳定魔药|的基础伤害提高若干点。'
+
+MasterOfCollectionSe:
+  Name: 收集专家
+  Description: 每当一张牌被|保留|时，降低 {Level} 点它的随机费用，直到战斗结束。
+  Brief: 每当一张牌被|保留|时，降低若干点它的随机费用，直到战斗结束。
+
+PotionDefenseSe:
+  Name: 流星共鸣
+  Description: 本回合内，每当一张|不稳定魔药|触发时，获得 {Level} 点|护盾|。
+  Brief: 本回合内，每当一张|不稳定魔药|触发时，获得若干点|护盾|。
+
+ChargingPotionSe:
+  Name: 放射元素
+  Description: 每当一张|不稳定魔药|触发时，获得 {Level} 层|充能|。
+  Brief: 每当一张|不稳定魔药|触发时，获得若干层|充能|。
+
+PoisonPotionSe:
+  Name: 魔女坩埚
+  Description: '|不稳定魔药|还会施加 {Level} 层|中毒|。'
+  Brief: '|不稳定魔药|还会施加若干层|中毒|。'
+
+ColdPotionSe:
+  Name: 冷却剂
+  Description: '|不稳定魔药|还会施加|寒冷|。'
+  Brief: '|不稳定魔药|还会施加|寒冷|。'
+
+SplitPotionSe:
+  Name: 增产剂
+  Description: '|不稳定魔药|额外攻击 {Level} 个目标。'
+  Brief: '|不稳定魔药|额外攻击若干个目标。'
+
+TimeAuraSe:
+  Name: 时域冲击
+  Description: |-
+    {PlayerName}的回合结束时，对所有敌人造成 {Level} 点伤害。
+    每对一个敌人造成伤害就降低一层。
+  Brief: |-
+    {PlayerName}的回合结束时，对所有敌人造成若干点伤害。
+    每对一个敌人造成伤害就降低一层。
+
+GainKnifeSe:
+  Name: 星剑飞舞
+  Description: '{PlayerName}的回合开始时，将 {Level} 张|飞刀|加入手中。'
+  Brief: '{PlayerName}的回合开始时，将若干张|飞刀|加入手中。'
+
+SakuyaInvestigateSe:
+  Name: 时停侦探
+  Description: '{PlayerName}的额外回合开始时，对所有敌人施加 {Level} 层|锁定|。'
+  Brief: '{PlayerName}的额外回合开始时，对所有敌人施加若干层|锁定|。'
+
+BladePowerSe:
+  Name: 快闪之银
+  Description: 主动使用|飞刀|后将 {Level} 张随机的攻击牌加入手中，它们|暂塑|为{Mana}，具有|放逐|、|虚无|。
+  Brief: 主动使用|飞刀|后将若干张随机的攻击牌加入手中，它们|暂塑|为{Mana}，具有|放逐|、|虚无|。
+
+PerfectServantUSe:
+  Name: 额外备案
+  Description: '{OwnerName}的下个回合开始时，获得 {Level} 点{Mana}，额外抽 {Level} 张牌。'
+  Brief: '{OwnerName}的下个回合开始时，获得若干点{Mana}，额外抽若干张牌。'
+
+PerfectServantWSe:
+  Name: 准备就绪
+  Description: '{OwnerName}的下回合抽牌阶段结束时，所有手牌|暂时降低| {Level} 点随机的费用。'
+  Brief: '{OwnerName}的下回合抽牌阶段结束时，所有手牌|暂时降低|若干点随机的费用。'
+
+EvilMaidSe:
+  Name: 恶魔的女仆
+  Description: 下面 {Level} 个回合的攻击伤害翻倍。
+  Brief: 下面若干个回合的攻击伤害翻倍。
+
+EvilMaidDoubleAttack:
+  Name: 恶魔之力
+  Description: '{PlayerName}的攻击伤害翻倍，剩余 {Duration} 回合。'
+  Brief: '{PlayerName}的攻击伤害翻倍，持续一定的回合数。'
+
+MihuanJackSe:
+  Name: 迷幻杰克
+  Description: 回合开始时，获得 {Level} 层|时域冲击|。
+  Brief: 回合开始时，获得若干层|时域冲击|。
+
+StopTimeSe:
+  Name: 凝固时间
+  Description: '{PlayerName}的回合结束时，剩余法力中随机的 {Level} 点，不会流失。'
+  Brief: '{PlayerName}的回合结束时，剩余法力中随机的若干点，不会流失。'
+
+SakuyaKillerSe:
+  Name: 夜雾幻影杀人鬼
+  Description: |-
+    {PlayerName}的回合结束时，将 {Level} 张|飞刀|洗入抽牌堆。
+    每当一名敌人被击败时亦如此。
+  Brief: |-
+    {PlayerName}的回合结束时，将若干张|飞刀|洗入抽牌堆。
+    每当一名敌人被击败时亦如此。
+
+SilverBladeSe:
+  Name: 银色异次元
+  Description: 每一张攻击牌生效后，获得 {Level} 点|护盾|。
+  Brief: 每一张攻击牌生效后，获得若干点|护盾|。
+
+SpecialClockSe:
+  Name: 特制的秒表
+  Description: 在{PlayerName}的回合开始时，选择至多 {Level} 张手牌丢弃，抽等量的牌。
+  Brief: 在{PlayerName}的回合开始时，选择若干张手牌丢弃，抽等量的牌。
+
+KnifeWithLockedOn:
+  Name: 下一个就轮到你了！
+  Description: 主动使用的|飞刀|施加 {Level} 层|锁定|。
+  Brief: 主动使用的|飞刀|施加若干层|锁定|。
+
+ClockCorpseSe:
+  Name: 钟表的残骸
+  Description: 抽牌阶段结束后无法再抽牌。
+  Brief: 抽牌阶段结束后无法再抽牌。
+  ExtraDescription: |-
+    抽牌阶段结束后无法再抽牌。
+    还未生效；只有在生效的回合结束时才会移除{SelfName}。
+
+LunaClockSe:
+  Name: 时空破损
+  Description: 无法造成攻击伤害。
+  Brief: 无法造成攻击伤害。
+  ExtraDescription: |-
+    无法造成攻击伤害。
+    还未生效；只有在生效的回合结束时才会移除{SelfName}。
+
+DrawPhaseAddKnife:
+  Name: 抽牌阶段获得飞刀
+  Description: 跳过抽牌阶段，改为将 {Limit} 张|飞刀|加入手中。
+  Brief: 跳过抽牌阶段，改为将若干张|飞刀|加入手中。
+  ExtraDescription: |-
+    跳过抽牌阶段，改为将 {Limit} 张|飞刀|加入手中。
+    还未生效；只有在生效后才会移除{SelfName}。
+
+BrokenTimelineSe:
+  Name: 破碎的时间线
+  Description: 回合开始时不会从基础法力中获得法力。
+  Brief: 回合开始时不会从基础法力中获得法力。
+  ExtraDescription: |-
+    回合开始时不会从基础法力中获得法力。
+    还未生效；只有在生效的回合结束时才会移除{SelfName}。
+
+DangerousMagicianSe:
+  Name: 危险的魔术师
+  Description: 每当一张|飞刀|生效时，{PlayerName}获得 {Level} 层|时域冲击|。
+  Brief: 每当一张|飞刀|生效时，{PlayerName}获得若干层|时域冲击|。
+
+AutoKnifeSe:
+  Name: 妖器「银质飞刀」
+  Description: 本场战斗中，|飞刀|具有|自动放逐|。
+  Brief: 本场战斗中，|飞刀|具有|自动放逐|。
+
+KnifeTarget:
+  Name: 锁定的目标
+  Description: '|飞刀|会优先攻击{OwnerName}。'
+  Brief: '|飞刀|会优先攻击{OwnerName}。'
+
+Cold:
+  Name: 寒冷
+  Description: |-
+    {OwnerName}回合开始时失去 {BaseDamage} 点生命，移除|寒冷|。
+    再次受到|寒冷|效果时失去 {StackMultiply} 倍生命（{StackDamage}点）。
+  Brief: |-
+    {OwnerName}回合开始时失去 {BaseDamage} 点生命，移除|寒冷|。
+    再次受到|寒冷|效果时失去更多的生命。
+
+ColdUp:
+  Name: 严寒刺骨
+  Description: 提高 {Level} 倍|寒冷|的叠加伤害。
+  Brief: 提高若干倍|寒冷|的叠加伤害。
+
+NextTurnColdAll:
+  Name: 冷气滞留
+  Description: '{OwnerName}的下回合开始时，对所有敌人施加|寒冷|，生效 {Level} 次。'
+  Brief: '{OwnerName}的下回合开始时，对所有敌人施加|寒冷|，生效若干次。'
+
+FreezeBulletSe:
+  Name: 冻结弹幕
+  Description: |-
+    对接下来攻击{OwnerName}的敌人施加|寒冷|，可以生效 {Level} 次。
+    {OwnerName}的下回合开始时移除本效果。
+
+FrostArmor:
+  Name: 寒冰甲
+  Description: |-
+    {OwnerName}的回合开始时，获得 {Level} 点|格挡|，降低 1 层。
+    受到攻击伤害时，降低 1 层。
+  Brief: |-
+    获得|寒冰甲|时，立刻获得等量的|格挡|。
+    {OwnerName}的回合开始时，获得层数相等的|格挡|，降低 1 层。
+    受到攻击伤害时，降低 1 层。
+
+IceMatrixSe:
+  Name: 冰冻矩阵
+  Description: '{PlayerName}对敌人施加|寒冷|时，获得 {Level} 层|寒冰甲|。'
+  Brief: '{PlayerName}对敌人施加|寒冷|时，获得若干层|寒冰甲|。'
+
+DeepFreezeSe:
+  Name: 冰尖之舞
+  Description: 打出蓝色卡牌后，{PlayerName}获得 {Level} 点|暂得火力|。
+  Brief: 打出蓝色卡牌后，{PlayerName}获得若干点|暂得火力|。
+
+Immune:
+  Name: 寒冰屏障
+  Description: '{OwnerName}免疫所有伤害 ，剩余 {Duration} 回合。'
+  Brief: '{OwnerName}免疫所有伤害。'
+
+ExtraBlizzard:
+  Name: 风雪来袭
+  Description: '{OwnerName}的下回合开始时，对所有敌人造成 {Damage} 点|精准|的伤害，施加|寒冷|。'
+  Brief: '{OwnerName}的下回合开始时，对所有敌人造成若干点|精准|的伤害，施加|寒冷|。'
+
+ExtraDraw:
+  Name: 妖精智慧
+  Description: '{OwnerName}的下回合开始时，额外抽 {Level} 张牌。'
+  Brief: '{OwnerName}的下回合开始时，额外抽若干张牌。'
+
+FairyTreeSe:
+  Name: 妖精之家
+  Description: 主动打出而召唤一名|同伴|时，获得 {Level} 点|格挡|。
+  Brief: 召唤一名|同伴|时，获得若干点|格挡|。
+
+MinengZhuruSe:
+  Name: 秘能注入
+  Description: 已召唤的|同伴|牌，被动效果额外触发 {Level} 次。
+  Brief: 已召唤的|同伴|牌，被动效果额外触发若干次。
+
+ColdHeartedSe:
+  Name: 冰冷血脉
+  Description: |-
+    |冰枪术|对|寒冷|的目标造成三倍伤害。
+    {OwnerName}的回合结束时移除|冰冷血脉|。
+  Brief: |-
+    |冰枪术|对|寒冷|的目标造成三倍伤害。
+    {OwnerName}的回合结束时移除|冰冷血脉|。
+
+FriendDrawSe:
+  Name: 花园集会
+  Description: |-
+    使用|同伴|的|a:主动技能|或|u:终结技|时，抽 {Level} 张牌。
+    使用|u:终结技|时额外获得 {Level} 点随机的法力。
+  Brief: |-
+    使用|同伴|的|a:主动技能|或|u:终结技|时，抽若干张牌。
+    使用|u:终结技|时额外获得若干点随机的法力。
+
+ForeverCoolSe:
+  Name: 永远凉爽的幻想四季
+  Description: |-
+    使用|同伴|的|a:主动技能|或|u:终结技|时，对随机 {Level} 名敌人施加|寒冷|。
+    任意敌人受到|寒冷|时，手中随机 {Level} 张|同伴|牌获得一点|支援度|。
+  Brief: |-
+    使用|同伴|的|a:主动技能|或|u:终结技|时，对随机若干名敌人施加|寒冷|。
+    任意敌人受到|寒冷|时，手中随机若干张|同伴|牌获得一点|支援度|。
+
+MoreFriendsSe:
+  Name: 社交达人
+  Description: |-
+    {PlayerName}的回合开始时，将 {Level} 张随机的|同伴|牌加入手中。
+    如此获得的|同伴|牌具有|虚无|，被召唤后会移除|虚无|。
+  Brief: |-
+    {PlayerName}的回合开始时，将若干张随机的|同伴|牌加入手中。
+    如此获得的|同伴|牌具有|虚无|，被召唤后会移除|虚无|。
+
+FrozenThroneSe:
+  Name: 冰封王座
+  Description: '{PlayerName}的回合开始时，如果手中|冰弹|不足 {Level} 张，将|冰弹|加入手中直到 {Level} 张。'
+  Brief: '{PlayerName}的回合开始时，如果手中|冰弹|不足若干张，将|冰弹|加入手中直到若干张。'
+
+WhiteWorldSe:
+  Name: 纯白的世界
+  Description: '{PlayerName}的回合开始时，对所有敌人施加|寒冷| {Level} 次。'
+  Brief: '{PlayerName}的回合开始时，对所有敌人施加|寒冷|若干次。'
+
+SummerFlowerSe:
+  Name: 盛夏花开
+  Description: '{SourceCardName}额外造成 {Level} 点伤害。'
+  Brief: '{SourceCardName}额外造成若干点伤害。'
+
+MaidFriendSe:
+  Name: 飞刀陪练
+  Description: '{SourceCardName}额外造成 {Level} 点伤害。'
+  Brief: '{SourceCardName}额外造成若干点伤害。'
+
+StarFriendSe:
+  Name: 星罗棋布
+  Description: '{SourceCardName}造成伤害时，施加 {Level} 层|锁定|。'
+  Brief: '{SourceCardName}造成伤害时，施加若干层|锁定|。'
+
+MoodPassion:
+  Name: 热情
+  Description: |-
+    处于|热情|时，{PlayerName}造成和受到的攻击伤害提高 {Percentage}%。
+    |热情|是一种|心境|，{PlayerName}只能处于一种|心境|中。
+  Brief: |-
+    处于|热情|时，{PlayerName}造成和受到的攻击伤害提高 {Percentage}%。
+    |热情|是一种|心境|，{PlayerName}只能处于一种|心境|中。
+
+MoodPeace:
+  Name: 平静
+  Description: |-
+    离开|平静|时获得{Mana}。
+    |平静|是一种|心境|，{PlayerName}只能处于一种|心境|中。
+  Brief: |-
+    离开|平静|时获得{Mana}。
+    |平静|是一种|心境|，{PlayerName}只能处于一种|心境|中。
+
+MoodEnlight:
+  Name: 神游
+  Description: |-
+    进入|神游|时获得{Mana}。
+    处于|神游|时，每打出一张牌抽一张牌。
+    |神游|是一种|心境|，{PlayerName}只能处于一种|心境|中。
+  Brief: |-
+    进入|神游|时获得{Mana}。
+    处于|神游|时，每打出一张牌抽一张牌。
+    |神游|是一种|心境|，{PlayerName}只能处于一种|心境|中。
+
+InspirationSe:
+  Name: 灵感迸发
+  Description: '{PlayerName}累计 {TriggerLevel} 层|灵感迸发|时，将等量的|灵感|洗入抽牌堆，进入|神游|。'
+  Brief: '{PlayerName}累计 {TriggerLevel} 层|灵感迸发|时，将等量的|灵感|洗入抽牌堆，进入|神游|。'
+
+NextTurnPassionSe:
+  Name: 被厌恶者的哲学
+  Description: '{PlayerName}的下回合开始时，进入|热情|，抽 {Level} 张牌。'
+  Brief: '{PlayerName}的下回合开始时，进入|热情|，抽若干张牌。'
+
+PassionDrawSe:
+  Name: 热恋抽牌
+  Description: 每当{PlayerName}进入|热情|时，抽 {Level} 张牌。
+  Brief: 每当{PlayerName}进入|热情|时，抽若干张牌。
+
+PeaceBlockSe:
+  Name: 平静格挡
+  Description: '{PlayerName}的回合结束时如果处于|平静|，获得 {Level} 点|格挡|。'
+  Brief: '{PlayerName}的回合结束时如果处于|平静|，获得若干点|格挡|。'
+
+MoodChangeBlockSe:
+  Name: 心灵壁垒
+  Description: 每当{PlayerName}转化|心境|时，获得 {Level} 点|格挡|。
+  Brief: 每当{PlayerName}转化|心境|时，获得若干点|格挡|。
+
+LunaticPassionSe:
+  Name: 疯狂之爱
+  Description: '|热情|的伤害提高改为 {Percentage}%。'
+  Brief: '|热情|的伤害提高改为 {Percentage}%。'
+
+Constrain:
+  Name: 抑制
+  Description: 抵消获得的|格挡|和|护盾|。
+  Brief: 抵消获得的|格挡|和|护盾|。
+
+WuyishiDNASe:
+  Name: 无意识的基因
+  Description: '{PlayerName}的回合结束时，如果不处于|顿悟|，死亡。'
+  Brief: '{PlayerName}的回合结束时，如果不处于|顿悟|，死亡。'
+
+BenwoTouyingSe:
+  Name: 自我投影
+  Description: 每次进入|热恋|时，将 {Level} 张完全随机的攻击牌加入手牌，|暂塑|为{Mana}且附带|放逐|。
+  Brief: 每次进入|热恋|时，将一张完全随机的攻击牌加入手牌，暂塑为0且附带|放逐|。
+
+ChaofanyinSe:
+  Name: 超反应知觉
+  Description: 每当你打出一张不是|复制|的直觉牌时，如果没有触发|直觉|，将 {Level} 张费用为{Mana}且附带|放逐|的复制加入手中。
+  Brief: 每当你打出一张不是|复制|的直觉牌时，如果没有触发|直觉|，将数张费用为{Mana}且附带|放逐|的复制加入手中。
+
+ChaoyueZiwoSe:
+  Name: 超越自我
+  Description: '{PlayerName}的回合结束时，如果处于|平静|，获得 {Level} 点|火力|和|灵力|。'
+  Brief: '{PlayerName}的回合结束时，如果处于|平静|，获得|火力|和|灵力|。'
+
+KongxiangshangSe:
+  Name: 空想上的人格保持者
+  Description: 打出|基本防御|牌后进入|平静|。
+  Brief: 打出|基本防御|牌后进入|平静|。
+
+ShortLove:
+  Name: 闪电恋
+  Description: 下一张|基本|卡的数值提高 {Level}。
+  Brief: 下一张|基本|卡的数值提高。
+
+LongLove:
+  Name: 长相思
+  Description: 所有|基本|卡的数值提高 {Level}。
+  Brief: 所有|基本|卡的数值提高。
+
+ZhuozhuangChengzhangSe:
+  Name: 茁壮成长
+  Description: '{PlayerName}的回合结束时，将 {Level} 张|生机|加入手牌。'
+  Brief: '{PlayerName}的回合结束时，将|生机|加入手牌。'
+
+QingxingMengSe:
+  Name: 白日清醒梦
+  Description: |-
+    {PlayerName}的回合开始时，将 {Level} 张|完全随机|的|稀有|牌加入手中，它暂塑为<sprite="ManaSprite" name="1">，具有|放逐|、|虚无|。
+    {PlayerName}的每个回合只能打出 {Limit} 层张|稀有|牌，剩余 {Count} 张。
+  Brief: |-
+    {PlayerName}的回合开始时，将若干张|完全随机|的|稀有|牌加入手中，它暂塑为<sprite="ManaSprite" name="1">，具有|放逐|、|虚无|。
+    {PlayerName}的每个回合只能打出 {Limit} 层张|稀有|牌。
+
+QiangweiDiyuSe:
+  Name: 蔷薇地狱
+  Description: ' 每当一张基本牌进入手牌时，对随机敌人造成 {Count} 点伤害，然后将伤害提高 {Level} 点。'
+  Brief: 每当一张基本牌进入手牌时，对随机敌人造成伤害，然后将伤害提高。
+
+YukariFlyObjectSe:
+  Name: 超高速飞行物体
+  Description: '{PlayerName}的下回合开始时，对生命值最高的敌人造成 {Level} 点伤害。'
+  Brief: '{PlayerName}的下回合开始时，对生命值最高的敌人造成若干点伤害。'
+
+LoseSpiritSe:
+  Name: 丢失的羽衣
+  Description: '{PlayerName}回合开始时，失去 {Level} 点|灵力|。'
+  Brief: '{PlayerName}回合开始时，失去若干点|灵力|。'
+
+MoreDraw:
+  Name: 传道授业
+  Description: 抽牌阶段多抽 {Level} 张牌。
+  Brief: 抽牌阶段多抽若干张牌。
+
+YonglinCardSe:
+  Name: 贤者的归隐
+  Description: '{PlayerName}的回合结束时，将 {Level} 张|虚假之月|洗入抽牌堆。'
+  Brief: '{PlayerName}的回合结束时，将若干张|虚假之月|洗入抽牌堆。'
+
+UseCardToLoseGame:
+  Name: 余命无多
+  Description: 打出 {Count} 张牌后死亡。
+  Brief: 打出若干张牌后死亡。
+
+NextTurnLoseGame:
+  Name: 行将就木
+  Description: 下回合开始时死亡。
+  Brief: 下回合开始时死亡。
+
+GrimoireStudySe:
+  Name: 黑暗魔导书
+  Description: '{OwnerName}的回合结束时将一张|幻虹|加入手中。'
+  Brief: '{OwnerName}的回合结束时将一张|幻虹|加入手中。'
+
+ShannvAbilitySe:
+  Name: 原因不明的热病
+  Description: '{PlayerName}的回合结束时，对所有敌人施加 {Level} 层|中毒|。'
+  Brief: '{PlayerName}的回合结束时，对所有敌人施加若干层|中毒|。'
+
+BailianBlackSe:
+  Name: 拥抱黑暗
+  Description: 所有防御、技能和状态牌，打出后被|放逐|，它们的费用降至{Mana}。
+  Brief: 所有防御、技能和状态牌，打出后被|放逐|，它们的费用降至{Mana}。
+
+MeihongFireSe:
+  Name: 无差别起火符
+  Description: |-
+    {PlayerName}的回合结束时，对所有敌人造成 {Level} 点伤害。
+    每抽到一张|厄运|或状态牌时亦如此。
+  Brief: |-
+    {PlayerName}的回合结束时，对所有敌人造成若干点伤害。
+    每抽到一张|厄运|或状态牌时亦如此。
+
+MeihongPowerSe:
+  Name: 不死的烈焰
+  Description: |-
+    {PlayerName}的回合开始时，获得 {Level} 点|火力|。
+    战斗结束时，如果{PlayerName}的生命值低于一半，恢复 {Heal} 点生命。
+  Brief: |-
+    {PlayerName}的回合开始时，获得若干点|火力|。
+    战斗结束时，如{PlayerName}的生命值低于一半，恢复若干点生命。
+
+HuiyeManaSe:
+  Name: 竹取物语
+  Description: |-
+    {PlayerName}的回合开始时，获得 {Count} 点随机的法力。
+    每次生效前提高 {Level} 点。
+  Brief: |-
+    {PlayerName}的回合开始时，获得若干点随机的法力。
+    每次生效前提高若干点。
+
+YouxiangMoonSe:
+  Name: 花鸟风月
+  Description: '{PlayerName}的回合开始时，获得 {Level} 点{Mana}。'
+  Brief: '{PlayerName}的回合开始时，获得若干点{Mana}。'
+
+RangziFanshuSe:
+  Name: 香甜的番薯
+  Description: 战斗结束后恢复 {Level} 点生命。
+  Brief: 战斗结束后恢复若干点生命。
+
+DizangLoveSe:
+  Name: 即席菩提
+  Description: 打出普通卡牌后，{OwnerName}获得 {Level} 点|暂得火力|。
+  Brief: 打出普通卡牌后，{OwnerName}获得若干点|暂得火力|。
+
+ZhenmiaowanAttackSe:
+  Name: 一寸法师的末裔
+  Description: 本回合内技能牌的费用降低{Mana}。
+  Brief: 本回合内技能牌的费用降低{Mana}。
+  ExtraDescription: 本回合内卡牌的费用降低{Mana}。
+
+ModuoluoFireSe:
+  Name: 秽那之火
+  Description: 每当<sprite="ManaSprite" name="P">被支付时，对所有敌人造成 {Level} 点伤害。
+  Brief: 每当<sprite="ManaSprite" name="P">被支付时，对所有敌人造成若干点伤害。
+
+RinDrawSe:
+  Name: 支配怨灵
+  Description: 每抽到一张状态牌，抽 {Level} 张牌。
+  Brief: 每抽到一张状态牌，抽若干张牌。
+
+HekaHellRainSe:
+  Name: 地狱之雨
+  Description: |-
+    每打出一张牌，回合结束时对所有敌人造成 {Level} 点伤害。
+    已累计 {Count} 点。
+  Brief: 每打出一张牌，回合结束时对所有敌人造成若干点伤害。
+
+TiangouOrderSe:
+  Name: 大天狗的号令
+  Description: 当{OwnerName}受到攻击时，{PlayerName}获得 {Level} 点|格挡|。
+  Brief: 当{OwnerName}受到攻击时，{PlayerName}获得若干点|格挡|。
+
+SeeFengshuiSe:
+  Name: 考察风水
+  Description: |-
+    {PlayerName}的回合开始时，|占卜| {Scry} 。
+    这次|占卜|中每丢弃一张防御牌，获得 {Block} 点|格挡|。
+  Brief: |-
+    {PlayerName}的回开始束时，|占卜|。
+    这次|占卜|中每丢弃一张防御牌，获得若干|格挡|。
+
+RainbowMarketSe:
+  Name: 月虹市场
+  Description: 每当一张牌被|放逐|时，增加 {Level} 张随机的卡牌进入手中。
+  Brief: 每当一张牌被|放逐|时，增加若干张随机的卡牌进入手中。
+
+KokoroDanceSe:
+  Name: 假面丧心舞
+  Description: 每当敌人受到负面状态时，{PlayerName}对他造成 {Level} 点伤害。
+  Brief: 每当敌人受到负面状态时，{PlayerName}对他造成若干点伤害。
+
+YachieDefendSe:
+  Name: 龟甲地狱
+  Description: |-
+    阻挡{OwnerName}的下 {Level} 次生命损失。
+    如果伤害来源是敌人，还会反弹给他。
+  Brief: |-
+    阻挡{OwnerName}的下若干次生命损失。
+    如果伤害来源是敌人，还会反弹给他。
+
+TodayYesterdaySe:
+  Name: 今昔幻想乡
+  Description: '{OwnerName}|闪避|伤害时，获得 {Level} 点|火力|。'
+  Brief: '{OwnerName}|闪避|伤害时，获得若干点|火力|。'
+
+BlackPoisonSe:
+  Name: 黑暗演舞
+  Description: '{PlayerName}每次攻击造成未被阻挡的伤害时，施加 {Level} 层|中毒|。'
+  Brief: '{PlayerName}每次攻击造成未被阻挡的伤害时，施加若干层|中毒|。'
+
+MeilingAbilitySe:
+  Name: 烈虹真拳
+  Description: '{PlayerName}获得双倍的|火力|和|暂得火力|。'
+  Brief: '{PlayerName}获得双倍的|火力|和|暂得火力|。'
+
+YonglinUpgradeSe:
+  Name: 仙香玉兔
+  Description: '{PlayerName}的回合开始时，升级 {Level} 张随机的手牌。'
+  Brief: '{PlayerName}的回合开始时，升级若干张随机的手牌。'
+
+YinyangQueenSe:
+  Name: 能工巧匠魅须丸
+  Description: 所有的|阴阳玉|效果提高 {Level} 倍。
+  Brief: 所有的|阴阳玉|效果提高若干倍。
+
+HuiyeTimeSe:
+  Name: 须臾之间
+  Description: 本回合只能打出 {Limit} 张牌，剩余 {Count} 张。
+  ExtraDescription: |-
+    本回合只能打出 {Limit} 张牌，剩余 {Count} 张。
+    还未生效；只有在生效的回合结束时才会移除{SelfName}。
+
+ShirenKunchongSe:
+  Name: 食人昆虫
+  Description: 当{OwnerName}受到|负面状态|时，{PlayerName}获得 {Level} 点|格挡|。
+  Brief: 当{OwnerName}受到|负面状态|时，{PlayerName}获得若干点|格挡|。
+
+MeilingWaterSe:
+  Name: 无处可退
+  Description: '{OwnerName}的回合开始时，失去 {Level} 点生命。'
+  Brief: '{OwnerName}的回合开始时，失去若干点生命。'
+
+YouxiangWakeSe:
+  Name: 按时起床
+  Description: '{Count} 回合后的回合开始时：获得 {Level} 点|火力|，将抽牌堆中随机的 {Limit} 张攻击牌移入手中，|暂塑|为{Mana}。'
+  Brief: 若干回合后的回合开始时：获得若干点|火力|，将抽牌堆中随机的若干张攻击牌移入手中，|暂塑|为{Mana}。
+  ExtraDescription: 下回合的回合开始时：获得 {Level} 点|火力|，将抽牌堆中随机的 {Limit} 张攻击牌移入手中，|暂塑|为{Mana}。
+
+SanaeSummonGodSe:
+  Name: 召请建御名方神
+  Description: '{Count} 回合后的回合开始时：获得 {Level} 点|火力|和|灵力|。'
+  Brief: 若干回合后的回合开始时：获得 {Level} 点|火力|和|灵力|。
+  ExtraDescription: 下回合的回合开始时：获得 {Level} 点|火力|和|灵力|。
+
+TianziRockSe:
+  Name: 绝壁！
+  Description: '{OwnerName}受到的攻击伤害降低 {Level} 点。'
+  Brief: '{OwnerName}受到的攻击伤害降低若干点。'
+  ExtraDescription: |-
+    {OwnerName}受到的攻击伤害降低 {Level} 点。
+    {OwnerName}免疫于|锁定|。
+
+PrismriverSe:
+  Name: 棱镜协奏曲
+  Description: 本场战斗中，{PlayerName}获得的所有法力都转化为|彩色|。
+  Brief: 本场战斗中，{PlayerName}获得的所有法力都转化为|彩色|。
+
+BailianFireSe:
+  Name: 法界之火
+  Description: '{PlayerName}的回合开始时，将 {Level} 张随机的技能牌加入手中，它|暂塑|为{Mana}，具有|放逐|、|虚无|。'
+  Brief: '{PlayerName}的回合开始时，将若干张随机的技能牌加入手中，它|暂塑|为{Mana}，具有|放逐|、|虚无|。'
+
+SuperExtraTurn:
+  Name: 世纪的二重身超人
+  Description: |-
+    {PlayerName}的|自然回合|结束时，进行一个额外的回合。
+    这一回合开始时不会失去|格挡|和|闪避|，只能打出 {Level} 张牌。
+    当前回合状态：{StatusString}。
+  Brief: |-
+    {PlayerName}的|自然回合|结束时，进行一个额外的回合。
+    这一回合开始时不会失去|格挡|和|闪避|，只能打出 {Level} 张牌。
+  ExtraDescription: |
+    {PlayerName}的|自然回合|结束时，进行一个额外的回合。
+    这一回合开始时不会失去|格挡|和|闪避|，只能打出 {Level} 张牌。
+    当前回合状态：{SelfName}所带来的额外回合，还可以打出 {Count} 张牌。
+
+ZhenmiaowanAbilitySe:
+  Name: 小锤的魔力
+  Description: 卡牌的费用降低{Mana}。
+  Brief: 卡牌的费用降低{Mana}。
+
+YukariFriendSe:
+  Name: 幻想的境界
+  Description: '{PlayerName}的回合开始时，将 {Level} 张随机的其它中立三色牌加入手中，|暂塑|为{Mana}，具有|虚无|。'
+  Brief: '{PlayerName}的回合开始时，将若干张随机的其它中立三色牌加入手中，|暂塑|为{Mana}，具有|虚无|。'
+
+MoonWorldSe:
+  Name: 无秽的世界
+  Description: '{PlayerName}的回合开始后，|净化| {Level} 张随机手牌，移除其有色费用。'
+  Brief: '{PlayerName}的回合开始后，|净化|若干张随机手牌，移除其有色费用。'
+
+CatchGoblinSe:
+  Name: 福星高照
+  Description: 受到的伤害减少 33%，击败后掉落 50<sprite="Point" name="Gold">。
+  Brief: 受到的伤害减少33%，击败后掉落 50<sprite="Point" name="Gold">。
+
+

@@ -1,0 +1,429 @@
+DefaultPlayer:
+  Default: 主角
+  
+DefaultOwner:
+  Default: 持有者
+
+Maoyu:
+  Default: 毛玉
+
+MaoyuRed:
+  Default: 粉毛玉
+
+MaoyuBlue:
+  Default: 蓝毛玉
+
+MaoyuBlack:
+  Default: 黑毛玉
+
+WhiteFairy:
+  Default: 向日葵妖精
+
+BlackFairy:
+  Default: 「黑蝴蝶」
+
+RavenWen:
+  Default: 红帽乌鸦
+
+RavenGuo:
+  Default: 紫帽乌鸦
+
+RavenWen3:
+  Default: 红帽乌鸦
+
+RavenGuo3:
+  Default: 紫帽乌鸦
+
+RavenTarget:
+  Default: 靶子乌鸦
+
+GuihuoRed:
+  Default: 红怨灵
+
+GuihuoGreen:
+  Default: 绿怨灵
+
+GuihuoBlue:
+  Default: 蓝怨灵
+
+ShenlingWhite:
+  Default: 富贵之灵
+
+ShenlingPurple:
+  Default: 优雅之灵
+
+YinyangyuRed:
+  Default: 红阴阳玉
+
+YinyangyuBlue:
+  Default: 蓝阴阳玉
+
+YinyangyuRedReimu:
+  Default: 红阴阳玉
+
+YinyangyuBlueReimu:
+  Default: 蓝阴阳玉
+
+HardworkRabbit:
+  Default: 精神的月兔
+
+LazyRabbit:
+  Default: 懒散的月兔
+
+FraudRabbit:
+  Default: 诈骗兔子
+
+DollBlue:
+  Default: 颠茄人偶
+
+DollPurple:
+  Default: 夹竹桃人偶
+
+Fox:
+  Default: 妖狐
+
+Limao: 
+  Default: 狸猫
+
+Scout:
+  Default: 侦察者
+
+Purifier:
+  Default: 净化者
+
+Terminator:
+  Default: 终结者
+
+ScoutElite:
+  Default: 侦察者 Mk-II
+
+PurifierElite:
+  Default: 净化者 Mk-II
+
+TerminatorElite:
+  Default: 终结者 Mk-II
+
+HetongKailang:
+  Default: 开朗的河童
+
+HetongYinchen:
+  Default: 阴沉的河童
+
+Yaoshi:
+  Default: 废弃的要石
+
+Bat:
+  Default: 蝙蝠
+
+BatLord:
+  Default: 蝙蝠领主
+
+SickGirl:
+  Default: 病弱少女
+
+WaterGirl:
+  Default: 溺水少女
+
+LoveGirl:
+  Default: 恋爱少女
+
+YaTiangou:
+  Default: 鸦天狗
+
+LangTiangou:
+  Default: 狼天狗
+
+Sunny:
+  Default: 桑尼
+
+Luna:
+  Default: 露娜
+
+Star:
+  Default: 斯塔
+
+Aya:
+  Default: 射命丸文
+  Short: 文
+
+DreamAya:
+  Default: 射命丸文
+  Short: 文
+
+Rin:
+  Default: 火焰猫燐
+  Short: 阿燐
+
+Nitori:
+  Default: 河城荷取
+  Short: 荷取
+
+Kokoro:
+  Default: 秦心
+  Short: 心
+
+MaskRed:
+  Default: 面灵气
+
+MaskGreen:
+  Default: 面灵气
+
+MaskBlue:
+  Default: 面灵气
+
+Youmu:
+  Default: 魂魄妖梦
+  Short: 妖梦
+
+DreamYoumu:
+  Default: 魂魄妖梦
+  Short: 妖梦
+
+Clownpiece:
+  Default: 克劳恩皮丝
+
+Siji:
+  Default: 四季映姬
+  Short: 映姬
+  Full: 四季映姬·亚玛萨那度
+
+Doremy:
+  Default: 哆来咪
+  Full: 哆来咪·苏伊特
+
+Reimu:
+  Default: 博丽灵梦
+  Short: 灵梦
+
+Marisa:
+  Default: 雾雨魔理沙
+  Short: 魔理沙
+
+Sakuya:
+  Default: 十六夜咲夜
+  Short: 咲夜
+
+Cirno:
+  Default: 琪露诺
+
+Koishi:
+  Default: 古明地恋
+  Short: 恋
+
+Alice:
+  Default: 爱丽丝
+  Full: 爱丽丝·玛格特洛依德
+
+Long:
+  Default: 饭纲丸龙
+  Short: 龙
+
+Tianzi:
+  Default: 比那名居天子
+  Short: 天子
+
+Yuyuko:
+  Default: 西行寺幽幽子
+  Short: 幽幽子
+
+Wangling:
+  Default: 死蝶灵
+
+Sanae:
+  Default: 东风谷早苗
+  Short: 早苗
+
+Kanako:
+  Default: 八坂神奈子
+  Short: 神奈子
+
+KanakoLimao:
+  Default: 八坂神奈子？
+  Short: 神奈子？
+
+Suwako:
+  Default: 洩矢诹访子
+  Short: 诹访子
+
+SuwakoLimao:
+  Default: 洩矢诹访子？
+  Short: 诹访子？
+
+Remilia:
+  Default: 蕾米莉亚
+  Full: 蕾米莉亚·斯卡蕾特
+
+DreamRemilia:
+  Default: 蕾米莉亚
+  Full: 蕾米莉亚·斯卡蕾特
+
+Junko:
+  Default: 纯狐
+
+DreamJunko:
+  Default: 纯狐
+
+Seija:
+  Default: 鬼人正邪
+  Short: 正邪
+
+Yiji:
+  Default: 绵月依姬
+  Short: 依姬
+
+Yukari:
+  Default: 八云紫
+  Short: 紫
+
+Kaguya:
+  Default: 蓬莱山辉夜
+  Short: 辉夜
+
+Eirin:
+  Default: 八意永琳
+  Short: 永琳
+
+Reisen:
+  Default: 铃仙
+  Full: 铃仙·优昙华院·因幡
+
+Tewi:
+  Default: 因幡帝
+  Short: 帝
+
+Takane:
+  Default: 山城高岭
+  Short: 高岭
+
+Rinnosuke:
+  Default: 森近霖之助
+  Short: 霖之助
+
+Sumireko:
+  Default: 宇佐见堇子
+  Short: 堇子
+
+Nazrin:
+  Default: 娜兹玲
+
+Xing:
+  Default: 寅丸星
+  Short: 星
+
+Miko:
+  Default: 丰聪耳神子
+  Short: 神子
+
+Mystia:
+  Default: 米斯蒂娅
+  Full: 米斯蒂娅·萝蕾拉
+
+Hina:
+  Default: 键山雏
+  Short: 雏
+
+Rumia:
+  Default: 露米娅
+
+Patchouli:
+  Default: 帕秋莉
+  Full: 帕秋莉·诺蕾姬
+
+Narumi:
+  Default: 矢田寺成美
+  Short: 成美
+
+Mike:
+  Default: 豪德寺三花
+  Short: 三花
+
+Kagerou:
+  Default: 今泉影狼
+  Short: 影狼
+
+Kogasa:
+  Default: 多多良小伞
+  Short: 小伞
+
+Medicine:
+  Default: 梅蒂欣
+  Full: 梅蒂欣·梅兰可莉
+
+Hatate:
+  Default: 姬海棠果
+  Short: 果
+
+Ringo:
+  Default: 铃瑚
+
+Yachie:
+  Default: 吉吊八千慧
+  Short: 八千慧
+
+Shion:
+  Default: 依神紫苑
+  Short: 紫苑
+
+Jyoon:
+  Default: 依神女苑
+  Short: 女苑
+
+Mai:
+  Default: 丁礼田舞
+  Short: 舞
+
+Satono:
+  Default: 尔子田里乃
+  Short: 里乃
+
+Mokou:
+  Default: 藤原妹红
+  Short: 妹红
+
+Keine:
+  Default: 上白泽慧音
+  Short: 慧音
+
+Miyoi:
+  Default: 奥野田美宵
+  Short: 美宵
+
+Suika:
+  Default: 伊吹萃香
+  Short: 萃香
+
+Eternity:
+  Default: 爱塔妮缇
+  Full: 爱塔妮缇拉尔瓦
+
+Satori:
+  Default: 古明地觉
+  Short: 觉
+
+Parsee:
+  Default: 水桥帕露西
+  Short: 帕露西
+
+Toyohime:
+  Default: 绵月丰姬
+  Short: 丰姬
+
+Yorihime:
+  Default: 绵月依姬
+  Short: 依姬
+
+Shinmyoumaru:
+  Default: 少名针妙丸
+  Short: 针妙丸
+
+Hecatia:
+  Default: 赫卡提亚
+  Full: 赫卡提亚·拉碧斯拉祖利
+
+Budu:
+  Default: 物部布都
+  Short: 布都
+
+Kosuzu:
+  Default: 本居小铃
+  Short: 小铃

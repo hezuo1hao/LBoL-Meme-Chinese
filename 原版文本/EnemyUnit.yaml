@@ -1,0 +1,669 @@
+# This file contains generated content from config data
+
+Maoyu:
+  Move:
+  - 撞撞
+  - 毛毛
+
+MaoyuRed:
+  Move:
+  - 撞撞
+  - 贴贴
+
+MaoyuBlue:
+  Move:
+  - 撞撞
+  - 贴贴
+
+MaoyuBlack:
+  Move:
+  - 撞撞
+  - 毛毛
+
+WhiteFairy:
+  Move:
+  - 花开花谢
+  - 双生射击
+  - 集中光耀
+
+BlackFairy:
+  Move:
+  - 花开花谢
+  - 双生射击
+  - 集中光耀
+
+RavenWen:
+  Move:
+  - 鸦旋风
+  - 报纸派送
+  - 高速飞行
+
+RavenGuo:
+  Move:
+  - 鸦旋风
+  - 报纸派送
+  - 高速飞行
+
+RavenWen3:
+  Move:
+  - 鸦旋风
+  - 报纸派送
+  - 高速飞行
+
+RavenGuo3:
+  Move:
+  - 鸦旋风
+  - 报纸派送
+  - 高速飞行
+
+RavenTarget:
+  Move:
+  - 鸦旋风
+  - 报纸派送
+  - 高速飞行
+
+GuihuoRed:
+  Move:
+  - 怨针
+  - 易伤
+  - 自爆
+
+GuihuoGreen:
+  Move:
+  - 怪火
+  - 脆弱
+  - 自爆
+
+GuihuoBlue:
+  Move:
+  - 怪火
+  - 虚弱
+  - 自爆
+
+YinyangyuRed:
+  Move:
+  - 阴阳弹
+  - 阴阳弹
+
+YinyangyuBlue:
+  Move:
+  - 阴阳弹
+  - 结界
+
+YinyangyuRedReimu:
+  Move:
+  - 阴阳弹
+  - 阴阳弹
+
+YinyangyuBlueReimu:
+  Move:
+  - 阴阳弹
+  - 结界
+
+FraudRabbit:
+  Move:
+  - 推销电话
+  - 骚扰电话
+  - 狡兔三窟
+  - 溜了溜了
+
+DollBlue:
+  Move:
+  - 紫色花开
+  - 亢奋之毒
+  - 致命芳香
+
+DollPurple:
+  Move:
+  - 紫色花开
+  - 亢奋之毒
+  - 致命芳香
+
+Fox:
+  Move:
+  - 欺诈宝珠
+  - 摄魂夺魄
+  - 魅惑
+
+Scout:
+  Move:
+  - 侧面火力
+  - 防御矩阵
+  - 探测中
+  - 电磁干扰
+
+Purifier:
+  Move:
+  - 正面火力
+  - 防御矩阵
+  - 消毒中
+  - 电磁干扰
+
+Terminator:
+  Move:
+  - 黄瓜导弹
+  - 火力压制
+  - 自我维护
+  - 电磁干扰
+
+ScoutElite:
+  Move:
+  - 侧面火力
+  - 防御矩阵
+  - 探测中
+  - 电磁干扰
+
+PurifierElite:
+  Move:
+  - 正面火力
+  - 防御矩阵
+  - 消毒中
+  - 电磁干扰
+
+TerminatorElite:
+  Move:
+  - 黄瓜导弹
+  - 火力压制
+  - 自我维护
+  - 电磁干扰
+
+HetongKailang:
+  Move:
+  - 金刚扳手
+  - 修理
+  - 助威
+
+HetongYinchen:
+  Move:
+  - 破坏铁锤
+  - 修理强化
+
+Yaoshi:
+  Move:
+  - 辉光
+  - 带电
+  - 天罚
+
+Bat:
+  Move:
+  - 腥红的牙
+  - 腥红的雨
+  - 高速飞行
+  - 超声定位
+
+BatLord:
+  Move:
+  - 腥红的牙
+  - 腥红的雨
+  - 高速飞行
+  - 超声定位
+
+SickGirl:
+  Move:
+  - 病如抽丝
+  - 回光返照
+
+WaterGirl:
+  Move:
+  - 湍流
+  - 溺死的漩涡
+  - 溺水诅咒
+
+LoveGirl:
+  Move:
+  - 结缘之樱
+  - 对爱恋的遗憾
+  - 找到真爱
+
+YaTiangou:
+  Move:
+  - 双烈风弹
+  - 全体闪避
+  - 超速练习
+
+LangTiangou:
+  Move:
+  - 犬返剑技
+  - 白狼的远望
+  - 白狼的闪击
+
+HardworkRabbit:
+  Move:
+  - 陨星锤
+  - 针对性调整
+
+LazyRabbit:
+  Move:
+  - 浑水摸鱼
+  - 银月之晶
+  - 分发零食
+
+ShenlingPurple:
+  Move:
+  - 优雅的华光
+  - 豪华的光扇
+
+ShenlingWhite:
+  Move:
+  - 富贵的华光
+  - 闪耀的光扇
+
+Limao:
+  Move:
+  - 射击
+
+KanakoLimao:
+  Title: 山与湖的化身
+  Move:
+  - 山的神恩
+  - 御神渡
+  - 召唤神灵
+
+SuwakoLimao:
+  Title: 土著神的顶点
+  Move:
+  - 土著神的作祟
+  - 长手长脚神
+  - 诅咒的大地
+  - 赤口大神的作祟
+
+Sunny:
+  Move:
+  - 阳光直射
+  - 恶作剧
+  - 日光
+  - 日符
+  - 阳光直射
+
+Luna:
+  Move:
+  - 月光倾泻
+  - 恶作剧
+  - 月光
+  - 月符
+  - 寂静之月
+
+Star:
+  Move:
+  - 蓝宝石切面
+  - 恶作剧
+  - 星光
+  - 星符
+  - 定位之星
+
+Aya:
+  Move:
+  - 风神木叶隐身术
+  - 天狗烈风弹
+  - 《文文。新闻》
+  - 号外！号外！
+
+Rin:
+  Move:
+  - 针山
+  - 召唤
+  - 引爆
+  - 死灰复燃
+  - 猫的步伐
+
+Nitori:
+  Move:
+  - 改造机甲
+  - 百种工具
+  - 光学迷彩
+
+Youmu:
+  Title: 半人半灵的二刀剑士
+  Move:
+  - 樱花闪闪
+  - 天上剑
+  - 天人之五衰
+  - 人鬼
+  - 未来永劫斩
+
+Kokoro:
+  Title: 表情丰富的扑克脸
+  Move:
+  - 狂喜之面
+  - 愤怒之面
+  - 忧心之面
+  - 假面
+  - 多变的情感爆发
+
+MaskRed:
+  Move:
+  - 情绪解放
+  - 影响情绪
+
+MaskGreen:
+  Move:
+  - 情绪解放
+  - 影响情绪
+
+MaskBlue:
+  Move:
+  - 情绪解放
+  - 影响情绪
+
+Clownpiece:
+  Move:
+  - 疯狂地狱火
+  - 自由之星
+  - 妖精大暴走
+
+Siji:
+  Move:
+  - 秦广王审判
+  - 楚江王审判
+  - 宋帝王审判
+  - 仵官王审判
+  - 阎罗王审判
+  - 卞成王审判
+  - 泰山王审判
+  - 平等王审判
+  - 都市王审判
+  - 转轮王审判
+
+Doremy:
+  Title: 梦的支配者
+  Move:
+  - 食梦中
+  - 没吃饱
+  - 羽化梦蝶
+  - 梦幻快车
+
+DreamRemilia:
+  Move:
+  - 绯色命运
+  - 封印命运
+  - Vampire Claw
+  - Night Dance
+  - 神枪
+  - Spear the Gungnir
+  - 夜符
+  - Queen of Midnight
+  - 红魔
+  - Scarlet Devil
+
+DreamAya:
+  Move:
+  - 天狗烈风弹
+  - 风神木叶隐身术
+  - 《文文。新闻》
+  - 号外！号外！
+
+DreamJunko:
+  Move:
+  - 掌上的纯光
+  - 战栗的寒冷之星
+  - 杀意的百合
+  - 地上秽的纯化
+  - 纯粹的狂气
+
+DreamYoumu:
+  Move:
+  - 樱花闪闪
+  - 天上剑
+  - 天人之五衰
+  - 人鬼
+  - 未来永劫斩
+
+Reimu:
+  Title: 维护和平的巫女
+  Move:
+  - 压制结界
+  - 追踪护符
+  - 阴阳结印
+  - 博丽结界
+  - 阴阳宝玉
+  - 灵符
+  - 梦想封印
+
+Marisa:
+  Title: 性急的魔法使
+  Move:
+  - 沐浴流星
+  - 虹星喷射
+  - 群星漩涡
+  - 收藏品大放送
+  - 蓄力中
+  - 恋符
+  - 极限火花
+
+Sakuya:
+  Title: 完全潇洒的女仆
+  Move:
+  - 银色囚笼
+  - 悖论弹射
+  - 幻惑误导
+  - 时间封锁
+  - 幻符
+  - 杀人玩偶
+
+Cirno:
+  Title: 最强的妖精
+  Move:
+  - 冰封球
+  - 冻结弹幕
+  - 冻结法力
+  - 寒冰护体
+  - 协力技
+  - 冰藤滋生
+  - 冰茧化冻
+  - 冰冷的春天
+  - 冰冻飞刀
+  - 冻符
+  - 完美冻结
+
+Koishi:
+  Title: 充满好奇心的妖怪
+  Move:
+  - 双重射击
+  - 弹幕
+  - 防御
+
+Long:
+  Title: 大天狗
+  Move:
+  - 彩星阵
+  - 天降虹星
+  - 虹光
+  - 光风霁月
+  - 被打败了
+
+Tianzi:
+  Title: 非想非非想天之女
+  Move:
+  - 天穹虹华之剑
+  - 气符
+  - 无念无想的境界
+  - 要石浮游炮
+  - 天穹斩
+
+Yuyuko:
+  Title: 天衣无缝的亡灵
+  Move:
+  - 惊梦
+  - 对岸的引诱
+  - 天衣无缝
+  - 无寿之梦
+  - 死蝶浮月
+  - 亡舞
+  - 生者必灭之理
+
+Wangling:
+  Move:
+  - 幽蝴蝶
+  - 掩护
+
+Sanae:
+  Title: 奇迹的现人神
+  Move:
+  - 秘法
+  - 九字切
+  - 秘术
+  - 遗忘之祭仪
+  - 奇迹
+  - 白昼的客星
+  - 退治
+  - 灵力掠夺者
+
+Remilia:
+  Title: 永远鲜红的幼月
+  Move:
+  - 绯色命运
+  - 封印命运
+  - Vampire Claw
+  - Night Dance
+  - 神枪
+  - Spear the Gungnir
+  - 夜符
+  - Queen of Midnight
+  - 红魔
+  - Scarlet Devil
+
+Junko:
+  Title: ' '
+  Move:
+  - 掌上的纯光
+  - 战栗的寒冷之星
+  - 杀意的百合
+  - 地上秽的纯化
+  - 纯粹的狂气
+
+Seija:
+  Title: 道具的救世主
+  Move:
+  - 道具的救世主
+  - 天下翻覆
+  - 多重射击
+  - 精准攻击
+  - 逆转攻势
+  - 实现愿望
+
+Yiji:
+  Title: 众神附身的月之公主
+  Move:
+  - 射击
+
+Yukari:
+  Title: 幻想的境界
+
+Kaguya:
+  Title: 展会的主办人
+
+Eirin:
+  Title: 长生不老药的制作者
+
+Reisen:
+  Title: 勤劳的送货月兔
+
+Tewi:
+  Title: 幸运的白兔
+
+Takane:
+  Title: 深山的经商妖怪
+
+Rinnosuke:
+  Title: 香霖堂店主
+
+Sumireko:
+  Title: 梦游的女高中生
+
+Nazrin:
+  Title: 小小探宝奇兵
+
+Xing:
+  Title: 财富的象征
+
+Miko:
+  Title: 圣德道士
+
+Mystia:
+  Title: 烧烤摊老板娘
+
+Hina:
+  Title: 厄运之神
+
+Rumia:
+  Title: 宵暗中潜行的妖怪
+
+Patchouli:
+  Title: 知晓五行的魔女
+
+Narumi:
+  Title: 操作生命的魔法地藏
+
+Mike:
+  Title: 生意兴隆的吉祥物
+
+Kagerou:
+  Title: 毛绒绒的狼人
+
+Kogasa:
+  Title: 惊天动地的唐伞妖怪
+
+Medicine:
+  Title: 小小的甜蜜毒药
+
+Hatate:
+  Title: 趋时的独立媒体人
+
+Ringo:
+  Title: 喜好团子的情报专员
+
+Yachie:
+  Title: 严厉的鬼杰组组长
+
+Shion:
+  Title: 破财消灾的瘟神之姐
+
+Jyoon:
+  Title: 散财招灾的瘟神之妹
+
+Mai:
+  Title: 引出生命力的背景舞者
+
+Satono:
+  Title: 引出精神力的背景舞者
+
+Mokou:
+  Title: 万象展的找茬人
+
+Keine:
+  Title: 人类村庄的教师
+
+Miyoi:
+  Title: 鲵吞亭的调酒师
+
+Suika:
+  Title: 鲸吞酒徒
+
+Eternity:
+  Title: 真夏夜的神
+
+Satori:
+  Title: 大家的心理医生
+
+Parsee:
+  Title: 绿眼的嫉妒
+
+Toyohime:
+  Title: 悠闲的月之使者
+
+Yorihime:
+  Title: 八百万月兔教头
+
+Shinmyoumaru:
+  Title: 末代小人
+
+Hecatia:
+  Title: 辉夜应援团团长
+
+Budu:
+  Title: 真人在线算命先生
+
+Kosuzu:
+  Title: 妖魔书收集专家
+
+

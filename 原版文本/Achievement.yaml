@@ -1,0 +1,279 @@
+# This file contains generated content from config data
+
+NormalReimu:
+  Name: 博丽神社的巫女
+  Description: 以博丽灵梦获得胜利。
+
+TrueReimu:
+  Name: 解决异变的专家
+  Description: 以博丽灵梦获得完美胜利。
+
+LunaticReimu:
+  Name: 幻想乡的守护者
+  Description: 以博丽灵梦获得Lunatic难度完美胜利。
+
+NormalMarisa:
+  Name: 普通的魔法使
+  Description: 以雾雨魔理沙获得胜利。
+
+TrueMarisa:
+  Name: 查明真相的学者
+  Description: 以雾雨魔理沙获得完美胜利。
+
+LunaticMarisa:
+  Name: 功夫不负有心人
+  Description: 以雾雨魔理沙获得Lunatic难度完美胜利。
+
+NormalSakuya:
+  Name: 完美潇洒的女仆
+  Description: 以十六夜咲夜获得胜利。
+
+TrueSakuya:
+  Name: 名侦探的助手
+  Description: 以十六夜咲夜获得完美胜利。
+
+LunaticSakuya:
+  Name: 时间旅行者
+  Description: 以十六夜咲夜获得Lunatic难度完美胜利。
+
+NormalCirno:
+  Name: 最强的妖精
+  Description: 以琪露诺获得胜利。
+
+TrueCirno:
+  Name: 妖精们的孩子王
+  Description: 以琪露诺获得完美胜利。
+
+LunaticCirno:
+  Name: 王道的主人公
+  Description: 以琪露诺获得Lunatic难度完美胜利。
+
+NormalKoishi:
+  Name: 充满好奇心的妖怪
+  Description: 以古明地恋获得胜利。
+
+TrueKoishi:
+  Name: 意外的名侦探
+  Description: 以古明地恋获得完美胜利。
+
+LunaticKoishi:
+  Name: 无法被感知的视点
+  Description: 以古明地恋获得Lunatic难度完美胜利。
+
+PuzzleAny:
+  Name: 初次挑战
+  Description: 以一个难题获得胜利。
+
+Puzzle:
+  Name: 解决难题
+  Description: 以七个难题获得胜利。
+
+PuzzleTrue:
+  Name: 完美答卷
+  Description: 以七个难题获得完美胜利。
+
+PuzzleLunatic:
+  Name: 迎娶公主
+  Description: 以七个难题获得Lunatic难度完美胜利。
+
+JadeBox:
+  Name: 锦囊妙计
+  Description: 以任意玉匣获得胜利。
+
+Reimu:
+  Name: 逆转结界
+  Description: 击败博丽灵梦。
+
+Marisa:
+  Name: 捉拿归案
+  Description: 击败雾雨魔理沙。
+
+Sakuya:
+  Name: 突破封锁
+  Description: 击败十六夜咲夜。
+
+Cirno:
+  Name: 融化冰雪
+  Description: 击败琪露诺。
+
+Koishi:
+  Name: 明察秋毫
+  Description: 击败古明地恋。
+
+Long:
+  Name: 超越星光
+  Description: 击败饭纲丸龙。
+
+Yuyuko:
+  Name: 超越生死
+  Description: 击败西行寺幽幽子。
+
+Tianzi:
+  Name: 击穿铁壁
+  Description: 击败比那名居天子。
+
+Sanae:
+  Name: 直面神迹
+  Description: 击败东风谷早苗。
+
+Remilia:
+  Name: 斩破命运
+  Description: 击败蕾米莉亚。
+
+Junko:
+  Name: 成分复杂
+  Description: 击败纯狐。
+
+Seija:
+  Name: 击败真凶
+  Description: 击败鬼人正邪。
+
+Black:
+  Name: 深不见底的沼泽
+  Description: 获胜时拥有 5 点黑色法术力。
+
+Red:
+  Name: 绵延不绝的山脉
+  Description: 获胜时拥有 5 点红色法术力。
+
+Green:
+  Name: 古木参天的森林
+  Description: 获胜时拥有 5 点绿色法术力。
+
+White:
+  Name: 一望无际的平原
+  Description: 获胜时拥有 5 点白色法术力。
+
+Blue:
+  Name: 幻想乡里没有的海岛
+  Description: 获胜时拥有 5 点蓝色法术力。
+
+FiveColor:
+  Name: 水晶采石场
+  Description: 获胜时拥有 5 种基本单色法术力。
+
+Yinyang:
+  Name: 染血的阴阳玉
+  Description: 以 100 点以上伤害的阴阳玉击败一名敌人。
+
+BoliJiejie:
+  Name: 博丽大结界
+  Description: 拥有 1000 点护盾。
+
+JiangshenYishi:
+  Name: 降神仪式
+  Description: 拥有 20 种正面效果。
+
+Potion:
+  Name: 弹幕轰炸
+  Description: 连续触发 8 张不稳定魔药。
+
+Firepower:
+  Name: 火力就是正义
+  Description: 拥有 50 点火力。
+
+Starlight:
+  Name: 汇聚星光
+  Description: 以一张卡牌造成 300 点以上的伤害。
+
+Knife:
+  Name: 无限刀制
+  Description: 在一回合内让 10 张飞刀生效。
+
+MyTurn:
+  Name: 我的回合
+  Description: 连续行动 5 个回合。
+
+TimeAura:
+  Name: 危险的魔术师
+  Description: 拥有 200 层以上的时域冲击。
+
+Cold:
+  Name: 完美冻结
+  Description: 连续对一个敌人施加 9 次寒冷。
+
+Friend:
+  Name: 呼朋唤友
+  Description: 手中有 9 张已召唤的同伴牌。
+
+AyaSpecial:
+  Name: 最速对决
+  Description: 在射命丸文行动前击败她。
+
+YoumuSpecial:
+  Name: 「闪了！」
+  Description: 击败妖梦时，没有被她的楼观剑击中过。
+
+DoremySpecial:
+  Name: 盗梦空间
+  Description: 在哆来咪自然睡醒后击败她。
+
+SakuyaSpecial:
+  Name: 相同类型的替身
+  Description: 对战十六夜咲夜时，在额外回合中击败她。
+
+UseNoMoney:
+  Name: 节制
+  Description: 获得胜利时没有在商店进行任何消费。
+
+OneHp:
+  Name: 底力
+  Description: 在生命值为 1 时赢得一场战斗。
+
+CardsOneTurn:
+  Name: 无限
+  Description: 一回合内打出 30 张牌。
+
+LargeMana:
+  Name: 核能
+  Description: 在一回合内获得 30 点法力。
+
+FirstTurn:
+  Name: 最速
+  Description: 在第一回合击败一名 Boss 。
+
+PerfectBoss:
+  Name: 潇洒
+  Description: 无伤击败一名 Boss 。
+
+LowCardsGameRun:
+  Name: 清净
+  Description: 获得胜利时牌库不超过 8 张。
+
+LowCardsBattle:
+  Name: 净化
+  Description: 战斗胜利时，手牌、抽牌堆和弃牌堆总计不超过 3 张牌。
+
+NoExhibits:
+  Name: 两袖清风
+  Description: 游戏流程中只获得过光耀和秘宝级别的展品。
+
+SpeedRun:
+  Name: 高速模式
+  Description: 在 60 分钟内获得完美胜利。
+
+MystiaAdventure:
+  Name: 你是个好人
+  Description: 在深夜烧烤事件中，结账 5 次。
+
+RumiaAdventure:
+  Name: 碰瓷失败
+  Description: 在夜间疾驰事件中，被露米娅撞死。
+
+MikeAdventure:
+  Name: 矿工
+  Description: 在一次游戏流程中，使用招财进宝获得 800 金钱。
+
+NarumiAdventure:
+  Name: 我的心意
+  Description: 将人造珠宝送给成美。
+
+RinnosukeAdventure:
+  Name: 你可太识货了
+  Description: 将长翅膀的球卖给霖之助。
+
+CookieInBackdoor:
+  Name: 好吃
+  Description: 从后户之国中找到曲奇。
+
+

@@ -1,0 +1,91 @@
+# This file contains generated content from config data
+
+StartWithMythic:
+  Name: 辉夜秘宝
+  Description: |-
+    选择一件辉夜的|秘宝|开始游戏，Normal以上难度可以进入|b:最终幕|。
+    这会大幅降低游戏难度。
+
+TwoColorStart:
+  Name: 全力以赴
+  Description: |-
+    以两个角色初始展品开始游戏，第五点法力颜色改为{Mana}。
+    这会大幅降低游戏难度。
+
+StartWithJingjie:
+  Name: 明察秋毫
+  Description: |-
+    游戏开始时，直接获得|境界感知仪|。
+    无法获得外界系列展品。
+
+SelectCard:
+  Name: 精挑细选
+  Description: |-
+    通过10次选牌获得你的初始套牌 。
+    厄运：|逐客令|。
+
+Start50:
+  Name: 虹色主宰
+  Description: |-
+    以 {Value1} 张随机的卡牌开始游戏。
+    回合开始时，一点随机的法力转化为{Mana}。
+
+NoRareCard:
+  Name: 凡庸之乐
+  Description: 稀有牌被抽取或加入手牌时，|放逐|它，抽一张牌，获得{Mana}。
+
+FastMana:
+  Name: 先手致胜
+  Description: |-
+    战斗开始后，所有卡牌的费用减少{Mana}；
+    {PlayerName}每经过 {Value1} 个回合，所有卡牌的费用增加{Mana}。
+
+SlowMana:
+  Name: 超凡入圣
+  Description: |-
+    战斗开始时，非普通的牌费用增加{Mana}；
+    非普通的牌被打出后，费用随机减少 {Value1} 点，直到战斗结束。
+
+ExtraTurn:
+  Name: 时空紊乱
+  Description: 战斗开始后，{PlayerName}每经过 {Value1} 个回合，将一张|重塑|为{Mana}的|膨胀空间|加入手中。
+
+Capital:
+  Name: 资本积累
+  Description: |-
+    回合结束时，每有 {Value1}<sprite="Point" name="Gold">，失去 {Value2} 点生命值。
+    战斗结束时，获得现有<sprite="Point" name="Gold">的 {Value3}% 。
+
+AllCharacterCards:
+  Name: 通感通意
+  Description: 可以获得所有角色牌。
+
+FourCards:
+  Name: 四重存在
+  Description: 奖励和商店卡牌进入牌库时，如果它是普通/罕见牌，将它的 {Value1}/{Value2} 张复制加入牌库。
+
+DefensePhilosophy:
+  Name: 幻茧之梦
+  Description: 打出一张防御牌时，{PlayerName}获得{Mana}，丢弃最左边的手牌。
+
+HpToPower:
+  Name: 沸血之舞
+  Description: |-
+    {PlayerName}每失去一点生命值，获得 {Value1} 点<sprite="Point" name="Power">。
+    使用符卡时，{PlayerName}失去 {Value2} 点最大生命值。
+
+QuickAct1:
+  Name: 电光火石
+  Description: |-
+    每一幕的第一节内，遭遇的敌人失去一半生命值。
+    每一幕开始时，{PlayerName}失去当前生命值的 {Value1}%。
+
+CatchGoblin:
+  Name: 福星高照
+  Description: 战斗开始时，一个随机敌人受到的伤害减少 33%，击败后掉落 50<sprite="Point" name="Gold">，持续 {Value1} 回合。
+
+StartEthereal:
+  Name: 大梦初醒
+  Description: '{PlayerName}的第一回合开始时，所有手牌获得|虚无|。'
+
+

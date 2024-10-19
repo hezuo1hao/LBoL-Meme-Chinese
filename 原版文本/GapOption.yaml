@@ -1,0 +1,31 @@
+DrinkTea:
+  Name: 饮茶
+  Description: 回复最大生命值的 {Rate}% ({Value})
+  AdditionalHeal: 额外回复 ({AdditionalHeal}) 生命
+  AdditionalPower: 额外回复 ({AdditionalPower}) 能量
+  AdditionalCardReward: 额外从 {CardCount} 张卡牌中选择一张加入牌库
+
+UpgradeCard:
+  Name: 修行
+  Description: 升级牌库中的一张牌
+  PuzzleDescription: 升级非基础牌需要支付 {Price} 点<sprite="Point" name="Gold">
+
+FindExhibit:
+  Name: 寻宝
+  Description: 找到一件随机展品
+
+GetMoney:
+  Name: 募捐
+  Description: 获得 {Value} 点<sprite="Point" name="Gold">
+
+RemoveCard:
+  Name: 净身
+  Description: 移除牌库中的一张牌
+
+GetRareCard:
+  Name: 发想
+  Description: 从 {Value} 张随机的稀有牌中选择一张加入牌库
+
+UpgradeBaota:
+  Name: 汇集
+  Description: 升级毘沙门天的宝塔

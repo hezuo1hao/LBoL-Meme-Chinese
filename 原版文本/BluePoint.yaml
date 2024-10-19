@@ -1,0 +1,123 @@
+# This file contains generated content from config data
+
+NormalEnemy:
+  Name: 普通敌人掉落
+  Description: 玩家击败的普通敌人数量
+
+EliteEnemy:
+  Name: '{0} 击败精英'
+  Description: 在{0}击败的精英敌人数量
+
+Boss:
+  Name: 击败Boss
+  Description: 击败的Boss数量
+
+Rainbow1:
+  Name: 日月星的光芒
+  Description: 拥有 3 种以上的单色法术力
+
+Rainbow2:
+  Name: 四季的轮回
+  Description: 拥有 4 种以上的单色法术力
+
+Rainbow3:
+  Name: 精通五行的贤者
+  Description: 拥有 5 种以上的单色法术力
+
+Suicide:
+  Name: 玩脱了
+  Description: 对自己造成致命伤害
+
+NormalEnd:
+  Name: 解决异变
+  Description: 击败第三幕 Boss
+
+TrueEnd:
+  Name: 击败真正的黑幕
+  Description: 击败最终幕 Boss
+
+MyTurn1:
+  Name: 世界
+  Description: 连续行动 3 个回合
+
+MyTurn2:
+  Name: 我的回合
+  Description: 连续行动 5 个回合
+
+PerfectElite:
+  Name: 避弹
+  Description: 与精英敌人战斗中没有承受任何伤害
+
+PerfectBoss:
+  Name: 潇洒
+  Description: 与前三幕的 Boss 战斗中没有承受任何伤害
+
+PerfectBossAll:
+  Name: 完美的潇洒
+  Description: 与前三幕所有 Boss 战斗中没有承受任何伤害
+
+Robber1:
+  Name: 小偷
+  Description: 拥有超过 20 个展品
+
+Robber2:
+  Name: 大盗
+  Description: 拥有超过 30 个展品
+
+Librarian1:
+  Name: 不动的大图书馆
+  Description: 牌库数量超过 30
+
+Librarian2:
+  Name: 缘起幻想乡
+  Description: 牌库数量超过 40
+
+Misfortune:
+  Name: 不幸
+  Description: 牌库中包含 3 张以上的厄运牌
+
+Universe:
+  Name: 宇宙
+  Description: 牌库中没有两张相同的卡牌
+
+OneHit:
+  Name: 普通一击
+  Description: 一次攻击造成不小于 100 点伤害
+
+Pauper:
+  Name: 贫穷
+  Description: 没有稀有卡牌
+
+Rich1:
+  Name: 富有
+  Description: 在商店消费 1000 以上的金钱
+
+Rich2:
+  Name: 买买买
+  Description: 在商店消费 2000 以上的金钱
+
+Rich3:
+  Name: 土豪
+  Description: 在商店消费 3000 以上的金钱
+
+Food1:
+  Name: 吃货
+  Description: 最大生命值累计提高了 20 点以上（蓝色药丸无效）
+
+Food2:
+  Name: 亡灵
+  Description: 最大生命值累计提高了 30 点以上（蓝色药丸无效）
+
+Food3:
+  Name: 饕餮
+  Description: 最大生命值累计提高了 40 点以上（蓝色药丸无效）
+
+Puzzles:
+  Name: 难题
+  Description: 每个激活的难题
+
+Difficulty:
+  Name: 难度
+  Description: 最终得分会乘以难度因数
+
+

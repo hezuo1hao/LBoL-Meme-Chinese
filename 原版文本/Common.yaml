@@ -1,0 +1,917 @@
+Game:
+  Title: "东方光耀夜 ~ Lost Branch of Legend"
+  Hp: 生命值
+  PowerPoint: 'P 点'
+  Money: 金钱
+  Card: 卡牌
+  Exhibit: 展品
+  Level: 关卡
+  Difficulty: 难度
+  Deck: 牌库
+  ActualOrder: 实际顺序
+  ActualOrderExplain: |-
+    按照卡牌进入牌堆的顺序显示。
+
+    牌库：这局游戏中的获取顺序。
+    抽牌堆：第一张是「牌堆顶」。
+    弃牌堆：最后一张是「牌堆顶」。
+
+    在默认情况下，你无法按照此顺序显示抽牌堆。
+  IndexOrder: 牌张顺序
+  IndexOrderExplain: |-
+    按照收藏界面顺序显示卡牌。
+    同名卡牌之间按照实际顺序显示。
+  TypeOrder: 类型顺序
+  TypeOrderExplain: |-
+    同类型的卡牌之间按照牌张顺序显示。
+    同名卡牌之间按照实际顺序显示。
+  RarityOrder: 稀有度
+  RarityOrderExplain: |-
+    同稀有度的卡牌之间按照牌张顺序显示。
+    同名卡牌之间按照实际顺序显示。
+  ManaAmountOrder: 总费用数
+  DrawZone: 抽牌堆
+  DrawZoneInOrder: 顺序抽牌堆
+  DrawZoneOutOfOrder: 抽牌堆
+  DiscardZone: 弃牌堆
+  ExileZone: 放逐区
+  TopSuffix: '（牌堆顶）'
+  BottomSuffix: '（牌堆底）'
+  TopBottomSuffix: '（牌堆顶/底）'
+  EndTurn: 结束回合
+  BattleStart: 战斗开始
+  PlayerTurn: 己方行动
+  EnemyTurn: 敌方行动
+  RoundCounter: 第 {0} 轮
+  TurnCounter: 第 {0} 回合
+  PlayerNameTurn: '{0}行动'
+  PlayerNameTurnCounter: '{0}的第 {1} 回合'
+  NaturalTurn: 自然回合
+  ExtraTurn: 额外回合
+  InTurn: 在回合内
+  OutTurn: 在回合外
+  NotInThatTurn: 还未生效：没有到达目标回合。
+  Next: 前进
+  NextSkip: 跳过奖励
+  NextStage: 进入下一幕
+  Achievement: 成就
+  UnlockLevel: 调查等级
+  Passive: ' 被动 '
+  UnknownCard: '未知卡牌'
+
+
+Ultimate:
+  ConsumePower: 消耗能量<sprite="Point" name="Power">：{0}
+  MaxPower: 最大充能次数：{0}
+  FreeToUse: 同一回合内可以使用多次
+  OncePerTurn: 每回合仅可使用一次
+  OncePerBattle: 每场战斗仅可使用一次
+
+Explain:
+  Title: 说明
+  RollCard: |-
+    「奖励卡牌池」备选规则：
+
+    一张牌必须符合以下所有条件，才会进入备选池：
+    规则 1. 基础法术力的全额，足够打出这张牌。
+    规则 2. 如果它是一张角色牌，需要玩家扮演这名角色，或拥有该角色的专属展品。
+    规则 3. 基础法术力的颜色里，必须包含这张牌的每一种颜色。此时，彩色法力不会被视作其他颜色。
+
+    玩家扮演灵梦，拥有以下光耀展品：黑暗魔导书、贤者之石、万宝槌
+    基础法术力是<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="W"><sprite="ManaSprite" name="R"><sprite="ManaSprite" name="R"><sprite="ManaSprite" name="B"><sprite="ManaSprite" name="P"><sprite="ManaSprite" name="C">共 7 点，你可以获得灵梦、魔理沙、中立的卡牌。
+
+    一张费用为<sprite="ManaSprite" name="B"><sprite="ManaSprite" name="B">的黑色牌可以被你获取。因为基础法术力有<sprite="ManaSprite" name="B"><sprite="ManaSprite" name="P">足够支付它。
+    一张费用为<sprite="ManaSprite" name="U"><sprite="ManaSprite" name="B">的蓝黑牌不能被你获取，因为你没有任何一点<sprite="ManaSprite" name="U">，即使你的<sprite="ManaSprite" name="B"><sprite="ManaSprite" name="P">足够支付它。
+    这是为了防止彩色基础法术力过于干扰你的牌池，以至于你不愿意选择「贤者之石」。
+
+    * 光耀展品：空白卡牌 会直接让规则 3 失效。
+    * 一张总费用大于 5 的卡牌，其数字费用部分<sprite="ManaSprite" name="X">不受规则 1 约束。它们往往具备减少数字费用的办法。
+  LoseShinning: '你总是能获取正在操控角色的专属卡牌，即使你失去了初始展品。'
+  RemiliaMeet: |-
+    1.替换为相同费用的吸血牌。
+    2.替换时保留卡牌的升级性。
+  ShinmyoumaruForge: |-
+    1.攻击牌替换为攻击牌，防御牌替换为防御牌。
+    2.替换时保留卡牌的升级性。
+  SaveWhenSelect: '选择此项后会立刻保存进度。'
+  Power: 能量<sprite="Point" name="Power">
+  PowerDescription: |-
+    用于释放符卡。
+    （画面左上角）
+
+UI:
+  Yes: 是
+  No: 不
+  On: 开启
+  Off: 关闭
+  Display: 显示
+  Hide: 隐藏
+  Hiding: 已隐藏界面
+  Confirm: 确认
+  Cancel: 取消
+  Return: 返回
+  Close: 关闭
+  Take: 拿走
+  Skip: 跳过
+  Setting: 设定
+  Exit: 退出
+  ExitGame: 退出游戏
+  CopyHint: 已复制游戏种子
+  SaveHint: 已存储进度
+  Numbers: ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]
+  Divide: 、
+  SideCloseHint: 点击边缘处关闭
+  SkipHint: 按下{0}以快进
+  SeRemove: '{0} 消失'
+  SeAmulet: '抵挡 {0}'
+  SpellTitled: '  {0}「{1}」'
+  SpellUntitled: '「{0}」'
+
+MainMenu:
+  NewGame: 新游戏
+  RestoreGame: 继续游戏
+  AbandonGame: 放弃游戏
+  Setting: 设定
+  Collection: 收集总览
+  Database: 资料库
+  ComplexRules: 复杂规则
+  Characters: 登场角色
+  LifeData: 生涯数据
+  History: 历史详细
+  MusicRoom: 音乐室
+  Changelog: 更新内容
+  Credits: 制作名单
+  Licenses: 开源许可
+  ExitGame: 退出游戏
+  SelectProfile: 请选择一个存档
+  InputName: 请写入您的名字
+  DeleteProfile: 确定要删除这段历史吗？
+  EmptyProfile: 此段历史没有记载
+  DeleteYes: 确定删除
+  DeleteNo: 返回
+  EarlyAccess: EA说明
+  StartDate: 创建日期
+  PlayedTime: 游戏时长
+  LastPlayed: 最后游玩
+
+StartGame:
+  CharacterUnset: 请选择主人公
+  DifficultyTitle: 请选择游戏难度
+  Rate: 复杂程度
+  Seed: 种子
+  SetSeed: 设定种子
+  InvalidSeed: 无效种子
+  SetJadeBox: 设定玉匣
+  JadeBoxLock: 玉匣系统将在调查等级10级时解锁。
+  JadeBoxSelectedCount: 已选择 {0}/{1}
+  NoClearHind: 设定了种子或玉匣的游戏，不被计入通关，也无法解锁成就。
+  OpeningComic: 观看序幕剧情
+  StoryMode: 故事模式
+  StoryDescription: |-
+    以博丽灵梦解决光耀异变
+    部分关卡的敌人固定
+    禁用少量「友好相遇」
+  FreeMode: 自由模式
+  FreeDescription: |-
+    以你喜欢的角色任意游玩
+    禁用大部分剧情对话
+    开启全部「友好相遇」
+  NoStoryMode: |-
+    故事模式还没有准备好
+    请期待游戏更新
+  NotReadyHint: |-
+    这名角色还没有准备好
+    请期待游戏更新
+  IsLockHint: |-
+    这名角色将在调查等级
+    达到 {0} 级后可选
+  CheckDeck: 初始牌库
+  SkillSpellCard: 符卡  {0}<sprite="Point" name="Power">
+  SkillExhibit: 初始展品
+  StartMoney: 初始携带金钱
+  StartHp: 初始生命值
+  DifficultyHint: '没玩过《杀戮尖塔》的话，建议先玩 Easy 难度'
+  ClearNormal: 已通关
+  ClearTrue: 已完美通关
+  NeedClear: 通关前一个难度解锁
+  Puzzle: 难题
+  SelectAll: 全选
+  PuzzleHint: |-
+    选择一些难题进行挑战，增加蓝点和调查经验的获取。
+    调查等级达到 4 级后开始解锁。
+  Puzzles: '{0}个难题'
+  LockPuzzle: 调查等级达到 {0} 级后解锁
+  ShowRandomResult: '揭示命运'
+  NotShowRandomResult: '未知命运'
+  ShowRandomResultTitle: '揭示既定的命运'
+  NotShowRandomResultTitle: '不揭示既定的命运'
+  ShowRandomResultDescription: |-
+    是否在「友好相遇」事件选项中显示随机获得的卡牌、展品等结果。
+    随机结果对于本场游戏是确定的，且不会由于重开游戏而改变。
+
+    <color=#dd7473>哦吼吼吼——感受我的力量吧！
+  NotShowRandomResultDescription: |-
+    是否在「友好相遇」事件选项中显示随机获得的卡牌、展品等结果。
+    随机结果对于本场游戏是确定的，且不会由于重开游戏而改变。
+
+    <color=#dd7473>不需要我的帮助吗，哼！
+
+Museum:
+  UpgradedFilter: 升级
+  CardStyleFilter: 异画
+  CardStyleTooltip: |-
+    只显示拥有多张异画的卡牌。
+    在卡牌详细界面，可以选择喜欢的卡图显示。
+  UnlockAndReveal: 已解锁&发现
+  Rarity: 稀有度
+  ManaCost: 法力消耗
+  Character: 角色
+  ManaType: 法力类型
+  CardType: 卡牌类型
+  CardNotReady: |-
+    这张牌还没有准备好。
+    请期待游戏更新。
+  UnRevealCard: 未知卡牌
+  UnRevealExhibit: 未发现展品
+  LockExhibit: 未解锁展品
+  ExhibitType:
+    T1: 秘宝
+    T2: 光耀
+    T3: 稀有
+    T4: 罕见
+    T5: 普通
+    T6: 商店
+    T7: 事件&其它
+  AchievementCount: 已获得成就
+  All: 全部
+  Unlock: 已获得
+  NotUnlock: 未获得
+  Hidden: 隐藏成就
+  HiddenDescription: 这个成就的细节在解锁后才会显示。
+  TextFilterHint: 检索文本
+  ManaFilterHint: 如果你只想查看包含蓝白双色的卡牌，请勾选蓝色、白色和彩色法力图标。
+
+Lifetime:
+  Title: 生涯数据
+  HighestBp: 最高得点<sprite="Point" name="Point">
+  TotalBp: 总计蓝点<sprite="Point" name="Point">
+  Time: 游戏时间
+  Game: 游戏次数
+  Win: 胜利次数
+  Perfect: 完美胜利次数
+  Puzzle: 攻克难题数量
+  OldData: 旧版本数据 <sprite="TextIcon" name="Info">
+  OldDataHint: 在v1.3.15之前的版本中，本数据只记录了全角色总量，没有按角色分别记录。
+  NoData: 未记录数据
+  NoDataHint: 在v1.3.15之前的版本中，本数据未被记录。
+
+Setting:
+  Main: 综合
+  Preference: 游戏偏好
+  Key: 按键
+  ResetDefault: 默认设置
+
+  Resolution: 分辨率
+  RefreshRate: 帧率
+  VideoQuality: 质量
+  RenderScale: 渲染倍率
+  FullScreen: 全屏
+  Vsync: 垂直同步
+  ScreenVibration: 屏幕震动
+  Language: 语言
+
+  AudioMaster: 主音量
+  AudioBgm: 音乐
+  AudioUi: 界面与交互
+  AudioSfx: 战斗与弹幕
+  RecommendVolume: 推荐音量
+  LostFocusMute: 失焦静音
+
+  TurboMode: 加速模式
+  TurboModeDescription: |-
+    加快战斗演出的速度。
+    角色动画、弹幕动画和游戏计时的速度提高至 {0} 倍；不会影响UI动画的速度。
+  TurboPlaying: 演出 {0} 倍加速中
+  Keyword: 关键字详略
+  KeywordDescription: |-
+    简洁模式下不显示关联到的基础关键字，推荐熟悉游戏后使用。
+    火力、灵力、格挡、护盾、闪避、精准、彩色、升级、能力、混血费用。
+  Detailed: 详尽
+  Brief: 简洁
+  DontShow: 不显示
+  Illustrator: 插画师名字
+  IllustratorDescription: 是否在卡牌中显示插画师的名字。
+  TooltipSize: 提示框文本大小
+  TooltipSizeDescription: |-
+    调整卡牌、展品等提示框的整体大小，也会影响敌人意图的伤害文字大小。
+    默认设置为「小」，建议在游戏分辨率较低时调整为「大」。
+  Large: 大
+  Small: 小
+  Show: 显示
+  Hide: 隐藏
+  AnimatingEnvironment: 使用动态背景
+  AnimatingEnvironmentDescription: 在关卡场景和隙间小屋中使用动态背景。
+  SingleEnemyAutoSelect: 自动选择单个敌人
+  SingleEnemyAutoSelectDescription: 是否在剩下单个敌人时自动打出需要选择目标的牌。
+  ShowShortcut: 显示手牌快捷键
+  ShowShortcutDescription: 在手牌上方显示快速选择按键文本
+  ShowCardOrder: 显示卡牌顺序
+  ShowCardOrderDescription: |-
+    在卡牌上方显示它在对应牌组中的顺序。
+
+    只对可以显示实际顺序的牌组有效（默认是牌库、弃牌堆和放逐区）。
+    对于抽牌堆和弃牌堆，还会额外指示牌堆顶和牌堆底。
+
+    设置为关闭时，也可以按下「显示敌人顺序键」显示。
+  ShowReload: 显示回到过去次数
+  ShowReloadDescription: 在地图界面显示本次游戏的回到过去次数、是否揭示命运状态
+  Shake: 屏幕震动
+  ShakeDescription: 战斗内的伤害是否产生屏幕震动
+  Enable: 启用
+  Disable: 禁用
+  XCostWarning: 费用 X 空法力提示
+  XCostWarningDescription: 在打出费用 X 的牌时，没有手动选择法力的情况下提醒玩家。
+  Warn: 提示
+  DontWarn: 不提示
+  HintLevel: 教学性提示
+  ResetHint: 重置提示
+
+  EnableKeyboard: 启用键盘
+  
+  Actions:
+    Action: 操作
+    Button: 按键
+    Select1: 快速选择 1
+    Select2: 快速选择 2
+    Select3: 快速选择 3
+    Select4: 快速选择 4
+    Select5: 快速选择 5
+    Select6: 快速选择 6
+    Select7: 快速选择 7
+    Select8: 快速选择 8
+    Select9: 快速选择 9
+    Select10: 快速选择 10
+    Select11: 快速选择 11
+    Select12: 快速选择 12
+    PoolW: 移动<sprite="ManaSprite" name="W">至待选区
+    PoolU: 移动<sprite="ManaSprite" name="U">至待选区
+    PoolB: 移动<sprite="ManaSprite" name="B">至待选区
+    PoolR: 移动<sprite="ManaSprite" name="R">至待选区
+    PoolG: 移动<sprite="ManaSprite" name="G">至待选区
+    PoolC: 移动<sprite="ManaSprite" name="C">至待选区
+    PoolP: 移动<sprite="ManaSprite" name="P">至待选区
+    UseUs: 使用符卡
+    EndTurn: 结束回合
+    ToggleBaseDeck: 显示牌库
+    ToggleDrawZone: 显示抽牌堆
+    ToggleDiscardZone: 显示弃牌堆
+    ToggleExileZone: 显示放逐区
+    ToggleMap: 显示地图
+    ToggleMinimize: 临时隐藏界面
+    SkipDialog: 对话快进（按住）
+    ShowEnemyMoveOrder: 显示敌方行动顺序（按住）
+    RebindMessage: 请按下对应“{0}”的按键，按 Esc 取消
+
+History:
+  Puzzles: '{0}个难题'
+  Mana: 法力
+  Exhibit: 展品总数：{0}
+  Card: 卡牌总数：{0}
+  StatsSegment: '{0}：{1}'
+  AutoSeed: '随机的种子'
+  NotAutoSeed: '设置的种子'
+  ReloadTimes: '回到过去次数：{0}'
+  PlayedTime: '调查花费时间：{0}'
+
+System:
+  ReenterStation: 重开当前关卡
+  ResumeGame: 继续游戏
+  ReturnMainMenu: 回到主菜单
+  SystemMenu: 系统菜单
+  DoremyLevel: 第{0}层梦境
+  NoJadeBox:
+    Title: 无玉匣效果
+    Description: 没什么特别的。
+  EA: 游戏目前处于抢先体验，不代表最终品质
+
+Map:
+  Map: 地图
+  Hint: 点击边缘任意处关闭地图
+  Previous: 上一页
+  Next: 下一页
+
+  Enemy: 敌人
+  EliteEnemy: 精英敌人
+  Supply: 补给
+  Gap: 隙间小屋
+  Shop: 商店
+  Adventure: 友好相遇
+  Boss: 首领敌人
+  Entry: 起点
+  Select: 选择对手
+  Trade: 交易
+  BattleAdvTest: 测试
+
+Chat:
+  #诈骗兔子
+  FraudRabbitStart1: 我有关于犯人的情报，只要你肯付钱就告诉你。
+  FraudRabbitStart2: 我有最新的月球科技产品，只要你肯付钱就给你。
+  FraudRabbitOnlyOne: 怎么只剩我一个了！真是群没用的家伙。
+  FraudRabbitNoMoney: 一分钱都没有了啊，真是个穷鬼。
+  FraudRabbitLongTurn: 这都不上钩，不和她浪费时间，走了。
+  FraudRabbitPlayer: 哎！她怎么跑了！
+  #妖狐
+  Fox0: 哎呀！哪来的漂亮小姑娘~
+  Fox1: 亲爱的，绝对让你舍不得走~
+  Fox2: 宝贝儿，花样还多着呢~
+  #怨灵少女
+  SickGirl: 咳——咳——
+  WaterGirl: 让你也尝尝我所遭受的痛苦！
+  LoveGirlPlayer: 我喜欢你！
+  LoveGirlRespond: 好高兴！
+  LoveGirlEscape: 还是，没能找到相爱之人。
+  LoveGirlFallInLove: 我的心愿终于如愿以偿了。
+  #河童
+  HetongKailang1: 修好了，简直就和新的一样！
+  HetongKailang2: 嘛~，先这么凑合用用吧。
+  HetongKailang3: 大家，要加油哦！
+  HetongYinchen1: 不，你把{0}弄坏了。
+  HetongYinchen2: 我的{0}！
+  Scout: 「探机」
+  Purifier: 「大白」
+  Terminator: ' T-800 '
+  Terminator0: 自检中...
+  Terminator1: |-
+    系统完好...
+    解除抑制
+  Terminator2: |-
+    轻度损伤...
+    修复中...
+  Terminator3: |-
+    严重损伤...
+    修复中...
+  #月兔
+  HardworkRabbit1: 发现地球人型目标！
+  HardworkRabbit2: 我还要再加把劲！
+  LazyRabbit: 小玉真没用啊，这下我都没法摸鱼了。
+  #狸猫
+  Limao1: 听说山上神社供奉了很多好吃的。
+  Limao2: 让我看看这个技能怎么用来着的。
+  
+  #三月精
+  Sunny1: 今天一定要让{0:cs}见识我们的厉害！
+  Sunny2: 谁抢到展品就归谁！
+  Luna: 哦————！
+  Star: 哦————！
+  SunnySpell: 所有的光线在此汇集！
+  LunaSpell: 就让弹幕安静下来吧。
+  StarSpell: 所有的小动作都会被我侦察到哟~
+  #射命丸文
+  Aya1: 今天晚上永远亭骚乱的真相，就由我来为大家带来一手的报道。
+  Aya2: 有嫌疑人恼羞成怒，出手干扰采访了！
+  Aya3: 看看{0:cs}手上拿的东西，这就是证据！你就是犯人！
+  #火焰猫燐
+  Rin1: '大姐你的「{0}」好可爱！好想带回家！'
+  Rin2: 哎呀!大姐你下手好狠哦~
+
+  #河城荷取
+  Nitori1: 这可是我精心改装过的。
+  Nitori2: 看来防御性能还是不太行。
+  #魂魄妖梦
+  Youmu1: 砍了！
+  YoumuTuanzi: 还想吃「冰镇三色团」的话，请就此折返吧！
+  YoumuMooncake: 把「{0}」还给我！
+  #秦心
+  Kokoro1: 感觉最近有好几个面具都丢了。
+
+  #克劳恩皮丝
+  Clownpiece1: 妖精们啊，弹幕再多点！
+  Clownpiece2: 吸收这些光玉吧！
+  Clownpiece3: It's lunatic time！
+  #四季映姬
+  Siji1: |-
+    借调查异变之名，
+    行搜刮展品之实。
+  Siji2: |-
+    太丑陋了！
+    {0:cf}。
+  SijiMystia: 吃霸王餐，罪加一等。
+  SijiTurn1: 无效抗辩，罪加一等。
+  SijiTurn2: 藐视法庭，罪加一等。
+  SijiTurn3: 竟敢说我长得矮，罪加两等。
+  #哆来咪
+  DoremySleep: Zzzzz~
+  DoremySleepLast: 已经吃不下了~
+  DoremyKill: 你不用再醒来了哦~
+  DoremyAwake: 正是最精彩的部分呢！
+  DoremyMaster: 你已经到达梦的边境了哦。
+
+  #龙
+  LongBribery1: 你很上道嘛~
+  LongBribery2: 不错，不错。
+  LongEscape1: 哎呀，输给你了。
+  LongEscape2: 这个方向前往守矢神社哦~
+  #天子
+  #幽幽子
+  YuyukoMooncake: 好想吃「{0}」啊~
+
+  #早苗
+  #雷米
+  #纯狐
+
+ErrorChat:
+  MoneyNotEnough: 没有足够金钱
+  LowMana: 没有足够的法力
+  LowPower: 没有足够的能量
+  LowLoyalty: 同伴的支援度不足
+  CardNotInHand: 指定的牌已不在手牌中
+  CardNotUsable: 无法使用这张牌
+  CardCostChanged: 指定的牌费用已发生改变
+  CardFengyin: 我被封印了
+  CardDrunk: 我没醉！
+  CardCharm: 我使不上劲了
+  CardHuiye: 时间不够了
+  CardJinzi: 这个二重身已经尽力了
+  UsUsedThisBattle: 这场战斗中已经使用过符卡了
+  UsUsedThisTurn: 这回合已经使用过符卡了
+  TargetAlreadyDead: 目标已经死亡
+  NoTarget: 没有合法的目标
+  HandFull: 手牌已满
+  EmptyDraw: 抽牌堆已空
+  NoCardByMama: 没有指定费用的卡牌
+  NoAbilityCardInHand: 手中没有能力牌
+
+Debut:
+  EirinChats:
+    - 别摸鱼了，{0}
+    - 再不出门的话，药效要过了哦~
+  KaguyaChats:
+    - 我也准备出去看看情况
+    - 家里就拜托你啦，永琳
+    - 记得天亮前回来哦~
+
+Shop:
+  Skip: 跳过商人
+  Close: 关闭商店
+  CardService: 卡牌服务
+  SoldOut: 卖光了
+  Upgrade: 升级卡牌
+  UpgradeService: 升级：
+  ShopUpgradePrice: |-
+    {0} 点<sprite="Gold" name="gold">
+  UpgradeTooltip: |-
+    升级牌库中的一张牌。
+    价格固定为 {0} 点金钱。
+  Remove: 移除卡牌
+  RemoveService: 移除：
+  ShopRemovePrice: |-
+    {0} 点<sprite="Gold" name="gold">
+  RemoveTooltip: |-
+    从牌库中移除一张牌。
+    在本局游戏中每次使用都会涨价 {0} 点金钱（最大不超过 {1} ）。
+  BoughtQuotes:
+    - 谢谢惠顾
+  CantAffordQuotes:
+    - 我这儿可不是做慈善的
+    - 你买不起这个
+    - 你身上的金钱不够
+  WelcomeQuotes:
+    - 欢迎光临
+    - 随便看看
+  Chats:
+    - 这位姐姐，请来看看这边哟~
+    - 童叟无欺！真的不需要吗？
+
+Cards:
+  UpgradeTips: 请选择一张牌进行升级
+  RemoveTips: 请选择一张牌永久移除
+  TransformTips: 请选择一张牌变化
+  UpgradeDialog: 确定升级卡牌？
+  UpgradePrice: |-
+    花费 {0} 点<sprite="Gold" name="gold">
+    现有 {1} 点<sprite="Gold" name="gold">
+  RemoveDialog: 确定移除卡牌？
+  TransformDialog: 确定变化卡牌？
+  Size: ' {0} 张牌'
+  Show: 悬停/右键卡牌，以查看详细信息
+  Remove: 从牌库中移除 {0} 张牌
+  IsUpgraded: 此卡牌已升级
+  UnUpgradable: 此卡牌不可升级
+  NotInPool: 此卡牌不属于「总奖励卡池」
+
+Reward:
+  Headers:
+    - 太好了
+    - 选择战利品
+    - 选择奖励
+  CardHeader: 选择一张牌
+  Card: 将一张卡牌加入你的牌库中
+  Money: "{0}金钱"
+  Skip: 跳过奖励
+  Abandon: 放弃卡牌
+  AbandonMoney: 获得 {0} <sprite="Gold" name="gold">
+  AbandonMaxHp: 提高 {0} 点最大生命值
+
+ManaSelect:
+  Title: 选择一种法术力类型
+
+CardDetail:
+  UpgradeYes: 已升级
+  UpgradeNo: 未升级
+  Illustrator: '插画师：'
+  SwitchCardStyle: 选择异画
+  Sketch: 绘制中
+
+TopInfo:
+  Original: 原曲：
+  Artist: 乐师：
+  
+Gap:
+  HeaderInitial: 该休息一下了~
+  Headers:
+    - 该干什么好呢~
+    - 好累……
+
+GameResult:
+  Score: 得点
+  DifficultyFactor: 难度奖励系数
+  Win: 异变解决
+  Lose: 满身疮痍
+  ClickToOpen: 点击展开详情
+  ClickToFold: 点击折叠
+  NormalEnd: 但是蓬莱玉枝不知所踪
+  TrueEndFail: |-
+    找到了真凶，不过未能夺回蓬莱玉枝
+    （记为普通胜利）
+  TrueEnd: 完美解决了事件
+  BadEnd: 回到过去重来一次吧
+  FailReason: 失败原因：
+  Deprecated: ？？？（已过期）
+  Abandon: 放弃
+  ReturnHint: 点击任意处返回主菜单
+  Unlock: 新道具解锁
+  UnlockHint: 新解锁的展品和卡牌可以在未来的游戏流程中出现
+
+Rarity:
+  Common: 普通
+  Uncommon: 罕见
+  Rare: 稀有
+  Shining: 光耀
+  Mythic: 秘宝
+
+CardType:
+  Attack: 攻击
+  Defense: 防御
+  Skill: 技能
+  Ability: 能力
+  Friend: 同伴
+  Tool: 道具
+  Status: 状态
+  Misfortune: 厄运
+
+StatusEffectType:
+  Positive: 正面效果
+  Negative: 负面效果
+  Special: 特殊效果
+
+Tooltip:
+  Character:
+    Name: '{0}'
+    Description: 你目前所扮演的角色
+
+  Hp:
+    Name: 生命值：{0}
+    Description: 当生命值归零时，游戏失败
+
+  Money:
+    Name: 金钱：{0}
+    Description: 主要用于在商店购买各种道具
+
+  Stage:
+    Name: 第{0}幕
+    Description: 在这次游戏中所处的位置，每一幕形成一张地图
+
+  FinalStage:
+    Name: 最终幕
+    Description: 马上到游戏的终点了，继续前进吧！
+
+  Level:
+    Name: '{0} 关'
+    Description: 在这一幕中所处的进度
+
+  DifficultyEasy:
+    Name: '难度：简单'
+    Description: |-
+      游戏开始时获得辉夜的|秘宝|
+      无法进入|b:最终幕|
+
+  DifficultyNormal:
+    Name: '难度：普通'
+    Description: '标准难度'
+
+  DifficultyHard:
+    Name: '难度：困难'
+    Description: '敌人的攻击、生命值上升'
+
+  DifficultyLunatic:
+    Name: '难度：疯狂'
+    Description: |-
+      敌人的攻击、生命值上升
+      敌人的一些行为更加致命
+
+  DrawZone:
+    Name: 抽牌堆
+    Description: |-
+      你的每个回合开始时，从这里抽 {0} 张牌。
+      如果你的抽牌堆空了，弃牌堆中的牌会打乱顺序，洗入抽牌堆中。
+
+      点击这里查看抽牌堆中的牌，不过你无法看到它们的实际顺序。
+
+  DiscardZone:
+    Name: 弃牌堆
+    Description: |-
+      你打出或主动丢弃的牌会进入弃牌堆。
+      回合结束时，手牌会移入弃牌堆（不触发「主动丢弃」效果）。
+
+      点击这里查看弃牌堆中的牌
+
+  ExileZone:
+    Name: 放逐区
+    Description: |-
+      在一场战斗中，被|放逐|的牌会进入放逐区
+
+      点击这里查看放逐区中的牌
+
+  EndTurn:
+    Name: 结束回合
+    Description: |-
+      按下以结束你的回合。
+
+      你的手牌会移入弃牌堆（不触发「主动丢弃」效果）。
+      敌人依次进行她们的回合，之后你重新抽 {0} 张牌进行你的下一个回合。
+
+  BattleMana:
+    Name: 法力
+    Description: |-
+      你需要法力来打出卡牌，回合结束时流失。
+
+      卡牌中指定颜色的费用必须由对应颜色的法力支付，点击法力图标以指定优先使用的颜色。
+  
+  BaseMana:
+    Name: 基础法力
+    Description: |-
+      回合开始时，你会获得这些法力。
+
+      主要通过光耀级别的展品来扩展。
+      基础法力的颜色和数量，也会影响到奖励卡牌的随机池。
+
+  GameSeed:
+    Name: 游戏种子
+    Description: |-
+      每局游戏由一个种子生成
+
+      点击复制到剪贴板
+
+  EntityTitle:
+    Character: 角色牌
+    Neutral: 中立牌
+    White: 白色
+    Blue: 蓝色
+    Black: 黑色
+    Red: 红色
+    Green: 绿色
+    Colorless: 无色
+    MultiColor: 多色
+
+  UsTitle: '{0}「{1}」'
+
+  DetailedHint:
+    Name: 详细提示
+    Description: |-
+      显示全部的游戏提示。
+      这是我第一次玩卡牌构筑游戏。
+  BriefHint:
+    Name: 简略提示
+    Description: |-
+      只显示本游戏较为特别部分的游戏提示。
+      我玩过类似的游戏，比如《杀戮尖塔》。
+  DontShowHint:
+    Name: 不提示
+    Description: |-
+      不显示任何游戏提示。
+      我已经玩过《东方光耀夜》了。
+
+BattleHint:
+  Detailed: 显示详细提示
+  Brief: 显示简略提示
+  DontShow: 不显示提示
+  Prev: 上一页
+  Next: 下一页
+
+  Intro: |-
+    欢迎来到月都万象展！努力寻找蓬莱玉枝的下落吧！
+    如果您已游玩过卡牌构建式游戏，可以选择|简略提示|来查看本游戏较为特别的部分。
+    此后的游戏性提示也会遵循该设置。您可以在设置面板中随时调整游戏性提示的设置。
+  BasicBattle: |-
+    打出手中的卡牌来退治敌人！
+    打出后的手牌将会移入弃牌堆。在主角的回合结束时，仍留在手中的牌也将被移入弃牌堆。
+    主角的回合开始时将会抽取新的卡牌。
+  Mana: |-
+    鼠标右键点击卡牌可查看详情。（游戏中的大多数卡牌面板均可如此操作。）
+    打出卡牌需要消费法力。卡牌的法力费用显示在右上角。
+    法力的种类有<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="U"><sprite="ManaSprite" name="B"><sprite="ManaSprite" name="R"><sprite="ManaSprite" name="G">五种颜色的基础法力，无色法力<sprite="ManaSprite" name="C">及可以用于支付任意费用的彩色法力<sprite="ManaSprite" name="P">。
+    如同<sprite="ManaSprite" name="2">的数字费用，表示该费用可以使用任意的 2 点法力支付。
+  ManaPanel: |-
+    法力面板显示了主角当前回合剩余的法力。
+    鼠标左键单击任意一点法力，可以将法力移动到待选区。待选区中的法力将被优先消费。
+    右键单击任意一点法力，可以将该颜色的所有法力移动到待选区。
+    法力在主角的回合开始时恢复。
+  BlockShield: |-
+    在受到伤害之前，打出防御牌来获得|格挡|和|s:护盾|。
+    |格挡|和|s:护盾|可以降低将要受到的伤害。
+    |格挡|在主角的下一个回合开始时消失，但|s:护盾|不会。
+  Intention: |-
+    敌人的意图会显示在他们的上方。
+    敌人可能拥有攻击、防御、强化、施加负面状态或释放符卡等意图。
+  UltimateSkill: |-
+    在危急时刻使用符卡扭转战局！
+    使用符卡需要消费一整管能量。被击败的敌人会掉落<sprite="Point" name="Power">，用以补充符卡所需的能量。
+    符卡每回合只能使用一次。
+
+MessageDialog:
+  # Message
+  GameAbandonWarning: 确定放弃已有的游戏进度？
+  ReturnToMainMenu: 是否要返回主菜单？
+  QuitGame: 是否要退出游戏？
+  UnsavedWarning: 任何未保存的进度将丢失。
+  XCostEmptyUsageWarning: 是否在未设置法力的情况下使用{0}？
+  XCostEmptyUsageTips: 您可以使用左下角的法力面板为费用 X 的牌设定法力
+  DontShowHintWarning: 确定不再显示任何游戏提示？
+  ResetHintWarning: 确定要重置所有提示？
+  CloseBattleHint: 确定要结束教学？
+  SkipDialog: 是否跳过对话？
+  ResetKeyBindingsWarning: 确定要重置按键设置？
+  GameRunSaveDiscarded: |-
+    由于版本更新
+    上一次游戏进度已被丢弃
+  GameRunSaveDiscardedSubText: 玩家档案并不受此影响
+  EarlyAccess: |-
+    《东方光耀夜》处于抢先体验状态，一切设计都有可能改变。
+    目前我们正在制作可用角色古明地恋和爱丽丝。
+    更详细的游戏更新内容，请查看Steam公告。
+
+    如果游玩过程中遇到问题，欢迎到 steam 社区或 QQ 群寻求帮助。
+    官方交流群：209636617
+
+  # Error
+  InvalidProfileName: 无效的档案名称
+  AlreadyInGameRun: 已经在游戏进度中
+  CannotStartGameRunWithoutProfile: 无法开始新游戏：没有建立玩家档案
+  CannotRestoreEndedGameRun: 无法恢复已经结束的游戏进度
+  CorruptedSaveData: 存档文件损坏
+  CorruptedGameRunSaveData: 游戏进度存档文件损坏
+  CannotReenterStation: 无法重新进入关卡
+
+Credits:
+  Alioth: Alioth Studio
+  Alice: 游戏设计/程序
+  Yutopia: 美术指导/特效
+  Salyu: 程序
+
+  MainPartners: 主要协力者
+  DD: 美工
+  MW: 角色动画
+  LuvChan: 游戏设计
+  FK5: 程序/动效
+  Jiejiezi: 角色绘画/角色立绘
+  NeetRudong: 剧情漫画/事件美术
+  SignalE: 音乐 
+  Zackary: 音效
+  Sana: 角色立绘
+  Kyu: 角色立绘/场景美术
+  Zaochuan: 场景美术
+  Anima: 角色动画
+
+  Illustrator: 卡图插画
+
+  Thanks: 鸣谢
+  DG: 游戏原型讨论
+  Jiong: 各项事务支持
+  Liya: 特效
+  Wuqiqi: 2D美术
+  Aeolian: 特效/音效
+  UnuseArt: 未呈现的美术
+  NoiseClub: 音效
+
+  English: 英文本地化
+  Russian: 俄语本地化
+  Polish: 波兰语本地化
+  French: 法语本地化
+  Korean: 韩语本地化
+  Spanish: 西班牙语本地化
+  Japanese: 日语本地化
+  TChinese: 繁体中文本地化
+  Portuguese: 葡萄牙语本地化
+  Turkish: 土耳其语本地化
+  Vietnamese: 越南语本地化
+  Italian: 意大利语本地化

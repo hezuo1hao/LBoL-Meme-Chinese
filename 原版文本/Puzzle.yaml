@@ -1,0 +1,31 @@
+# This file contains generated content from config data
+
+HalfDrug:
+  Name: 抗药性
+  Description: 八意永琳给的药丸效果减半
+
+LowMaxHp:
+  Name: 向死而生
+  Description: 最大生命值降低 10 点
+
+StartMisfortune:
+  Name: 不受欢迎
+  Description: 游戏开始时厄运：|逐客令|
+
+LowStageRegen:
+  Name: 补给不足
+  Description: Boss 战斗后的金钱<sprite="Point" name="Gold">、能量<sprite="Point" name="Power">和生命恢复减半
+
+LowUpgradeRate:
+  Name: 通货膨胀
+  Description: 升级过的牌出现率减半，山城高岭出售的物品价格提高 10%
+
+PayForUpgrade:
+  Name: 健身房开始收费
+  Description: 隙间小屋内升级非基础卡牌需要支付 25 点<sprite="Point" name="Gold">
+
+NightMana:
+  Name: 长夜的疲惫
+  Description: 战斗开始时将一张|漫漫长夜|加入手中
+
+

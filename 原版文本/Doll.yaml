@@ -1,0 +1,36 @@
+# This file contains generated content from config data
+
+Shanghai:
+  Name: 上海人偶
+  Description: |-
+    |操纵效果|：对最先行动的敌人造成 {Damage1} 点伤害。
+    |魔力值|：{Magic}/{ActiveMagic}
+    回合开始时恢复一点|魔力|。
+
+Penglai:
+  Name: 蓬莱人偶
+  Description: '|操纵效果|：对生命值最低的敌人造成 {Damage1} 点伤害。'
+
+DefenseDoll:
+  Name: 防御人偶 (Experimental)
+  Description: |-
+    |被动|：获得 {Value1} 格挡
+    |主动|：造成 {Value2} 格挡
+
+ChargeDoll:
+  Name: 蓄力人偶 (Experimental)
+  Description: |-
+    |被动|：增加 {Value1} 攻击
+    |主动|：造成 {Damage} 点伤害
+
+ManaDoll:
+  Name: 法力人偶 (Experimental)
+  Description: |-
+    |被动|：获得 {Mana1}
+    |主动|：造成 {Mana2}
+
+IceCrystal:
+  Name: 冰晶
+  Description: 牺牲{SelfName}，选择一名敌人施加|寒冷|。
+
+

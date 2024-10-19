@@ -1,0 +1,62 @@
+# This file contains generated content from config data
+
+ReimuUltR:
+  Title: 灵符
+  Content: 梦想封印
+  Description: 对指定的敌人造成 {Damage} 点|精准|的伤害 {Value1} 次。
+
+ReimuUltW:
+  Title: 神技
+  Content: 八方鬼缚阵
+  Description: |-
+    获得 {Shield} 点|护盾|。
+    对所有的敌人造成 {Damage} 点|精准|的伤害，施加 {Value1} 回合|虚弱|。
+
+MarisaUltB:
+  Title: 黑魔
+  Content: 真空塌缩
+  Description: |-
+    对指定的敌人造成 {Damage} 点|精准|的伤害。
+    将 {Value1} 张|不稳定魔药|洗入抽牌堆。
+
+MarisaUltR:
+  Title: 恋符
+  Content: 极限火花
+  Description: 对所有的敌人造成 {Damage} 点|精准|的伤害。
+
+SakuyaUltW:
+  Title: 幻符
+  Content: 杀人玩偶
+  Description: |-
+    对指定的敌人造成 {Damage} 点|精准|的伤害。
+    将 {Value1} 张|飞刀|加入手中。
+
+SakuyaUltU:
+  Title: 幻世
+  Content: The World
+  Description: 在当前回合结束后，进行一个额外的回合。
+
+CirnoUltU:
+  Title: 冻符
+  Content: 完美冻结
+  Description: 对所有的敌人造成 {Damage} 点|精准|的伤害，施加|寒冷|。
+
+CirnoUltG:
+  Title: 花符
+  Content: 冰晶绽放
+  Description: |-
+    对所有的敌人造成 {Damage} 点|精准|的伤害。
+    获得{GainMana}。
+    每次使用额外获得{Mana}，直到本局游戏结束。
+
+KoishiUltG:
+  Title: 心花
+  Content: 绽放的蔷薇
+  Description: 对指定的敌人造成 {Damage} 点|精准|的伤害。
+
+KoishiUltB:
+  Title: 本能
+  Content: 本我的解放
+  Description: 对指定的敌人造成 {Damage} 点|精准|的伤害。
+
+
