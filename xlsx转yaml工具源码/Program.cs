@@ -1,4 +1,4 @@
-﻿using OfficeOpenXml;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -21,7 +21,6 @@ class Program
 
         Console.WriteLine($"当前程序目录: {currentDirectory}");
 
-        // 如果没有找到 .xlsx 文件，输出提示并结束程序
         if (xlsxFiles.Length == 0)
         {
             Console.WriteLine("没有找到 .xlsx 文件。");
@@ -38,60 +37,98 @@ class Program
             Console.WriteLine($"创建语言包文件夹: {outputFolder}");
         }
 
-        // 处理每一个 .xlsx 文件
         foreach (var excelFilePath in xlsxFiles)
         {
-            // 获取文件名（不带扩展名），用于生成对应的 YAML 文件名
             string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(excelFilePath);
-            string yamlFilePath = Path.Combine(outputFolder, $"{fileNameWithoutExtension}.yaml");
 
             Console.WriteLine($"正在处理文件: {excelFilePath}");
 
-            // 创建字典用于存储Excel中的数据
-            var excelData = new Dictionary<string, object>();
-
-            // 读取Excel文件
             using (var package = new ExcelPackage(new FileInfo(excelFilePath)))
             {
-                // 获取第一个工作表
-                ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
-
-                // 获取行列数
-                int rows = worksheet.Dimension.Rows;
-                int cols = worksheet.Dimension.Columns;
-
-                // 假设第一行为表头，将数据存储到字典中
-                for (int row = 2; row <= rows; row++)
+                foreach (var worksheet in package.Workbook.Worksheets)
                 {
-                    // 将第一列的值作为YAML的键
-                    string rowKey = worksheet.Cells[row, 1].Text;
+                    string sheetName = worksheet.Name;
+                    string yamlFilePath = Path.Combine(outputFolder, $"{fileNameWithoutExtension}_{sheetName}.yaml");
 
-                    // 创建一个嵌套的字典来存储 Name, Description, FlavorText
-                    var rowData = new Dictionary<string, string>
+                    var excelData = new Dictionary<string, Dictionary<string, object>>();
+
+                    int rows = worksheet.Dimension.Rows;
+                    int cols = worksheet.Dimension.Columns;
+
+                    var headers = new List<string>();
+                    for (int col = 1; col <= cols; col++)
                     {
-                        { "Name", worksheet.Cells[row, 2].Text },
-                        { "Description", worksheet.Cells[row, 3].Text },
-                        { "FlavorText", worksheet.Cells[row, 4].Text }
-                    };
+                        string header = worksheet.Cells[1, col].Text;
+                        if (!string.IsNullOrWhiteSpace(header))
+                        {
+                            headers.Add(header);
+                        }
+                    }
 
-                    // 将该行数据添加到excelData字典中，键为第一列的值
-                    excelData[rowKey] = rowData;
+                    for (int row = 2; row <= rows; row++)
+                    {
+                        var rowData = new Dictionary<string, object>();
+
+                        for (int col = 1; col <= headers.Count; col++)
+                        {
+                            string header = headers[col - 1];
+                            string cellValue = worksheet.Cells[row, col].Text;
+
+                            if (!string.IsNullOrWhiteSpace(cellValue))
+                            {
+                                rowData[header] = cellValue;
+                            }
+                        }
+
+                        string rowKey = worksheet.Cells[row, 1].Text;
+                        if (!string.IsNullOrWhiteSpace(rowKey))
+                        {
+                            excelData[rowKey] = rowData;
+                        }
+                    }
+
+                    // 使用默认的 YAML 序列化设置
+                    var serializer = new SerializerBuilder()
+                        .WithNamingConvention(CamelCaseNamingConvention.Instance)
+                        .ConfigureDefaultValuesHandling(DefaultValuesHandling.OmitNull)
+                        .Build();
+
+                    var yaml = serializer.Serialize(excelData).Trim();
+
+                    yaml = AddBlankLineBetweenTopLevelEntries(yaml);
+
+                    File.WriteAllText(yamlFilePath, yaml);
+
+                    Console.WriteLine($"工作表 {sheetName} 已成功输出到 YAML 文件 {yamlFilePath}");
                 }
             }
-
-            // 序列化数据为YAML格式
-            var serializer = new SerializerBuilder()
-                .WithNamingConvention(CamelCaseNamingConvention.Instance) // YAML使用CamelCase命名
-                .Build();
-
-            var yaml = serializer.Serialize(excelData);
-
-            // 将YAML数据写入文件
-            File.WriteAllText(yamlFilePath, yaml);
-
-            Console.WriteLine($"Excel 文件 {fileNameWithoutExtension}.xlsx 成功映射到 YAML 文件 {yamlFilePath}");
         }
 
         Console.WriteLine("所有 .xlsx 文件处理完毕！");
+    }
+
+    // 在顶级条目（如 ReimuAttackR 和 ReimuBlockW）之间添加空行
+    static string AddBlankLineBetweenTopLevelEntries(string yamlContent)
+    {
+        yamlContent = yamlContent.Replace(">-", "|-");
+
+        var lines = yamlContent.Split('\n');
+        var result = new List<string>();
+
+        for (int i = 0; i < lines.Length; i++)
+        {
+            // 跳过所有的空行
+            if (string.IsNullOrWhiteSpace(lines[i]))
+                continue;
+
+            result.Add(lines[i]);
+            // 下一个条目也是顶级条目，且非空白时，插入空行
+            if (i < lines.Length - 1 && !string.IsNullOrWhiteSpace(lines[i + 1]) && !lines[i + 1].StartsWith("  "))
+            {
+                result.Add("");  // 插入空行
+            }
+        }
+
+        return string.Join("\n", result);
     }
 }
