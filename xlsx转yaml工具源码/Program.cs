@@ -5,7 +5,6 @@ using System.IO;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-// 狗屁通是人类的好帮手
 class Program
 {
     static void Main(string[] args)
@@ -50,41 +49,33 @@ class Program
                     string sheetName = worksheet.Name;
                     string yamlFilePath = Path.Combine(outputFolder, $"{fileNameWithoutExtension}_{sheetName}.yaml");
 
-                    var excelData = new Dictionary<string, Dictionary<string, object>>();
+                    // 存储最终生成的嵌套数据结构
+                    var excelData = new Dictionary<string, object>();
 
                     int rows = worksheet.Dimension.Rows;
                     int cols = worksheet.Dimension.Columns;
 
-                    var headers = new List<string>();
-                    for (int col = 1; col <= cols; col++)
+                    // 检查是否至少有两列 (Key, 文本)
+                    if (cols < 2)
                     {
-                        string header = worksheet.Cells[1, col].Text;
-                        if (!string.IsNullOrWhiteSpace(header))
-                        {
-                            headers.Add(header);
-                        }
+                        Console.WriteLine($"工作表 {sheetName} 列数不足，跳过。");
+                        continue;
                     }
 
+                    // 遍历每一行，从第二行开始，第一行是表头
                     for (int row = 2; row <= rows; row++)
                     {
-                        var rowData = new Dictionary<string, object>();
+                        string key = worksheet.Cells[row, 1].Text;  // Key 列
+                        string value = worksheet.Cells[row, 2].Text;  // 文本列
 
-                        for (int col = 1; col <= headers.Count; col++)
+                        // 跳过空行或没有键值的行
+                        if (string.IsNullOrWhiteSpace(key) || string.IsNullOrWhiteSpace(value))
                         {
-                            string header = headers[col - 1];
-                            string cellValue = worksheet.Cells[row, col].Text;
-
-                            if (!string.IsNullOrWhiteSpace(cellValue))
-                            {
-                                rowData[header] = cellValue;
-                            }
+                            continue;
                         }
 
-                        string rowKey = worksheet.Cells[row, 1].Text;
-                        if (!string.IsNullOrWhiteSpace(rowKey))
-                        {
-                            excelData[rowKey] = rowData;
-                        }
+                        // 将键 (Key) 按 "." 分隔开，生成嵌套的字典结构
+                        AddNestedData(excelData, key.Split('.'), value);
                     }
 
                     // 使用默认的 YAML 序列化设置
@@ -107,7 +98,7 @@ class Program
         Console.WriteLine("所有 .xlsx 文件处理完毕！");
     }
 
-    // 在顶级条目（如 ReimuAttackR 和 ReimuBlockW）之间添加空行
+    // 在顶级条目之间添加空行
     static string AddBlankLineBetweenTopLevelEntries(string yamlContent)
     {
         yamlContent = yamlContent.Replace(">-", "|-");
@@ -117,8 +108,8 @@ class Program
 
         for (int i = 0; i < lines.Length; i++)
         {
-            // 跳过所有的空行
-            if (string.IsNullOrWhiteSpace(lines[i]))
+            // 跳过空行
+            if (string.IsNullOrWhiteSpace(lines[i]) && i + 1 < lines.Length && !string.IsNullOrWhiteSpace(lines[i + 1]))
                 continue;
 
             result.Add(lines[i]);
@@ -130,5 +121,31 @@ class Program
         }
 
         return string.Join("\n", result);
+    }
+
+    // 递归地将键值对插入嵌套字典结构
+    static void AddNestedData(Dictionary<string, object> parent, string[] keys, string value)
+    {
+        for (int i = 0; i < keys.Length; i++)
+        {
+            string currentKey = keys[i];
+
+            if (i == keys.Length - 1)
+            {
+                // 到达最后一级，插入值
+                parent[currentKey] = value;
+            }
+            else
+            {
+                // 如果当前级别的键不存在，则创建一个新字典
+                if (!parent.ContainsKey(currentKey))
+                {
+                    parent[currentKey] = new Dictionary<string, object>();
+                }
+
+                // 继续递归处理下一级
+                parent = (Dictionary<string, object>)parent[currentKey];
+            }
+        }
     }
 }
