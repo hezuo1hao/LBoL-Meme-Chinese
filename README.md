@@ -5,7 +5,7 @@
 等我先放上文件再出教程（
 
 ## 我想参与编写
-填写这个共享表格就可以了：（链接还没有）
+填写这个共享表格就可以了：https://docs.qq.com/sheet/DSW9NbWdtRmxWZ0dU
 ### 一些提示
 {为游戏中的数值}如{Damage}、{Value1}不建议修改,
 {PlayerName}将自动匹配自机名字,
