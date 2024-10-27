@@ -47,7 +47,7 @@ class Program
                 foreach (var worksheet in package.Workbook.Worksheets)
                 {
                     string sheetName = worksheet.Name;
-                    string yamlFilePath = Path.Combine(outputFolder, $"{fileNameWithoutExtension}_{sheetName}.yaml");
+                    string yamlFilePath = Path.Combine(outputFolder, $"{sheetName}.yaml");
 
                     // 存储最终生成的嵌套数据结构
                     var excelData = new Dictionary<string, object>();
@@ -132,8 +132,24 @@ class Program
 
             if (i == keys.Length - 1)
             {
-                // 到达最后一级，插入值
-                parent[currentKey] = value;
+                // 检查值是否为列表格式
+                if (value.StartsWith("- "))
+                {
+                    // 将值拆分成列表
+                    var list = new List<string>();
+                    foreach (var item in value.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries))
+                    {
+                        if (item.StartsWith("- "))
+                        {
+                            list.Add(item.Substring(2).Trim());
+                        }
+                    }
+                    parent[currentKey] = list;
+                }
+                else
+                {
+                    parent[currentKey] = value;
+                }
             }
             else
             {
